@@ -1,0 +1,95 @@
+schema_version: 2
+task_id: Bathroom403-00-wash-stow
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: After freshening up the bathroom, could you rinse the soapbar, cloth, scrubbrush,
+    plunger at the sink and put them on the counter top? Keeps everything clean and
+    tidy.
+  micro: rinse the soapbar at the sink and put it on the counter top; rinse the cloth
+    at the sink and put it on the counter top; put the scrubbrush on the counter top;
+    put the plunger on the counter top
+scene:
+  floor_plan: FloorPlan403
+  scene_num: 403
+  room_type: Bathroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      SoapBar: 1
+      Cloth: 1
+      ScrubBrush: 1
+      Plunger: 1
+    distractors:
+      ToiletPaper: 3
+      TissueBox: 3
+      SprayBottle: 3
+      Candle: 3
+      HandTowel: 1
+    scene_positions_scatter: null
+    min_free:
+      SinkBasin: 1
+      CounterTop: 4
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: ShowerHead
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -2.0
+    y: 0.9006702
+    z: 2.5
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Cloth
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: ScrubBrush
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Plunger
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

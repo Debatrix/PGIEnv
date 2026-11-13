@@ -1,0 +1,54 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Book|-00.67|+00.56|-00.99",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Book|-00.67|+00.56|-00.99",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "SideTable|-01.20|+00.01|-02.47",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "SideTable|-01.20|+00.01|-02.47",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

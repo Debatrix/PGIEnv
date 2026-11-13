@@ -1,0 +1,136 @@
+{
+  "path_points": [
+    {
+      "x": 0.25,
+      "y": 0.900999665,
+      "z": -1.0,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_cabinet_#1"
+    },
+    {
+      "x": 0.5,
+      "y": 0.8997035,
+      "z": 3.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_cabinet"
+    },
+    {
+      "x": 1.0,
+      "y": 0.899530649,
+      "z": 4.25,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_chair"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9000491,
+      "z": 2.75,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_houseplant"
+    },
+    {
+      "x": -0.5,
+      "y": 0.8996171,
+      "z": 3.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_drawer_#1"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9009131,
+      "z": 0.25,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_drawer_#1"
+    },
+    {
+      "x": 0.0,
+      "y": 0.899876535,
+      "z": -1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_lightswitch"
+    },
+    {
+      "x": -1.0,
+      "y": 0.8998768,
+      "z": 4.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_garbagecan"
+    },
+    {
+      "x": 0.0,
+      "y": 0.8997035,
+      "z": 2.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "E_drawer"
+    },
+    {
+      "x": 2.0,
+      "y": 0.8999626,
+      "z": 0.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_cabinet_#2"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9,
+      "z": 1.5,
+      "rotation": 261.060669,
+      "horizon": 36.0000038,
+      "loc_desc": "E_sinkbasin"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9009131,
+      "z": 0.25,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_drawer_#2"
+    },
+    {
+      "x": 1.5,
+      "y": 0.9012586,
+      "z": -0.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_drawer_#2"
+    },
+    {
+      "x": 0.0,
+      "y": 0.89978987,
+      "z": 1.5,
+      "rotation": 270.0,
+      "horizon": 75.00003,
+      "loc_desc": "SE_cabinet"
+    },
+    {
+      "x": -1.0,
+      "y": 0.899876535,
+      "z": 3.25,
+      "rotation": 180.0,
+      "horizon": 59.9999962,
+      "loc_desc": "NW_drawer"
+    },
+    {
+      "x": 0.75,
+      "y": 0.900999665,
+      "z": -1.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "NW_cabinet"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan16",
+    "total_path_points": 16
+  }
+}

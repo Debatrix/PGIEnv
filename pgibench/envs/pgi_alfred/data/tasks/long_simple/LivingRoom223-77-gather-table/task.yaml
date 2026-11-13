@@ -1,0 +1,213 @@
+schema_version: 2
+task_id: LivingRoom223-77-gather-table
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: The living room's gotten cluttered with bits and pieces — would you gather
+    the candle, the credit card, the pillow, and the remote control onto the dining
+    table? It clears the space and keeps everything in one spot.
+  micro: Put the candle, the credit card, the pillow, and the remote control on the
+    dining table.
+scene:
+  floor_plan: FloorPlan223
+  scene_num: 223
+  room_type: LivingRoom
+  random_spawn:
+    seed: 77
+    object_counts:
+      Candle: 1
+      Vase: 1
+      CreditCard: 1
+      Pillow: 1
+      RemoteControl: 1
+    distractors:
+      Box: 2
+      CellPhone: 2
+      Book: 1
+      Laptop: 1
+    min_free:
+      DiningTable: 5
+  object_poses:
+  - objectName: Box_eaccedba(Clone)_random_copy_0
+    position:
+      x: -3.254946
+      y: 0.7365465
+      z: -0.2972378
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Box_eaccedba
+    position:
+      x: -3.42856765
+      y: 0.7366066
+      z: 0.213237852
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Candle_3ee9e360
+    position:
+      x: -2.24262881
+      y: 0.7118772
+      z: 2.788001
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_f4354234
+    position:
+      x: -1.74755573
+      y: 0.233398929
+      z: 2.7879
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_d7aec6d8
+    position:
+      x: -3.254946
+      y: 0.532996
+      z: -0.8077137
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_95f65e00
+    position:
+      x: 1.84070361
+      y: 0.776816368
+      z: -0.298591346
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WateringCan_d0feff7e
+    position:
+      x: -3.25224686
+      y: -0.000859186053
+      z: -1.86184561
+    rotation:
+      x: -0.0020941745
+      y: 0.000389775232
+      z: 0.000298145751
+  - objectName: Laptop_c9f0ebe9
+    position:
+      x: 2.54884124
+      y: 0.7823
+      z: -0.5384687
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_51c35588
+    position:
+      x: -3.34175682
+      y: 0.534234166
+      z: 0.468475759
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_28993a48
+    position:
+      x: -2.18447351
+      y: 0.4538794
+      z: 0.145527959
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_50799138
+    position:
+      x: -1.51688385
+      y: 0.232847109
+      z: 2.67505074
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Pillow_c72f46b8
+    position:
+      x: -1.921
+      y: 0.36
+      z: -1.50013351
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_7df19082
+    position:
+      x: -2.102423
+      y: 0.452544
+      z: -0.3645838
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_eefd1644
+    position:
+      x: 1.44077253
+      y: 0.794364
+      z: -0.1687657
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: Television
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.5
+    y: 0.9009992
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Candle
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pillow
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: RemoteControl
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

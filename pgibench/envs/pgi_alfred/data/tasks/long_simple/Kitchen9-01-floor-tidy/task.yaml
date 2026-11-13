@@ -1,0 +1,149 @@
+schema_version: 2
+task_id: Kitchen9-01-floor-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Oh dear, a few things slipped out of the grocery bag and are sitting on the
+    kitchen floor. Would you pick up the apple, tomato, and egg onto the counter top,
+    and set the potato on the dining table? It'll save me from bending down a dozen
+    times trying to gather them all.
+  micro: Pick up the apple from the floor and put it on the counter top; pick up the
+    tomato from the floor and put it on the counter top; pick up the egg from the
+    floor and put it on the counter top; pick up the potato from the floor and put
+    it on the dining table.
+scene:
+  floor_plan: FloorPlan9
+  scene_num: 9
+  room_type: Kitchen
+  random_spawn:
+    seed: 1
+    object_counts:
+      Apple: 1
+      Tomato: 1
+      Egg: 1
+      Potato: 1
+    distractors:
+      Fork: 1
+      SoapBottle: 1
+      PepperShaker: 1
+      Mug: 1
+      Bowl: 1
+      Pan: 1
+    min_free:
+      CounterTop: 1
+      DiningTable: 1
+    scene_positions_scatter:
+    - objectType: Apple
+      count: 1
+      floor_only: true
+    - objectType: Tomato
+      count: 1
+      floor_only: true
+    - objectType: Egg
+      count: 1
+      floor_only: true
+    - objectType: Potato
+      count: 1
+      floor_only: true
+  object_poses:
+  - objectName: Egg_fa9bfbf3
+    position:
+      x: 3.302
+      y: 0.06099999
+      z: -0.71
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 252.0
+  - objectName: Tomato_3002d0e0
+    position:
+      x: -1.99099994
+      y: 0.0690000057
+      z: 1.062
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 359.8
+  - objectName: Apple_f8702692
+    position:
+      x: -1.99100018
+      y: 0.0690000057
+      z: 1.062
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 359.8
+  - objectName: Potato_623293af
+    position:
+      x: -1.991
+      y: 0.0689999461
+      z: 1.06200016
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 359.8
+  object_toggles:
+  - objectType: Faucet
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Toaster
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: Microwave
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.9009992
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Apple
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Apple
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Tomato
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Egg
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Potato
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

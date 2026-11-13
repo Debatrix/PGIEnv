@@ -1,0 +1,316 @@
+schema_version: 2
+task_id: Kitchen17-07-slice-tomato-counter
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: I'm prepping a salad in a bit — could you slice the tomato and lay the
+    slices on the counter top? It saves me a step when I start tossing everything
+    together.
+  micro: Slice the tomato and put it on the counter top.
+scene:
+  floor_plan: FloorPlan17
+  scene_num: 17
+  room_type: Kitchen
+  random_spawn:
+    seed: 7
+    object_counts:
+      Apple: 1
+      WineBottle: 1
+      SaltShaker: 1
+      Glassbottle: 1
+      SprayBottle: 1
+      PepperShaker: 1
+      CellPhone: 1
+      SoapBottle: 1
+    distractors:
+      Mug: 1
+      Egg: 1
+      Tomato: 1
+      Cup: 1
+      Bowl: 1
+      Plate: 1
+    min_free:
+      CounterTop: 2
+      DiningTable: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: Bread_74101882
+    position:
+      x: -1.383174
+      y: 0.813041151
+      z: 3.015717
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Glassbottle_6018293c
+    position:
+      x: 1.444309
+      y: 0.9122167
+      z: 0.7067195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Fork_9f8771c2
+    position:
+      x: 1.128434
+      y: 0.9120486
+      z: 0.7067195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Kettle_c40d8d1f
+    position:
+      x: 0.5029
+      y: 0.9393
+      z: -0.7406
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Tomato_57296338
+    position:
+      x: -0.6586952
+      y: 0.9618288
+      z: -0.748511732
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_c933fa0b
+    position:
+      x: -1.29051554
+      y: 0.7497855
+      z: 2.64457226
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_e3d6b27e
+    position:
+      x: 1.52327764
+      y: 0.9092117
+      z: -0.144580841
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Lettuce_6438ff8b
+    position:
+      x: -1.01254034
+      y: 0.8198685
+      z: 2.08785558
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pot_92502562
+    position:
+      x: 0.802
+      y: 0.9393
+      z: -0.7406
+    rotation:
+      x: 0.0
+      y: 89.9998245
+      z: 0.0
+  - objectName: SoapBottle_e0c21b7c
+    position:
+      x: -1.513145
+      y: 0.913428545
+      z: -0.5625143
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WineBottle_6b7178a8
+    position:
+      x: 1.128434
+      y: 0.912428737
+      z: 0.1391859
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Spatula_2f163330
+    position:
+      x: 1.117845
+      y: 0.9012999
+      z: 2.36918736
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bowl_7e041f70
+    position:
+      x: -1.29051554
+      y: 0.7473406
+      z: 1.90228331
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Apple_7daf87a0
+    position:
+      x: -1.383174
+      y: 0.809830248
+      z: 2.08785558
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cup_572193ee
+    position:
+      x: -1.19785714
+      y: 0.7481479
+      z: 2.83014464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Knife_268c1c72
+    position:
+      x: 1.36722
+      y: 0.9082927
+      z: 2.261375
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Egg_1ede3fc6
+    position:
+      x: 0.951595068
+      y: 0.9204665
+      z: 2.692625
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SaltShaker_8429d040
+    position:
+      x: -1.10519874
+      y: 0.74593246
+      z: 2.273428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: PepperShaker_b6eaf348
+    position:
+      x: -0.91988194
+      y: 0.74593246
+      z: 2.83014464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Potato_edec52fd
+    position:
+      x: -1.12367022
+      y: 0.9570309
+      z: -0.828023434
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ButterKnife_432df619
+    position:
+      x: 1.117845
+      y: 0.8863421
+      z: 2.15356255
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_4b57442b
+    position:
+      x: -0.0203592088
+      y: 0.7581714
+      z: -0.533726156
+    rotation:
+      x: 1.40334191e-14
+      y: 0.0
+      z: 0.0
+  - objectName: Pan_a0065d6c
+    position:
+      x: -1.332
+      y: 0.9
+      z: -0.699
+    rotation:
+      x: 0.0
+      y: 345.0
+      z: 0.0
+  - objectName: Spoon_1d6d1e51
+    position:
+      x: 0.0417298935
+      y: 0.7596856
+      z: -0.65188694
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 1.40334191e-14
+  - objectName: SprayBottle_4f8d0eee
+    position:
+      x: 1.52327764
+      y: 0.9109041
+      z: -0.4283477
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_c297f602
+    position:
+      x: -0.144537389
+      y: 0.7535562
+      z: -0.5731131
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 1.40334191e-14
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: Toaster
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Microwave
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.908999562
+    z: 1.75
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_slice_then_place_in_recep
+    pddl_params:
+      object_target: Tomato
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: true
+completion:
+  mode: all

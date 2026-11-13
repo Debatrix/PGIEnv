@@ -1,0 +1,193 @@
+schema_version: 2
+task_id: Bathroom425-53-open
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: Could you open the Cabinet?
+  micro: open the Cabinet.
+scene:
+  floor_plan: FloorPlan425
+  scene_num: 425
+  room_type: Bathroom
+  random_spawn:
+    seed: 16
+    object_counts:
+      SoapBar: 1
+      SoapBottle: 1
+      SprayBottle: 1
+    distractors:
+      Candle: 3
+      Towel: 2
+      ToiletPaper: 2
+      TissueBox: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 3
+      Cabinet: 1
+  object_poses:
+  - objectName: Candle_855301ab(Clone)_random_copy_1
+    position:
+      x: 0.306849271
+      y: 0.8932594
+      z: 1.67138135
+    rotation:
+      x: 0.0
+      y: -6.830189e-05
+      z: 0.0
+  - objectName: Candle_855301ab(Clone)_random_copy_0
+    position:
+      x: -1.61330509
+      y: 0.994217038
+      z: 2.92306566
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Towel_1405b3ca
+    position:
+      x: -0.200716048
+      y: 1.17456257
+      z: 1.28631938
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: HandTowel_88a8bad4
+    position:
+      x: -1.27526248
+      y: 1.6
+      z: 3.96109152
+    rotation:
+      x: 0.0
+      y: -6.83018834e-06
+      z: 0.0
+  - objectName: SoapBar_67b31b97
+    position:
+      x: -1.21933138
+      y: 0.994279146
+      z: 2.26965857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_cdcd95e2
+    position:
+      x: -1.21933138
+      y: 0.9912094
+      z: 3.9336586
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_7dab0330
+    position:
+      x: 0.248000726
+      y: 0.0005049631
+      z: 1.30699921
+    rotation:
+      x: -0.0011900611
+      y: 0.000449837418
+      z: 0.0007809815
+  - objectName: Candle_855301ab
+    position:
+      x: 0.329366833
+      y: 0.8929622
+      z: 1.56632066
+    rotation:
+      x: 0.0
+      y: -6.830189e-05
+      z: 0.0
+  - objectName: TissueBox_fb978f7d
+    position:
+      x: -1.30772352
+      y: 0.9842293
+      z: 3.18541574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_ac75bd1b
+    position:
+      x: -1.61330509
+      y: 0.9939903
+      z: 3.9336586
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_0cdf7136
+    position:
+      x: -1.61330509
+      y: 0.9912095
+      z: 3.100627
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SprayBottle_7e369181
+    position:
+      x: -1.54764283
+      y: 0.9956136
+      z: 2.9822526
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_626d35d8
+    position:
+      x: 0.356
+      y: 0.8852743
+      z: 1.8
+    rotation:
+      x: 0.0
+      y: 85.37011
+      z: 0.0
+  - objectName: ScrubBrush_eff1d25c
+    position:
+      x: 0.0350000858
+      y: 0.0009679496
+      z: 1.301
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  - objectType: ShowerHead
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.901967168
+    z: 2.5
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Cabinet
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

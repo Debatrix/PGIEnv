@@ -1,0 +1,159 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Book|+00.78|+00.77|-00.40",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Book|+00.78|+00.77|-00.40",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "CD|+01.58|+00.68|+02.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "CD|+01.58|+00.68|+02.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Pen|+02.44|+00.69|-01.72",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Pen|+02.44|+00.69|-01.72",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "KeyChain|-01.64|+01.15|-01.85",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "KeyChain|-01.64|+01.15|-01.85",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "Dresser|-01.75|+00.00|-00.15",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

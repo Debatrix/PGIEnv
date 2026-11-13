@@ -1,0 +1,175 @@
+schema_version: 2
+task_id: Kitchen11-84-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Getting ready to prep some food, but a few items have ended up all over the
+    kitchen floor — could you pick up the salt shaker, egg, tomato, bread, and bowl
+    onto the dining table? That way everything is handy by the table.
+  micro: Pick up the salt shaker from the floor and put it on the dining table; pick
+    up the egg from the floor and put it on the dining table; pick up the tomato from
+    the floor and put it on the dining table; pick up the bread from the floor and
+    put it on the dining table; pick up the bowl from the floor and put it on the
+    dining table.
+scene:
+  floor_plan: FloorPlan11
+  scene_num: 11
+  room_type: Kitchen
+  random_spawn:
+    seed: 84
+    object_counts:
+      SaltShaker: 1
+      Egg: 1
+      Tomato: 1
+      Bread: 1
+      Bowl: 1
+    distractors:
+      PepperShaker: 3
+      Spatula: 2
+      Apple: 3
+      ButterKnife: 2
+      Plate: 1
+      Knife: 1
+      Pan: 3
+      Spoon: 2
+      Lettuce: 2
+      DishSponge: 2
+      Mug: 1
+      Fork: 2
+      Potato: 1
+    min_free:
+      DiningTable: 1
+    scene_positions_scatter:
+    - objectType: SaltShaker
+      count: 1
+      floor_only: true
+    - objectType: Egg
+      count: 1
+      floor_only: true
+    - objectType: Tomato
+      count: 1
+      floor_only: true
+    - objectType: Bread
+      count: 1
+      floor_only: true
+    - objectType: Bowl
+      count: 1
+      floor_only: true
+  object_poses:
+  - objectName: Bread_59b513fb
+    position:
+      x: -0.8463031
+      y: 0.263195276
+      z: 0.479854077
+    rotation:
+      x: 312.410339
+      y: 320.412628
+      z: 87.76494
+  - objectName: Bowl_c96a3c07
+    position:
+      x: -0.204
+      y: 0.100000024
+      z: -1.502
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Tomato_929aede3
+    position:
+      x: -0.655947447
+      y: 0.0627709
+      z: 0.284427315
+    rotation:
+      x: 275.9181
+      y: 134.697937
+      z: 221.599808
+  - objectName: Egg_7c2e9408
+    position:
+      x: -2.31
+      y: 0.297315
+      z: -1.88643014
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SaltShaker_42ce5824
+    position:
+      x: -0.079162
+      y: 0.102639973
+      z: 0.397688
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Toaster
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Microwave
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.9009992
+    z: -0.75
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: SaltShaker
+  parent_target: DiningTable
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: SaltShaker
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Egg
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Tomato
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Bread
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Bowl
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

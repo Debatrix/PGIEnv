@@ -1,0 +1,124 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Apple|-00.68|+00.96|+00.92",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Apple|-00.68|+00.96|+00.92",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Fridge|-02.64|+00.00|+02.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Apple|-00.68|+00.96|+00.92",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Apple|-00.68|+00.96|+00.92",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|+00.86|+00.86|+00.98",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|+00.86|+00.86|+00.98",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

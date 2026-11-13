@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -0.75,
+      "y": 0.9019351,
+      "z": 2.25,
+      "rotation": 304.07312,
+      "horizon": 38.0000038,
+      "loc_desc": "SE_countertop"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9019351,
+      "z": 0.75,
+      "rotation": 300.664948,
+      "horizon": 49.0000038,
+      "loc_desc": "SE_garbagecan"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "SE_countertop_SW"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9019351,
+      "z": 1.5,
+      "rotation": 213.900711,
+      "horizon": 53.0000076,
+      "loc_desc": "NE_toilet"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "SE_countertop_NW"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9019351,
+      "z": 3.25,
+      "rotation": 173.100754,
+      "horizon": 23.0000057,
+      "loc_desc": "N_towelholder"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9019351,
+      "z": 1.5,
+      "rotation": 115.285713,
+      "horizon": 30.9999981,
+      "loc_desc": "NW_showerdoor"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9019351,
+      "z": 3.75,
+      "rotation": 96.5601959,
+      "horizon": 18.0000019,
+      "loc_desc": "W_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan416",
+    "total_path_points": 8
+  }
+}

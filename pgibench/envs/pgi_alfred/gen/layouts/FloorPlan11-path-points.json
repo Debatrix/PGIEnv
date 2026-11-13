@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -2.5,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_lightswitch"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_drawer"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_cabinet"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_cabinet_#2"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "S_cabinet"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "N_sinkbasin_NE"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9009994,
+      "z": -0.5,
+      "rotation": 2.8382895,
+      "horizon": 31.00001,
+      "loc_desc": "S_diningtable"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009992,
+      "z": 0.5,
+      "rotation": 90.0,
+      "horizon": 60.0000076,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_sinkbasin"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_cabinet_#1"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan11",
+    "total_path_points": 10
+  }
+}

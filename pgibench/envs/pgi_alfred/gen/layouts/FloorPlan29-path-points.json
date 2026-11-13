@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "SW_sinkbasin_SW_D"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9313871,
+      "z": -0.75,
+      "rotation": 356.193,
+      "horizon": 30.0000038,
+      "loc_desc": "S_sink"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "SW_sinkbasin_NE"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "SW_sinkbasin_SE_D"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "SW_sinkbasin_NW"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "SW_sinkbasin_W"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9312141,
+      "z": -0.25,
+      "rotation": 191.10733,
+      "horizon": 1.0,
+      "loc_desc": "N_microwave"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "SW_sinkbasin_E_D"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan29",
+    "total_path_points": 8
+  }
+}

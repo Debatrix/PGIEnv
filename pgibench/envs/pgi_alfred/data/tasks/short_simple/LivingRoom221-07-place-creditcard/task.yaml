@@ -1,0 +1,150 @@
+schema_version: 2
+task_id: LivingRoom221-07-place-creditcard
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: While tidying up the living room, could you move the credit card from the
+    sofa onto the coffee table? That way it won't get lost among the cushions.
+  micro: Pick up the credit card from the sofa and put it on the coffee table.
+scene:
+  floor_plan: FloorPlan221
+  scene_num: 221
+  room_type: LivingRoom
+  random_spawn:
+    seed: 7
+    object_counts:
+      CreditCard: 1
+    distractors:
+      Laptop: 1
+      CellPhone: 1
+      RemoteControl: 1
+      Book: 1
+      Pillow: 1
+      Newspaper: 1
+    min_free:
+      CoffeeTable: 1
+  object_poses:
+  - objectName: Box_ab958439
+    position:
+      x: -3.20709324
+      y: 1.03319681
+      z: -1.188936
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Pillow_a0c5d9cc
+    position:
+      x: 0.629369438
+      y: 0.482
+      z: -1.667
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_e1ea86ca
+    position:
+      x: -0.383149743
+      y: 0.524996
+      z: 0.960000038
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_b55d9380
+    position:
+      x: -3.851496
+      y: 0.8750545
+      z: -1.01137066
+    rotation:
+      x: 0.001274555
+      y: -0.0009422395
+      z: 359.779572
+  - objectName: Laptop_a8c2a636
+    position:
+      x: -1.22295022
+      y: 0.4522
+      z: -0.738000035
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_470b1bc7
+    position:
+      x: 0.07474476
+      y: 0.974059761
+      z: -2.493974
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Vase_9647877c
+    position:
+      x: -4.09472
+      y: 0.8839594
+      z: -1.3856442
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_5e4810d7
+    position:
+      x: 0.2577918
+      y: 0.9659995
+      z: -2.5184164
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_73ed151d
+    position:
+      x: -3.65090656
+      y: 0.88175
+      z: -0.8938737
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_20f1dbb5
+    position:
+      x: -0.0302466452
+      y: 0.9771412
+      z: -2.533444
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -2.5
+    y: 0.9984914
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: CreditCard
+  parent_target: CoffeeTable
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

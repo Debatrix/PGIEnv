@@ -1,0 +1,228 @@
+schema_version: 2
+task_id: Bedroom330-07-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: After a busy morning the bedroom is a mess. Please pick up the book, the
+    CD, the pen, and the key chain and set them on the dresser to clear the other
+    surfaces.
+  micro: Put the book on the dresser; Put the CD on the dresser; Put the pen on the
+    dresser; Put the key chain on the dresser.
+scene:
+  floor_plan: FloorPlan330
+  scene_num: 330
+  room_type: Bedroom
+  object_poses:
+  - objectName: Book_88b330d0
+    position:
+      x: 0.778841
+      y: 0.774509549
+      z: -0.401020527
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_ac032140
+    position:
+      x: -1.636838
+      y: 1.14794159
+      z: -1.845395
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: AlarmClock_3a2d6b92
+    position:
+      x: 1.0
+      y: 0.0
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_64d86fa7
+    position:
+      x: 1.26115906
+      y: 0.836844742
+      z: -0.9902473
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_f78b5f5c
+    position:
+      x: 0.652
+      y: 0.794
+      z: -1.531
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_305dccf0
+    position:
+      x: -1.73083019
+      y: 1.14705348
+      z: -2.07341719
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: Laptop_a777a0ae
+    position:
+      x: 1.74347711
+      y: 0.773138165
+      z: -0.401020527
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_3dd4c039
+    position:
+      x: -1.65057909
+      y: 1.626018
+      z: -2.31655216
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_c0c69a42
+    position:
+      x: -1.69949913
+      y: 1.15183914
+      z: -1.959406
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: CreditCard_a6306ccf
+    position:
+      x: 2.43800116
+      y: 0.680996
+      z: -1.53661442
+    rotation:
+      x: 0.0
+      y: 0.0006744811
+      z: 0.0
+  - objectName: Boots_6438362f
+    position:
+      x: -1.84297776
+      y: 0.000668019056
+      z: -1.077008
+    rotation:
+      x: 0.0903331637
+      y: 135.194382
+      z: 0.00278281514
+  - objectName: Pen_cfe375f5
+    position:
+      x: 2.437999
+      y: 0.686652839
+      z: -1.71704566
+    rotation:
+      x: 0.0
+      y: 0.0006744811
+      z: 0.0
+  - objectName: CellPhone_7035669b
+    position:
+      x: 2.283265
+      y: 0.681210041
+      z: -1.58172047
+    rotation:
+      x: 0.0
+      y: 0.0006744811
+      z: 0.0
+  - objectName: CD_e8ffdc91
+    position:
+      x: 1.57630944
+      y: 0.6806067
+      z: 2.217844
+    rotation:
+      x: 0.0
+      y: 0.000683018938
+      z: 0.0
+  - objectName: Bowl_d59970df
+    position:
+      x: -1.68482971
+      y: 1.13501811
+      z: -2.30082417
+    rotation:
+      x: 0.0
+      y: 346.9008
+      z: 0.0
+  - objectName: Statue_15407ea7
+    position:
+      x: 1.2
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.9009992
+    z: 1.25
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  random_spawn:
+    seed: 47
+    object_counts:
+      Pillow: 1
+      Book: 1
+      CD: 1
+      Pen: 1
+    distractors:
+      Newspaper: 2
+      Watch: 2
+    min_free:
+      Dresser: 4
+  dirty_and_empty: false
+pddl_params:
+  object_target: Book
+  parent_target: Dresser
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CD
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pen
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

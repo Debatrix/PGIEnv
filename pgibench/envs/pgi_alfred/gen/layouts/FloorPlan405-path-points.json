@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -2.0,
+      "y": 0.904851735,
+      "z": 0.25,
+      "rotation": 267.576538,
+      "horizon": 33.0,
+      "loc_desc": "E_sink"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "W_bathtub_W"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9048511,
+      "z": 0.75,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NE_cabinet"
+    },
+    {
+      "x": -2.5,
+      "y": 0.904851437,
+      "z": -0.5,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "E_countertop_#1"
+    },
+    {
+      "x": -1.5,
+      "y": 0.904851437,
+      "z": 0.75,
+      "rotation": 90.0,
+      "horizon": 60.0000076,
+      "loc_desc": "W_bathtub"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "E_sink_NW_D"
+    },
+    {
+      "x": -2.25,
+      "y": 0.904851437,
+      "z": 0.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_cabinet"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9048518,
+      "z": -0.5,
+      "rotation": 239.8953,
+      "horizon": -4.0,
+      "loc_desc": "E_countertop_#2"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan405",
+    "total_path_points": 8
+  }
+}

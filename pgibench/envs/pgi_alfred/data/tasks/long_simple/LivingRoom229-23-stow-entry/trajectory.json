@@ -1,0 +1,89 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "TissueBox|-05.72|+00.73|+00.29",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "TissueBox|-05.72|+00.73|+00.29",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CoffeeTable|-03.04|+00.03|+02.34",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CoffeeTable|-03.04|+00.03|+02.34",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "CreditCard|-02.60|+00.41|+02.34",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "CreditCard|-02.60|+00.41|+02.34",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SideTable|-00.21|+00.02|+01.52",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "SideTable|-00.21|+00.02|+01.52",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

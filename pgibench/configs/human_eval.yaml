@@ -1,0 +1,39 @@
+# Human evaluation server configuration.
+#
+# Launch (from the repo root, one Xvfb display per concurrent session):
+#   python -m pgibench.envs.pgi_alfred.scripts.start_xvfb 1
+#   python -m pgibench.human_eval.server --config pgibench/configs/human_eval.yaml
+#
+# Deliberate differences from pgi-alf.yaml (VLM evaluation) for fairness:
+#   - action_display_mode: command (humans type free-text commands, same
+#     interface as the agent's default display)
+#   - object_reference_mode: point (humans click the target on the image;
+#     they do not get the absolute grounding that id mode provides)
+#   - no model_name / planner_type (the human IS the planner)
+#
+# eval_set / selected_indexes are chosen per session from the web UI; results
+# are written per evaluator under
+# running/pgi_alfred/{exp_name}/{eval_set}/{evaluator_id}/results/.
+
+down_sample_ratio: 1
+eval_sets: ['short_hard', 'long_hard', 'short_simple', 'long_simple']
+max_steps: 100            # enforced server-side; episode ends (EQA phase) when reached
+detection_box: False
+resolution: 500
+exp_name: human_eval
+action_display_mode: command      # command | visible | full
+object_reference_mode: point      # point | bbox | id | ordinal | type
+instruction_mode: micro           # macro | micro
+nav_mode: ['created_waypoint', 'object']
+bbox_iou_threshold: 0.3
+point_dist_ratio: 0.3
+visual_prompt: False
+
+# Server-side idle session reaping: sessions with no requests for this many
+# seconds get their THOR controller closed and X display freed. The display
+# number is allocated automatically per session (config value is not used).
+session_idle_timeout: 1800
+
+# EQA (aligned with pgi-alf.yaml; end-of-episode only)
+enable_eqa: True
+eqa_end_episode_questions: -15   # negative N -> N random questions

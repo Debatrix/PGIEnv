@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "W_curtains_N"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "N_diningtable_N"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 5.5,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "W_painting_NW"
+    },
+    {
+      "x": -3.25,
+      "y": 0.9011257,
+      "z": 5.75,
+      "rotation": 2.69493,
+      "horizon": 52.0000038,
+      "loc_desc": "S_dresser"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9011257,
+      "z": 2.25,
+      "rotation": 185.385818,
+      "horizon": 48.0,
+      "loc_desc": "N_diningtable"
+    },
+    {
+      "x": -2.5,
+      "y": 0.901125669,
+      "z": 5.5,
+      "rotation": 176.315384,
+      "horizon": 50.0000038,
+      "loc_desc": "N_ottoman"
+    },
+    {
+      "x": -4.75,
+      "y": 0.9011257,
+      "z": 2.75,
+      "rotation": 1.7727294,
+      "horizon": 54.0000038,
+      "loc_desc": "S_floorlamp"
+    },
+    {
+      "x": -3.5,
+      "y": 0.901125669,
+      "z": 1.0,
+      "rotation": 179.082428,
+      "horizon": 9.000001,
+      "loc_desc": "N_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan205",
+    "total_path_points": 8
+  }
+}

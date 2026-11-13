@@ -1,0 +1,48 @@
+{
+  "path_points": [
+    {
+      "x": 1.0,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "S_mirror_SW_D"
+    },
+    {
+      "x": 3.25,
+      "y": 0.9009995,
+      "z": -0.5,
+      "rotation": 180.5782,
+      "horizon": 50.00001,
+      "loc_desc": "N_diningtable"
+    },
+    {
+      "x": 3.5,
+      "y": 0.9009995,
+      "z": -2.5,
+      "rotation": 336.9339,
+      "horizon": 60.0000038,
+      "loc_desc": "SE_chair"
+    },
+    {
+      "x": 1.75,
+      "y": 0.9009995,
+      "z": 1.25,
+      "rotation": 7.46950674,
+      "horizon": 41.0,
+      "loc_desc": "S_lightswitch"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9009995,
+      "z": -2.0,
+      "rotation": 176.794937,
+      "horizon": -39.0,
+      "loc_desc": "N_blinds"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan321",
+    "total_path_points": 5
+  }
+}

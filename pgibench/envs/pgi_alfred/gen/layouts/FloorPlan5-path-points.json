@@ -1,0 +1,136 @@
+{
+  "path_points": [
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "N_faucet_NW_D"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9009995,
+      "z": -1.0,
+      "rotation": 187.337585,
+      "horizon": 37.0000076,
+      "loc_desc": "N_sinkbasin"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "N_faucet_N"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 270,
+      "horizon": 30,
+      "loc_desc": "N_faucet_W_D"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "N_faucet_NW"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_faucet_SE"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "N_faucet_E"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009995,
+      "z": 0.5,
+      "rotation": 111.394,
+      "horizon": 53.0000038,
+      "loc_desc": "W_garbagecan"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 45,
+      "horizon": 30,
+      "loc_desc": "N_faucet_NE_D"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 135,
+      "horizon": -30,
+      "loc_desc": "N_faucet_SE_U"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "N_faucet_SW"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "S_lightswitch_E"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 225,
+      "horizon": -30,
+      "loc_desc": "N_faucet_SW_U"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 270,
+      "horizon": -30,
+      "loc_desc": "N_faucet_W_U"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9,
+      "z": 0.5,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "W_garbagecan_NW_D"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "N_faucet_W"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan5",
+    "total_path_points": 16
+  }
+}

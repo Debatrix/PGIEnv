@@ -1,0 +1,172 @@
+schema_version: 2
+task_id: Bathroom421-07-clean-dishsponge
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: While freshening up the bathroom, could you wash the dish sponge at the sink
+    and set it on the counter top? It's handy to have a clean sponge ready for the
+    next cleanup.
+  micro: Rinse the dish sponge at the sink and put it on the counter top.
+scene:
+  floor_plan: FloorPlan421
+  scene_num: 421
+  room_type: Bathroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      DishSponge: 1
+    distractors:
+      SprayBottle: 1
+      SoapBar: 1
+      ToiletPaper: 1
+      Cloth: 1
+      Candle: 1
+      TissueBox: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 1
+  object_poses:
+  - objectName: HandTowel_f6c37fb2
+    position:
+      x: -0.03691358
+      y: 1.658
+      z: 3.44300032
+    rotation:
+      x: 0.0
+      y: 90.0004
+      z: 0.0
+  - objectName: SoapBar_0fd13d7a
+    position:
+      x: -0.4820853
+      y: 0.8120697
+      z: 2.24385715
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_335b3797
+    position:
+      x: -0.180218875
+      y: 0.945194542
+      z: 3.71929717
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_a5ac7169
+    position:
+      x: -0.139841557
+      y: -0.0006361902
+      z: 3.369947
+    rotation:
+      x: -0.00118185522
+      y: 0.0004360497
+      z: 0.000781859
+  - objectName: Candle_1814f8bc
+    position:
+      x: -0.10814178
+      y: 0.952834368
+      z: 3.47149777
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_5484beaa
+    position:
+      x: -0.2253683
+      y: 0.8132801
+      z: 3.17273784
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_dab0d4d7
+    position:
+      x: -0.3537268
+      y: 0.809
+      z: 1.31699467
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SprayBottle_55833eba
+    position:
+      x: -0.3537268
+      y: 0.8134041
+      z: 3.11449766
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Towel_e5bc324c
+    position:
+      x: -1.106
+      y: 1.151
+      z: 1.28995311
+    rotation:
+      x: 0.0
+      y: 1.70754731e-06
+      z: 0.0
+  - objectName: Cloth_c4a4c4ad
+    position:
+      x: -0.204826355
+      y: 0.804307759
+      z: 2.33822727
+    rotation:
+      x: 0.0
+      y: 344.970825
+      z: 0.0
+  - objectName: ScrubBrush_274c0193
+    position:
+      x: -0.346180737
+      y: -0.000173203647
+      z: 3.34195137
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_862832c1
+    position:
+      x: -0.268540174
+      y: 0.8299487
+      z: 2.705294
+    rotation:
+      x: 1.40334191e-14
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  - objectType: ShowerHead
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -1.25
+    y: 0.9008256
+    z: 2.25
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: DishSponge
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: DishSponge
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

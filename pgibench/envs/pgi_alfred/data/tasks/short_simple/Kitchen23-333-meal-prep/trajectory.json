@@ -1,0 +1,54 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Mug|-00.35|+00.96|-03.14",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Mug|-00.35|+00.96|-03.14",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "DiningTable|-02.43|+00.90|-01.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "DiningTable|-02.43|+00.90|-01.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

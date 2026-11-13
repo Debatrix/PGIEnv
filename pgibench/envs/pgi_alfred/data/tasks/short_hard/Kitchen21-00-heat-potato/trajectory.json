@@ -1,0 +1,180 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleoff",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": false,
+      "err": "The Potato is not visible. Please navigate to the object before picking it up."
+    },
+    {
+      "subtask": 0,
+      "op": "adjust",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": false,
+      "err": "look_up"
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Potato|-01.62|+00.73|-03.70",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_heat_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

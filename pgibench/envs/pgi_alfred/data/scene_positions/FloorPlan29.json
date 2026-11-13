@@ -1,0 +1,8870 @@
+{
+  "Pan": [
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.15,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.18,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.39,
+        "y": 1.053,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pan",
+      "position": {
+        "x": 0.12,
+        "y": 1.053,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Pot": [
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.15,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.18,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.377,
+        "y": 0.191,
+        "z": -1.313
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": -0.432,
+        "y": 1.048,
+        "z": -1.505
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.39,
+        "y": 1.053,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pot",
+      "position": {
+        "x": 0.5,
+        "y": 1.058,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Kettle": [
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.09,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.3,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.15,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.2,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.18,
+        "y": 1.194,
+        "z": -1.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.78
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.03,
+        "y": 1.194,
+        "z": -1.63
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.55
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Kettle",
+      "position": {
+        "x": -0.05,
+        "y": 1.198,
+        "z": -1.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Apple": [
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 1.79,
+        "y": 1.087,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.849,
+        "y": 1.097,
+        "z": 0.131
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.805,
+        "y": 1.097,
+        "z": 0.332
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.379,
+        "y": 1.09,
+        "z": -1.129
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": -0.03,
+        "y": 1.087,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.981,
+        "y": 1.097,
+        "z": 0.081
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.981,
+        "y": 1.097,
+        "z": 0.382
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 1.212,
+        "y": 0.937,
+        "z": 0.304
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.981,
+        "y": 1.097,
+        "z": 0.131
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Apple",
+      "position": {
+        "x": 0.761,
+        "y": 1.097,
+        "z": 0.081
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "DishSponge": [
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "DishSponge",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "AppleSliced": [
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "AppleSliced",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Egg": [
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 1.182,
+        "y": 0.948,
+        "z": 0.158
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 1.212,
+        "y": 0.948,
+        "z": 0.304
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.893,
+        "y": 1.108,
+        "z": 0.382
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.542,
+        "y": 1.098,
+        "z": 0.307
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.717,
+        "y": 1.108,
+        "z": 0.382
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 1.271,
+        "y": 0.948,
+        "z": 0.304
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.893,
+        "y": 1.108,
+        "z": 0.181
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.805,
+        "y": 1.11,
+        "z": 0.281
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 1.073,
+        "y": 1.101,
+        "z": -1.505
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Egg",
+      "position": {
+        "x": 0.717,
+        "y": 1.108,
+        "z": 0.231
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Fork": [
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.511
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.661
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.811
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.347,
+        "y": 1.047,
+        "z": -1.397
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 1.348,
+        "y": 1.044,
+        "z": 0.677
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 1.612,
+        "y": 1.044,
+        "z": 0.415
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.823,
+        "y": 1.047,
+        "z": -1.613
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.447,
+        "y": 1.033,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": 359.7
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.518,
+        "y": 1.047,
+        "z": -1.182
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.261,
+        "y": 1.047,
+        "z": -1.828
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.065,
+        "y": 1.044,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": 0.447,
+        "y": 1.033,
+        "z": 0.631
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": 359.7
+      }
+    },
+    {
+      "objectName": "Fork",
+      "position": {
+        "x": -0.347,
+        "y": 1.047,
+        "z": -1.182
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Ladle": [
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Ladle",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Tomato": [
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Tomato",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Spatula": [
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spatula",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "PotatoSliced": [
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PotatoSliced",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "SoapBar": [
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBar",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "LettuceSliced": [
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "LettuceSliced",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Spoon": [
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.511
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.661
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.811
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "ButterKnife": [
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.511
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.661
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 1.241,
+        "y": 1.181,
+        "z": 0.811
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ButterKnife",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Mug": [
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.63,
+        "y": 1.181,
+        "z": 0.291
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.63,
+        "y": 1.181,
+        "z": 0.441
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.63,
+        "y": 1.181,
+        "z": 0.591
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.78,
+        "y": 1.181,
+        "z": 0.141
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.78,
+        "y": 1.181,
+        "z": 0.291
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.78,
+        "y": 1.181,
+        "z": 0.441
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.78,
+        "y": 1.181,
+        "z": 0.591
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.78,
+        "y": 1.181,
+        "z": 0.741
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.612,
+        "y": 1.038,
+        "z": 0.199
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.761,
+        "y": 1.049,
+        "z": 0.131
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 1.765,
+        "y": 1.082,
+        "z": 0.332
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": -0.432,
+        "y": 1.042,
+        "z": -1.29
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.99,
+        "y": 1.042,
+        "z": -1.29
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Mug",
+      "position": {
+        "x": 0.823,
+        "y": 1.042,
+        "z": -1.29
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "TomatoSliced": [
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TomatoSliced",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "HandTowel": [
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "HandTowel",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "Cup": [
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.156,
+        "y": 1.047,
+        "z": -1.505
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.16,
+        "y": 1.044,
+        "z": 0.415
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -0.261,
+        "y": 1.047,
+        "z": -1.397
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.879,
+        "y": 1.044,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.612,
+        "y": 1.044,
+        "z": 0.739
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": -0.604,
+        "y": 1.047,
+        "z": -1.29
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 1.239,
+        "y": 1.047,
+        "z": -1.397
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.16,
+        "y": 1.044,
+        "z": 0.631
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.542,
+        "y": 1.044,
+        "z": 0.092
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cup",
+      "position": {
+        "x": 0.351,
+        "y": 1.044,
+        "z": 0.092
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Lettuce": [
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Lettuce",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Glassbottle": [
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Glassbottle",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Bowl": [
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bowl",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    }
+  ],
+  "Potato": [
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Potato",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Cloth": [
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Cloth",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Knife": [
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.665,
+        "y": 1.083,
+        "z": -1.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": -0.677,
+        "y": 0.239,
+        "z": -1.463
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 1.073,
+        "y": 1.073,
+        "z": -1.72
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.065,
+        "y": 1.069,
+        "z": 0.631
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 1.156,
+        "y": 1.073,
+        "z": -1.72
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 1.073,
+        "y": 1.073,
+        "z": -1.29
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.065,
+        "y": 1.069,
+        "z": 0.523
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.24,
+        "y": 1.073,
+        "z": -1.108
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.907,
+        "y": 1.073,
+        "z": -1.72
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 1.156,
+        "y": 1.073,
+        "z": -1.182
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "position": {
+        "x": 0.101,
+        "y": 1.073,
+        "z": -1.119
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Plate": [
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 0.912,
+        "y": 0.93,
+        "z": 0.236
+      },
+      "rotation": {
+        "x": 0.2,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 0.631,
+        "y": 1.046,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 360.0,
+        "y": 359.7,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plate",
+      "position": {
+        "x": 0.256,
+        "y": 1.056,
+        "z": 0.415
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Newspaper": [
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Newspaper",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "RemoteControl": [
+    {
+      "objectName": "RemoteControl",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "RemoteControl",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "RemoteControl",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "RemoteControl",
+      "position": {
+        "x": -0.08,
+        "y": 1.092,
+        "z": -1.353
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "RemoteControl",
+      "position": {
+        "x": -0.077,
+        "y": 1.089,
+        "z": -1.34
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "ToiletPaper": [
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaper",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "Statue": [
+    {
+      "objectName": "Statue",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Statue",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Statue",
+      "position": {
+        "x": -0.127,
+        "y": 1.105,
+        "z": -1.375
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Statue",
+      "position": {
+        "x": -0.104,
+        "y": 1.103,
+        "z": -1.368
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Statue",
+      "position": {
+        "x": 0.671,
+        "y": 1.083,
+        "z": 0.233
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    }
+  ],
+  "SoapBottle": [
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SoapBottle",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "WateringCan": [
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WateringCan",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "SprayBottle": [
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SprayBottle",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "BaseballBat": [
+    {
+      "objectName": "BaseballBat",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "BaseballBat",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BaseballBat",
+      "position": {
+        "x": 0.697,
+        "y": 1.086,
+        "z": 0.276
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BaseballBat",
+      "position": {
+        "x": 0.689,
+        "y": 1.076,
+        "z": 0.251
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BaseballBat",
+      "position": {
+        "x": 0.66,
+        "y": 1.082,
+        "z": 0.285
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    }
+  ],
+  "TissueBox": [
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "TissueBox",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Box": [
+    {
+      "objectName": "Box",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Box",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "BasketBall": [
+    {
+      "objectName": "BasketBall",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "BasketBall",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BasketBall",
+      "position": {
+        "x": 0.675,
+        "y": 1.087,
+        "z": 0.278
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BasketBall",
+      "position": {
+        "x": 0.677,
+        "y": 1.083,
+        "z": 0.247
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BasketBall",
+      "position": {
+        "x": 0.718,
+        "y": 1.076,
+        "z": 0.262
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    }
+  ],
+  "Book": [
+    {
+      "objectName": "Book",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Book",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "KeyChain": [
+    {
+      "objectName": "KeyChain",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "KeyChain",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "KeyChain",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "KeyChain",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "KeyChain",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "AlarmClock": [
+    {
+      "objectName": "AlarmClock",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "AlarmClock",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "AlarmClock",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "AlarmClock",
+      "position": {
+        "x": 0.32,
+        "y": 1.073,
+        "z": 0.656
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "AlarmClock",
+      "position": {
+        "x": 0.311,
+        "y": 1.071,
+        "z": 0.658
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "PepperShaker": [
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PepperShaker",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Watch": [
+    {
+      "objectName": "Watch",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Watch",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Watch",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Watch",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Watch",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Bread": [
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": -0.03,
+        "y": 1.117,
+        "z": 0.415
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Bread",
+      "position": {
+        "x": 0.907,
+        "y": 1.121,
+        "z": -1.505
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "Candle": [
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Candle",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "CreditCard": [
+    {
+      "objectName": "CreditCard",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "CreditCard",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "CreditCard",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CreditCard",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "CreditCard",
+      "position": {
+        "x": 0.789,
+        "y": 0.233,
+        "z": -1.649
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Pen": [
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pen",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "SaltShaker": [
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "SaltShaker",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "CellPhone": [
+    {
+      "objectName": "CellPhone",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "CellPhone",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "CellPhone",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CellPhone",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "CellPhone",
+      "position": {
+        "x": -0.105,
+        "y": 1.095,
+        "z": -1.368
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "BreadSliced": [
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.7,
+        "y": 1.186,
+        "z": -2.081
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.7,
+        "y": 1.186,
+        "z": -1.481
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.55,
+        "y": 1.186,
+        "z": -2.081
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.55,
+        "y": 1.186,
+        "z": -1.481
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.4,
+        "y": 1.186,
+        "z": -2.081
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -0.4,
+        "y": 1.186,
+        "z": -1.481
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "BreadSliced",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "Pencil": [
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": 0.807,
+        "y": 1.186,
+        "z": -1.497
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pencil",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "PaperTowel": [
+    {
+      "objectName": "PaperTowel",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "PaperTowel",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "PaperTowel",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "PaperTowel",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "PaperTowel",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "CD": [
+    {
+      "objectName": "CD",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 0.331,
+        "y": 1.079,
+        "z": 0.667
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "CD",
+      "position": {
+        "x": 0.792,
+        "y": 0.239,
+        "z": -1.62
+      },
+      "rotation": {
+        "x": 4.8,
+        "y": -0.0,
+        "z": 360.0
+      }
+    }
+  ],
+  "Laptop": [
+    {
+      "objectName": "Laptop",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Laptop",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Laptop",
+      "position": {
+        "x": -0.091,
+        "y": 1.095,
+        "z": -1.342
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Laptop",
+      "position": {
+        "x": -0.11,
+        "y": 1.091,
+        "z": -1.338
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Laptop",
+      "position": {
+        "x": 0.709,
+        "y": 1.085,
+        "z": 0.273
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    }
+  ],
+  "ToiletPaperRoll": [
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "ToiletPaperRoll",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "WineBottle": [
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": -1.459,
+        "y": 0.064,
+        "z": 1.483
+      },
+      "rotation": {
+        "x": 299.1,
+        "y": 325.5,
+        "z": 55.7
+      }
+    },
+    {
+      "objectName": "WineBottle",
+      "position": {
+        "x": 1.556,
+        "y": 0.077,
+        "z": 2.237
+      },
+      "rotation": {
+        "x": 0.3,
+        "y": 0.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "Vase": [
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Vase",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "TennisRacket": [
+    {
+      "objectName": "TennisRacket",
+      "position": {
+        "x": -0.103,
+        "y": 1.098,
+        "z": -1.354
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "TennisRacket",
+      "position": {
+        "x": 0.689,
+        "y": 1.086,
+        "z": 0.261
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    },
+    {
+      "objectName": "TennisRacket",
+      "position": {
+        "x": -0.118,
+        "y": 1.103,
+        "z": -1.339
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "TennisRacket",
+      "position": {
+        "x": -0.075,
+        "y": 1.1,
+        "z": -1.35
+      },
+      "rotation": {
+        "x": 1.7,
+        "y": -0.0,
+        "z": 360.0
+      }
+    },
+    {
+      "objectName": "TennisRacket",
+      "position": {
+        "x": 0.693,
+        "y": 1.093,
+        "z": 0.283
+      },
+      "rotation": {
+        "x": 354.1,
+        "y": 355.9,
+        "z": 335.2
+      }
+    }
+  ],
+  "Plunger": [
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": 1.023,
+        "y": 1.559,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": -1.167,
+        "y": 2.019,
+        "z": -1.46
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": 1.693,
+        "y": 1.47,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": -1.697,
+        "y": 2.101,
+        "z": -0.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": -1.827,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": -1.152,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": 1.69,
+        "y": 0.694,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Plunger",
+      "position": {
+        "x": 1.036,
+        "y": 0.689,
+        "z": -1.26
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "scene_type": "Kitchen"
+}

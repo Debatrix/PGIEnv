@@ -1,0 +1,215 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "toggle_object_on",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "RemoteControl|+00.11|+01.04|+02.00",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "RemoteControl|+00.11|+01.04|+02.00",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "ArmChair|-02.06|00.00|+04.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "ArmChair|-02.06|00.00|+04.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "KeyChain|-04.27|+00.56|+03.48",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "KeyChain|-04.27|+00.56|+03.48",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Dresser|-00.27|+00.00|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "Dresser|-00.27|+00.00|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Candle|-00.08|+01.31|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "Candle|-00.08|+01.31|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "DiningTable|+00.19|+00.91|+02.00",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "DiningTable|+00.19|+00.91|+02.00",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 4,
+      "op": "nav",
+      "target": "Drawer|-00.38|+01.07|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "op": "open",
+      "target": "Drawer|-00.38|+01.07|+03.61",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "task_type": "open_receptacle",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 5,
+      "op": "nav",
+      "target": "Laptop|-03.19|+00.46|-00.21",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 5,
+      "op": "pick",
+      "target": "Laptop|-03.19|+00.46|-00.21",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 5,
+      "op": "nav",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 5,
+      "op": "toggleon",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": false,
+      "err": "Turn on action failed"
+    },
+    {
+      "subtask": 5,
+      "op": "adjust",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": false,
+      "err": "look_up"
+    },
+    {
+      "subtask": 5,
+      "op": "toggleon",
+      "target": "FloorLamp|-04.10|+00.01|-00.47",
+      "ok": false,
+      "err": "can't toggle object on if it's already on!"
+    },
+    {
+      "subtask": 5,
+      "task_type": "look_at_obj_in_light",
+      "goal_s": 2,
+      "goal_ts": 2,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

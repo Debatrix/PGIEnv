@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -0.25,
+      "y": 0.8696961,
+      "z": -2.75,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_fridge"
+    },
+    {
+      "x": -2.0,
+      "y": 0.8696961,
+      "z": 0.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "S_stoveknob"
+    },
+    {
+      "x": -0.25,
+      "y": 0.8696966,
+      "z": 0.0,
+      "rotation": 95.91288,
+      "horizon": 31.0000057,
+      "loc_desc": "W_countertop"
+    },
+    {
+      "x": -1.25,
+      "y": 0.869696259,
+      "z": -1.5,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SE_diningtable"
+    },
+    {
+      "x": 0.25,
+      "y": 0.869696259,
+      "z": 0.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_sidetable"
+    },
+    {
+      "x": 0.0,
+      "y": 0.869696259,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": -1.25,
+      "y": 0.869696259,
+      "z": 0.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SE_stoveknob"
+    },
+    {
+      "x": -1.25,
+      "y": 0.8696967,
+      "z": -2.5,
+      "rotation": 314.1541,
+      "horizon": 55.0000038,
+      "loc_desc": "SE_chair"
+    },
+    {
+      "x": -1.0,
+      "y": 0.869696438,
+      "z": -3.25,
+      "rotation": 211.8718,
+      "horizon": 67.00001,
+      "loc_desc": "NE_garbagecan"
+    },
+    {
+      "x": -2.0,
+      "y": 0.869696259,
+      "z": -2.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SE_window"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan21",
+    "total_path_points": 10
+  }
+}

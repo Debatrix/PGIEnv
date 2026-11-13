@@ -1,0 +1,159 @@
+schema_version: 2
+task_id: Bathroom405-00-clean-cloth
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: While tidying up the bathroom, could you rinse the cloth at the sink and
+    set it on the counter top? That way it is clean and ready to use.
+  micro: Rinse the cloth at the sink and put it on the counter top.
+scene:
+  floor_plan: FloorPlan405
+  scene_num: 405
+  room_type: Bathroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Cloth: 1
+    distractors:
+      Plunger: 1
+      HandTowel: 1
+      TissueBox: 2
+      SoapBottle: 1
+      Candle: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 1
+  object_poses:
+  - objectName: Towel_6f47e8ba
+    position:
+      x: -1.61500061
+      y: 1.398
+      z: 1.80063808
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  - objectName: HandTowel_0ef4ecaf
+    position:
+      x: -2.96
+      y: 1.593
+      z: -0.728403032
+    rotation:
+      x: 0.0
+      y: 180.000122
+      z: 0.0
+  - objectName: SoapBar_00ce0dcd
+    position:
+      x: -2.81036377
+      y: 1.00216985
+      z: -0.208686456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_f90141c5
+    position:
+      x: -3.24608088
+      y: 1.03981376
+      z: 1.14301383
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_868bf844
+    position:
+      x: -3.06186676
+      y: 0.668248653
+      z: 0.690800548
+    rotation:
+      x: 347.0551
+      y: 0.0
+      z: 90.0
+  - objectName: Candle_c916d797
+    position:
+      x: -3.16309929
+      y: 1.05016613
+      z: 1.32913065
+    rotation:
+      x: 0.0
+      y: 90.00051
+      z: 0.0
+  - objectName: ScrubBrush_3954e6e3
+    position:
+      x: -3.236
+      y: 0.00385227427
+      z: 1.79
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_06387083
+    position:
+      x: -3.04350257
+      y: 0.003389284
+      z: 1.68351626
+    rotation:
+      x: -0.00119000988
+      y: 0.000474272529
+      z: 0.0007837008
+  - objectName: SoapBottle_b14fe5d7
+    position:
+      x: -3.245
+      y: 0.9974
+      z: -0.152
+    rotation:
+      x: 0.0
+      y: 44.9999161
+      z: 0.0
+  - objectName: Cloth_f05aa151
+    position:
+      x: -0.404606938
+      y: 0.0333172381
+      z: 0.5818949
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SprayBottle_467321f9
+    position:
+      x: -3.255
+      y: 1.0499537
+      z: 1.26355958
+    rotation:
+      x: 0.0
+      y: 90.00051
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -2.0
+    y: 0.9048511
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Cloth
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Cloth
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

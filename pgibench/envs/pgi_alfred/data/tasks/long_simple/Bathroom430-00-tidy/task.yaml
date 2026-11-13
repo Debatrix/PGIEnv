@@ -1,0 +1,268 @@
+schema_version: 2
+task_id: Bathroom430-00-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: While tidying up the bathroom, could you gather the scattered toiletries
+    and set them on the counter top — the candle, the bar of soap, the towel, and
+    the scrub brush? It keeps everything in one convenient spot for the next person.
+  micro: Pick up the candle and put it on the counter top; pick up the soap bar and
+    put it on the counter top; pick up the towel and put it on the counter top; pick
+    up the scrub brush and put it on the counter top.
+scene:
+  floor_plan: FloorPlan430
+  scene_num: 430
+  room_type: Bathroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Candle: 1
+      SoapBar: 1
+      Towel: 1
+      ScrubBrush: 1
+    distractors:
+      HandTowel: 3
+      SprayBottle: 3
+      SoapBottle: 3
+      TissueBox: 3
+      Plunger: 1
+    min_free:
+      CounterTop: 4
+  object_poses:
+  - objectName: TissueBox_7f6b7a12(Clone)_random_copy_1
+    position:
+      x: 2.20495749
+      y: 0.624048
+      z: -2.242
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_7f6b7a12(Clone)_random_copy_0
+    position:
+      x: 0.111016423
+      y: 0.963445544
+      z: -1.99327743
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SprayBottle_2f71aee2(Clone)_random_copy_1
+    position:
+      x: -0.0487191677
+      y: 0.959746
+      z: -2.36919069
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SprayBottle_2f71aee2(Clone)_random_copy_0
+    position:
+      x: 0.9302288
+      y: 0.620348454
+      z: -2.242
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_67d42c38(Clone)_random_copy_1
+    position:
+      x: 0.4304876
+      y: 0.973848939
+      z: -2.08725572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_67d42c38(Clone)_random_copy_0
+    position:
+      x: 0.07300366
+      y: 0.976491749
+      z: 2.250483
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Candle_2ebf1d6c
+    position:
+      x: 1.78004789
+      y: 0.622993
+      z: -2.31568027
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: HandTowel_31149277
+    position:
+      x: -0.885
+      y: 1.617
+      z: -2.5037
+    rotation:
+      x: 0.0
+      y: 179.999969
+      z: 0.0
+  - objectName: Towel_24c29b1a
+    position:
+      x: 0.465890378
+      y: 1.21
+      z: -1.095
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SoapBottle_67d42c38
+    position:
+      x: -0.051996164
+      y: 0.9765687
+      z: 2.33085847
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SoapBar_25110512
+    position:
+      x: 1.14268363
+      y: 0.6234182
+      z: -2.1683197
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_cc5027dd
+    position:
+      x: -0.178
+      y: 0.957429349
+      z: 2.268322
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_65d4d49a
+    position:
+      x: 0.5063196
+      y: 0.0115768015
+      z: 2.268863
+    rotation:
+      x: -0.00118246267
+      y: 0.0004405065
+      z: 0.000780726841
+  - objectName: SprayBottle_2f71aee2
+    position:
+      x: -0.527925968
+      y: 0.959746
+      z: -2.36919069
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_7f6b7a12
+    position:
+      x: -0.0487191677
+      y: 0.963445544
+      z: -1.80532086
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_b4152fb5
+    position:
+      x: -0.515000165
+      y: 0.0313048363
+      z: 2.338677
+    rotation:
+      x: -1.56447834e-06
+      y: -6.521771e-07
+      z: 90.0006561
+  - objectName: ScrubBrush_f6ab61ab
+    position:
+      x: 0.342862785
+      y: 0.0120397955
+      z: 2.072015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_72b782f7
+    position:
+      x: 0.4304876
+      y: 0.9616724
+      z: -1.89929914
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_91046b03
+    position:
+      x: -0.527925968
+      y: 0.9643103
+      z: -2.181234
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Footstool_4fb1de73
+    position:
+      x: -0.325
+      y: 0.297
+      z: -1.98
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  - objectType: ShowerHead
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.75
+    y: 0.9130393
+    z: 0.5
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Candle
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Candle
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Towel
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: ScrubBrush
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

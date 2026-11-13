@@ -1,0 +1,166 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Egg|-03.94|+00.73|-00.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Egg|-03.94|+00.73|-00.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleoff",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Egg|-03.94|+00.73|-00.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Egg|-03.94|+00.73|-00.13",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-00.22|+01.47|-02.06",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|-01.94|+00.98|-03.67",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|-01.94|+00.98|-03.67",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_heat_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

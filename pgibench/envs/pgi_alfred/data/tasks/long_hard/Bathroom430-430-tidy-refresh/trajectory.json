@@ -1,0 +1,285 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": false,
+      "err": "The Cloth is not visible. Please navigate to the object before picking it up."
+    },
+    {
+      "subtask": 0,
+      "op": "adjust",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": false,
+      "err": "look_up"
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Sink|-02.80|+00.33|+00.76|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Sink|-02.80|+00.33|+00.76|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleoff",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Cloth|+01.57|+00.62|-02.32",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|+00.20|+00.43|-02.01",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|+00.20|+00.43|-02.01",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SoapBar|-01.84|+00.08|-01.55",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "SoapBar|-01.84|+00.08|-01.55",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Sink|-02.80|+00.33|+00.76|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Sink|-02.80|+00.33|+00.76|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleon",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleoff",
+      "target": "Faucet|-03.11|+01.06|+00.76",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SoapBar|-01.84|+00.08|-01.55",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "SoapBar|-01.84|+00.08|-01.55",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "CounterTop|+00.20|+00.43|-02.01",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "CounterTop|+00.20|+00.43|-02.01",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Toilet|-00.06|+00.01|+01.84",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "open",
+      "target": "Toilet|-00.06|+00.01|+01.84",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "ToiletPaper|-00.18|+00.96|+02.27",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "ToiletPaper|-00.18|+00.96|+02.27",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "ToiletPaperHanger|-00.57|+00.93|+02.41",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "ToiletPaperHanger|-00.57|+00.93|+02.41",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Drawer|+00.30|+00.30|-01.82",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "open",
+      "target": "Drawer|+00.30|+00.30|-01.82",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "open_receptacle",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

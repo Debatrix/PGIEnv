@@ -1,0 +1,194 @@
+schema_version: 2
+task_id: Bedroom309-00-stow-desk
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: When making the bedroom feel calm and orderly, could you please put the pencil
+    on the side table and put the cd on the side table? It keeps your things exactly
+    where they belong.
+  micro: put the pencil on the side table; put the cd on the side table.
+scene:
+  floor_plan: FloorPlan309
+  scene_num: 309
+  room_type: Bedroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Pencil: 1
+      CD: 1
+    distractors:
+      KeyChain: 1
+      CreditCard: 1
+    min_free:
+      SideTable: 2
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: Book_abcab9aa
+    position:
+      x: 0.673893332
+      y: 0.832502544
+      z: 0.49556905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_411a3848
+    position:
+      x: -0.6023103
+      y: 1.11803126
+      z: -2.988
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_37f270fb
+    position:
+      x: 1.243562
+      y: 0.836006
+      z: 0.975806057
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_f2157d80
+    position:
+      x: 1.78584766
+      y: 0.87
+      z: 0.309768081
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Pillow_418be6a9
+    position:
+      x: 1.24356186
+      y: 0.940567851
+      z: 1.456043
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TeddyBear_28ee0ee1
+    position:
+      x: 1.868
+      y: 0.0369279981
+      z: -0.561
+    rotation:
+      x: 0.0
+      y: 59.9998856
+      z: 0.0
+  - objectName: CreditCard_b91063b3
+    position:
+      x: -0.6023103
+      y: 1.116164
+      z: -3.158165
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_a0dbc3b4
+    position:
+      x: -1.22702074
+      y: 1.11700368
+      z: -2.988
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_ae739ac2
+    position:
+      x: -2.16408658
+      y: 1.11951709
+      z: -3.24324751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_c29734d2
+    position:
+      x: 0.673893452
+      y: 0.830701053
+      z: 0.015332222
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_5e28ac0a
+    position:
+      x: -0.9146655
+      y: 1.11887515
+      z: -3.158165
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_2144f1bb
+    position:
+      x: -0.9146655
+      y: 1.11577451
+      z: -2.73275232
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_54d0a615
+    position:
+      x: -0.6023103
+      y: 1.12182081
+      z: -2.73275232
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_5d0b27fe
+    position:
+      x: -1.22702074
+      y: 1.11416793
+      z: -2.73275232
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: Television
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -1.0
+    y: 0.937927365
+    z: -1.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pencil
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CD
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

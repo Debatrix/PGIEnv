@@ -1,0 +1,258 @@
+schema_version: 2
+task_id: Bedroom324-726-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Put the AlarmClock, CreditCard, KeyChain and Laptop on the Bed.
+  micro: Put the AlarmClock on the Bed; Put the CreditCard on the Bed; Put the KeyChain
+    on the Bed; Put the Laptop on the Bed.
+scene:
+  floor_plan: FloorPlan324
+  scene_num: 324
+  room_type: Bedroom
+  random_spawn:
+    seed: 726
+    object_counts:
+      AlarmClock: 1
+      CreditCard: 1
+      KeyChain: 1
+      Laptop: 1
+    distractors:
+      Newspaper: 2
+      Pen: 2
+      Book: 5
+      Pillow: 1
+      Watch: 2
+    min_free:
+      Bed: 4
+  object_poses:
+  - objectName: Pen_e69ec9e5(Clone)_random_copy_0
+    position:
+      x: 0.3721786
+      y: 0.193774387
+      z: -2.54754949
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185(Clone)_random_copy_3
+    position:
+      x: -0.5747489
+      y: 0.694788158
+      z: 0.281510353
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185(Clone)_random_copy_2
+    position:
+      x: -0.08810878
+      y: 0.694788158
+      z: -0.573836863
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185(Clone)_random_copy_1
+    position:
+      x: -0.3314289
+      y: 0.694788158
+      z: -0.1461632
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185(Clone)_random_copy_0
+    position:
+      x: -0.5747489
+      y: 0.694788158
+      z: -0.7876737
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185
+    position:
+      x: -1.061389
+      y: 0.694788158
+      z: -1.00151038
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: KeyChain_fad316e6
+    position:
+      x: 1.60499835
+      y: 0.7952025
+      z: -2.24397087
+    rotation:
+      x: 0.235865355
+      y: 22.0802345
+      z: 359.213348
+  - objectName: AlarmClock_4a3811c5
+    position:
+      x: 1.59746075
+      y: 0.800444
+      z: -1.27900982
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_91d3b0fa
+    position:
+      x: 1.4749825
+      y: 0.8015286
+      z: -2.21951556
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_9408f0f9
+    position:
+      x: 1.663567
+      y: 0.7945326
+      z: -1.84243464
+    rotation:
+      x: 0.0
+      y: 287.390442
+      z: 0.0
+  - objectName: Pen_e69ec9e5
+    position:
+      x: 1.59746075
+      y: 0.800177455
+      z: -1.467111
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -0.0001718066
+  - objectName: Pencil_21540f10
+    position:
+      x: 1.78117836
+      y: 0.8042539
+      z: -2.21951556
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: BaseballBat_1f0855a3
+    position:
+      x: -1.844
+      y: 0.678
+      z: -2.203
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 8.760847
+  - objectName: Pillow_b87f0fc5
+    position:
+      x: -0.8180689
+      y: 0.7552619
+      z: -0.1461632
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_c61fa688
+    position:
+      x: -1.508
+      y: 0.685
+      z: -0.378
+    rotation:
+      x: 0.0
+      y: 288.596283
+      z: 0.0
+  - objectName: TennisRacket_12fc6383
+    position:
+      x: -1.597
+      y: 0.00100616366
+      z: -1.367
+    rotation:
+      x: 90.0
+      y: 37.7924156
+      z: 0.0
+  - objectName: CellPhone_f01bc236
+    position:
+      x: 1.4749825
+      y: 0.8003973
+      z: -2.40761662
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_3bd63042
+    position:
+      x: 1.84241748
+      y: 0.7996067
+      z: -1.27900982
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_55fbfa26
+    position:
+      x: -0.00233191252
+      y: 0.6713768
+      z: -2.60899949
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 1.5
+    y: 0.9020053
+    z: -0.5
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: AlarmClock
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Laptop
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all
+_meta:
+  template_id: auto
+  n_distractors_planned: 12
+  n_distractors_actual: 5

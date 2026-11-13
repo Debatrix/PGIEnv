@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.901493,
+      "z": -1.0,
+      "rotation": 269.495453,
+      "horizon": 52.0000076,
+      "loc_desc": "E_garbagecan"
+    },
+    {
+      "x": -1.25,
+      "y": 0.901493,
+      "z": -1.75,
+      "rotation": 74.4762955,
+      "horizon": 35.0,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": -1.75,
+      "y": 0.901493,
+      "z": -1.25,
+      "rotation": 341.700043,
+      "horizon": 54.0000038,
+      "loc_desc": "S_toilet"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "N_bathtub_NW"
+    },
+    {
+      "x": -1.5,
+      "y": 0.901493,
+      "z": -1.5,
+      "rotation": 268.981018,
+      "horizon": -5.0,
+      "loc_desc": "E_mirror"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_bathtub_SE"
+    },
+    {
+      "x": -1.25,
+      "y": 0.901493,
+      "z": -1.5,
+      "rotation": 181.723923,
+      "horizon": 47.0000038,
+      "loc_desc": "N_bathtub"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan420",
+    "total_path_points": 7
+  }
+}

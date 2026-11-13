@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "E_armchair_E"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.5,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "E_tvstand_SE"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.5,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "E_tvstand_E"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009995,
+      "z": 0.5,
+      "rotation": 94.73265,
+      "horizon": 54.0000038,
+      "loc_desc": "W_coffeetable"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9009995,
+      "z": -1.75,
+      "rotation": 15.315752,
+      "horizon": 40.0,
+      "loc_desc": "S_drawer"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.5,
+      "rotation": 0,
+      "horizon": 30,
+      "loc_desc": "E_tvstand_N_D"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009995,
+      "z": -1.0,
+      "rotation": 312.654938,
+      "horizon": 55.0000153,
+      "loc_desc": "SE_garbagecan"
+    },
+    {
+      "x": 2.75,
+      "y": 0.9009995,
+      "z": -0.75,
+      "rotation": 263.157227,
+      "horizon": 21.0000019,
+      "loc_desc": "E_lightswitch"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009995,
+      "z": -1.25,
+      "rotation": 183.355713,
+      "horizon": 54.0000038,
+      "loc_desc": "N_houseplant"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009995,
+      "z": -1.25,
+      "rotation": 256.712158,
+      "horizon": 52.0000076,
+      "loc_desc": "E_armchair"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan211",
+    "total_path_points": 10
+  }
+}

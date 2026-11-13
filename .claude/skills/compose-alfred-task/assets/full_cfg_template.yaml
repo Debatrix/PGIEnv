@@ -1,0 +1,76 @@
+# Full cfg for the `task_builder write` step (schema v2).
+# The agent assembles this by copying scene/object_poses/object_toggles/init_action/
+# random_spawn verbatim from the preview JSON, then filling in instructions +
+# pddl_params.subtasks designed against the preview layout_summary.
+# Template: python -m pgibench.envs.pgi_alfred.scripts.task_builder write \
+#             --cfg <this.yaml> --out-dir data/tasks/<eval_set>/<task_id>
+schema_version: 2
+task_id: "<Room><scene_num>-<seed>-<slug>"   # e.g. Kitchen8-07-heat-potato
+task_type: composite            # always composite; single-object = 1-subtask composite
+eval_set: "<set>"               # e.g. base / spatial / probe
+
+instructions:
+  # Dual NL instruction. macro and micro express the SAME goal in two registers.
+  # Write them together from the preview layout_summary so the goal stays
+  # consistent.
+  # macro = a human-style instruction modeled on the complex_instruction set:
+  #   scene/context lead-in + polite/casual request + optional short rationale,
+  #   with the discriminating objects + destinations folded in as natural
+  #   qualifiers (read from layout_summary so they match the real scene). NOT a
+  #   colloquial prefix with the subtask list appended; NOT a flat command.
+  #   Heard under instruction_mode=macro.
+  # micro = the precise step-by-step procedure ("; "-joined) tied to the layout's
+  #   real receptacle instances; names every target object + landing spot. Heard
+  #   under instruction_mode=micro.
+  # See references/examples.md "macro / micro style red lines".
+  macro: "<human-style instruction, e.g. After a long day, could you heat the apple in the microwave and bring it to the counter top? It makes for a quick warm snack.>"
+  micro: "<step-by-step procedure tied to the layout, e.g. Heat the apple in the microwave and put it on the counter top.>"
+
+scene:
+  floor_plan: FloorPlan8        # = FloorPlan<scene_num>
+  scene_num: 8
+  room_type: Kitchen
+  # Two-stage restore depends on these two fields: on reload, first rerun
+  # InitialRandomSpawn per random_spawn to rebuild spawned objects, then pin
+  # instances via SetObjectPoses (instance-level names) from object_poses.
+  random_spawn:
+    seed: 7
+    object_counts:              # pickupable instruction objects spawned (type -> count)
+      Apple: 1
+    distractors:                # random irrelevant objects spawned in (type -> count);
+      Mug: 1                    # values may be >1 (repeat sampling enabled)
+      Egg: 1
+      Fork: 1
+    # Optional: scatter objects to verified curated poses from
+    # data/scene_positions/FloorPlan<N>.json. floor_only: true restricts to
+    # floor-level (y<0.3). Copied from preview JSON's random_spawn when present.
+    scene_positions_scatter:
+      # - {objectType: Apple, count: 1, floor_only: true}
+  object_poses:                 # instance-level (Type_hexhash); copied from preview JSON
+    - objectName: "Apple_b66a32b5"
+      position: {x: -1.73225582, y: 0.94518286, z: -1.44825029}
+      rotation: {x: 0.0, y: 0.0, z: 0.0}
+  object_toggles:               # copied from preview JSON
+    - {objectType: Microwave, isOn: false}
+  init_action:                  # copied from preview JSON
+    {action: TeleportFull, x: -1.0, y: 0.9009992, z: 0.0,
+     rotation: 0.0, horizon: 0.0, standing: true}
+  dirty_and_empty: false
+
+pddl_params:
+  # top-level mirrors the first subtask's params (kept for compat with single-subtask loaders)
+  object_target: Apple
+  parent_target: CounterTop
+  mrecep_target: ''             # only for pick_and_place_with_movable_recep
+  toggle_target: ''             # only for toggle_object_on/off
+  object_sliced: false
+  subtasks:                     # ★ CompositeTask reads this; without it -> fake success
+    - task_type: pick_heat_then_place_in_recep
+      pddl_params:
+        object_target: Apple
+        parent_target: CounterTop
+        mrecep_target: ''
+        toggle_target: ''
+        object_sliced: false
+
+completion: {mode: all}         # all subtasks must hold in the final state

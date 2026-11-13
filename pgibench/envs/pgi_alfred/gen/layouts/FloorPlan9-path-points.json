@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "N_diningtable_E"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "N_diningtable_NE"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "N_faucet_E_D"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "N_faucet_SE_D"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 192.926392,
+      "horizon": 39.0000038,
+      "loc_desc": "N_sinkbasin"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9009995,
+      "z": -0.25,
+      "rotation": 182.321533,
+      "horizon": 50.00001,
+      "loc_desc": "N_chair"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009995,
+      "z": 0.75,
+      "rotation": 335.350128,
+      "horizon": 11.0,
+      "loc_desc": "SE_lightswitch"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 290.0666,
+      "horizon": 51.0000038,
+      "loc_desc": "E_garbagecan"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan9",
+    "total_path_points": 8
+  }
+}

@@ -1,0 +1,201 @@
+schema_version: 2
+task_id: Bathroom407-23-wash-stow
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: After your morning routine, would you rinse the bathroom items at the sink
+    and put them away on the countertop? It's so nice to have everything fresh and
+    neatly in place.
+  micro: rinse the cloth at the sink and put it on the countertop; rinse the soapbar
+    at the sink and put it on the countertop; put the toiletpaper on the countertop;
+    put the candle on the countertop
+scene:
+  floor_plan: FloorPlan407
+  scene_num: 407
+  room_type: Bathroom
+  random_spawn:
+    seed: 23
+    object_counts:
+      Cloth: 1
+      SoapBar: 1
+      ToiletPaper: 1
+      Candle: 1
+    distractors:
+      ScrubBrush: 3
+      DishSponge: 3
+      Towel: 3
+      TissueBox: 4
+      SoapBottle: 3
+      HandTowel: 2
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: SoapBottle_7d19428e(Clone)_random_copy_1
+    position:
+      x: -1.96363235
+      y: 1.046597
+      z: 0.337703377
+    rotation:
+      x: 0.0
+      y: 90.00046
+      z: 0.0
+  - objectName: Towel_a3646d85
+    position:
+      x: 0.89
+      y: 1.368
+      z: -1.7551
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: HandTowel_42ae589b
+    position:
+      x: -2.02846885
+      y: 1.492063
+      z: -1.48263109
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: SoapBar_6d80f90c
+    position:
+      x: 0.877010465
+      y: 0.171026468
+      z: -1.248739
+    rotation:
+      x: 0.0
+      y: 270.000153
+      z: 0.0
+  - objectName: ToiletPaper_21541b83
+    position:
+      x: -1.87173164
+      y: 1.04115343
+      z: 0.403274536
+    rotation:
+      x: 0.0
+      y: 90.00046
+      z: 0.0
+  - objectName: ToiletPaper_77ac5aaa
+    position:
+      x: -1.89415908
+      y: 1.0372678
+      z: 0.02341326
+    rotation:
+      x: 1.0501008
+      y: 359.989319
+      z: 358.83725
+  - objectName: Cloth_86d3911c
+    position:
+      x: 0.938897
+      y: 0.171768725
+      z: -0.962049842
+    rotation:
+      x: 0.0
+      y: 270.000153
+      z: 0.0
+  - objectName: SprayBottle_68cfa6a9
+    position:
+      x: -0.949895144
+      y: 0.9100139
+      z: -1.554518
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ScrubBrush_f5c2530a
+    position:
+      x: -1.6482352
+      y: -0.0005439371
+      z: 0.649161935
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_a7691d94
+    position:
+      x: -1.88542414
+      y: -0.00100692362
+      z: 0.6098786
+    rotation:
+      x: -0.00118497887
+      y: 0.000426067
+      z: 0.000782692
+  - objectName: Candle_b8f58f82
+    position:
+      x: 0.4548869
+      y: 0.5902405
+      z: -1.07343078
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_7d19428e
+    position:
+      x: -1.93300056
+      y: 1.046597
+      z: 0.140987486
+    rotation:
+      x: 0.0
+      y: 90.00046
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.5
+    y: 0.9004556
+    z: 0.0
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks: &id001
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Cloth
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: ToiletPaper
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Candle
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+subtasks: *id001
+completion:
+  mode: all
+_meta:
+  template_id: wash_stow

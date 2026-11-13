@@ -1,0 +1,56 @@
+{
+  "path_points": [
+    {
+      "x": 0.75,
+      "y": 0.9017602,
+      "z": 0.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_desk_#2"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9017602,
+      "z": 0.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "E_desklamp"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9017602,
+      "z": -1.25,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NE_shelf"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9017602,
+      "z": -1.25,
+      "rotation": 270.0,
+      "horizon": 75.00003,
+      "loc_desc": "N_shelf"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9017602,
+      "z": 0.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_desk_#1"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9017605,
+      "z": 1.5,
+      "rotation": 64.7402344,
+      "horizon": 64.9999847,
+      "loc_desc": "SE_mirror"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan320",
+    "total_path_points": 6
+  }
+}

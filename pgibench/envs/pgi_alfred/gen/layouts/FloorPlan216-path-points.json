@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 0.0,
+      "y": 0.900999546,
+      "z": 0.25,
+      "rotation": 326.672546,
+      "horizon": 48.0000076,
+      "loc_desc": "SE_shelf"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "NW_sofa_NE"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "NW_sofa_W"
+    },
+    {
+      "x": -3.0,
+      "y": 0.9009992,
+      "z": -3.0,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_lightswitch"
+    },
+    {
+      "x": 1.5,
+      "y": 0.900999546,
+      "z": -0.5,
+      "rotation": 175.26033,
+      "horizon": 52.9999962,
+      "loc_desc": "N_sidetable"
+    },
+    {
+      "x": -3.25,
+      "y": 0.900999546,
+      "z": -1.5,
+      "rotation": 119.811,
+      "horizon": 22.0000057,
+      "loc_desc": "NW_lightswitch"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9009992,
+      "z": 0.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_drawer"
+    },
+    {
+      "x": -4.0,
+      "y": 0.900999546,
+      "z": 1.0,
+      "rotation": 278.332764,
+      "horizon": 61.00002,
+      "loc_desc": "E_garbagecan"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan216",
+    "total_path_points": 8
+  }
+}

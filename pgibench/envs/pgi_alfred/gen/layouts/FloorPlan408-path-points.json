@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -2.5,
+      "y": 0.9020473,
+      "z": -1.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_garbagecan_#1"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9020473,
+      "z": 0.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SW_cabinet"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9020473,
+      "z": -0.25,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "SE_cabinet"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9020473,
+      "z": -0.25,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "W_bathtub"
+    },
+    {
+      "x": -0.5,
+      "y": 0.902047455,
+      "z": 0.5,
+      "rotation": 275.464722,
+      "horizon": 64.00001,
+      "loc_desc": "E_toilet"
+    },
+    {
+      "x": -2.5,
+      "y": 0.902047455,
+      "z": -0.75,
+      "rotation": 207.630112,
+      "horizon": 54.0000038,
+      "loc_desc": "NE_garbagecan_#2"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9020473,
+      "z": 0.5,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "S_towelholder"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan408",
+    "total_path_points": 7
+  }
+}

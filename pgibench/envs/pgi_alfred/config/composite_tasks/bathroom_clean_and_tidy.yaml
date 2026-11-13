@@ -1,0 +1,25 @@
+# Bathroom composite task: Clean a mug and place a towel
+name: "bathroom_clean_and_tidy"
+description: "Clean a mug in the sink and place it on the shelf, then put a towel on the bathtub"
+
+scene:
+  room_type: "Bathroom"
+  scene_num: null  # Auto-select
+
+instruction: "clean the {obj_0} and put it in {recep_0}, then put the {obj_1} in {recep_1}"
+
+subtasks:
+  # Subtask 1: Clean mug and place on shelf
+  - task_type: "pick_clean_then_place_in_recep"
+    object: "Mug"
+    parent: "Shelf"
+    sliced: false
+
+  # Subtask 2: Place towel on bathtub
+  - task_type: "pick_and_place_simple"
+    object: "HandTowel"
+    parent: "Bathtub"
+    sliced: false
+
+completion:
+  mode: "all"

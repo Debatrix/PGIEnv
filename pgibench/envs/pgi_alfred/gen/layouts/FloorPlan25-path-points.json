@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": -2.0,
+      "y": 0.9009992,
+      "z": 2.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_cabinet_#2"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "N_sink_SE_D"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9009992,
+      "z": 2.25,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NE_cabinet_#1"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9009992,
+      "z": 1.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "N_sink_#2"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009998,
+      "z": 2.75,
+      "rotation": 151.140045,
+      "horizon": 59.0,
+      "loc_desc": "NW_chair"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9009992,
+      "z": 1.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NW_cabinet"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009992,
+      "z": 1.75,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "W_stoveburner"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "N_sink_NW"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9009992,
+      "z": 1.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_sink_#1"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan25",
+    "total_path_points": 9
+  }
+}

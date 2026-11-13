@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_mirror_SW_D"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 0,
+      "horizon": 30,
+      "loc_desc": "N_mirror_N_D"
+    },
+    {
+      "x": -1.75,
+      "y": 0.903161466,
+      "z": 0.25,
+      "rotation": 143.393814,
+      "horizon": 34.0,
+      "loc_desc": "NW_sinkbasin"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "N_mirror_NW_D"
+    },
+    {
+      "x": -0.75,
+      "y": 0.903161466,
+      "z": 0.5,
+      "rotation": 83.77741,
+      "horizon": 51.0000038,
+      "loc_desc": "W_bathtubbasin"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "W_bathtub_SE"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 0.0,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "N_mirror_NE"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan404",
+    "total_path_points": 7
+  }
+}

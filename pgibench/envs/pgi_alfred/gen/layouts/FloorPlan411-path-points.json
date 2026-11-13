@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "W_mirror_SE_D"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9023251,
+      "z": 2.5,
+      "rotation": 178.8161,
+      "horizon": 55.0000076,
+      "loc_desc": "N_toilet"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9023251,
+      "z": 1.5,
+      "rotation": 67.806015,
+      "horizon": 34.0,
+      "loc_desc": "W_sinkbasin"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "W_mirror_SW"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9023251,
+      "z": 3.75,
+      "rotation": 137.478622,
+      "horizon": -7.0,
+      "loc_desc": "NW_handtowelholder"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9023251,
+      "z": 1.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9023251,
+      "z": 3.75,
+      "rotation": 177.258347,
+      "horizon": 59.0,
+      "loc_desc": "N_garbagecan"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9023251,
+      "z": 3.25,
+      "rotation": 272.853516,
+      "horizon": 19.0000019,
+      "loc_desc": "E_showerglass"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9023251,
+      "z": 2.25,
+      "rotation": 322.420929,
+      "horizon": 38.0000038,
+      "loc_desc": "SE_showerdoor"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9023251,
+      "z": 3.25,
+      "rotation": 357.724335,
+      "horizon": 15.0000019,
+      "loc_desc": "S_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan411",
+    "total_path_points": 10
+  }
+}

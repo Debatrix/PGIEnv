@@ -1,0 +1,120 @@
+{
+  "path_points": [
+    {
+      "x": -1.0,
+      "y": 0.937927365,
+      "z": 3.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "S_armchair_#3"
+    },
+    {
+      "x": 1.75,
+      "y": 0.937927365,
+      "z": 3.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_desklamp"
+    },
+    {
+      "x": -3.25,
+      "y": 0.9,
+      "z": -1.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_garbagecan_SE"
+    },
+    {
+      "x": -1.0,
+      "y": 0.937927365,
+      "z": 0.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_bed_#1"
+    },
+    {
+      "x": -1.0,
+      "y": 0.937927365,
+      "z": -1.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_drawer"
+    },
+    {
+      "x": -2.0,
+      "y": 0.937927365,
+      "z": 3.0,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "S_armchair_#1"
+    },
+    {
+      "x": -3.25,
+      "y": 0.937927365,
+      "z": 1.25,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NE_window"
+    },
+    {
+      "x": 0.75,
+      "y": 0.937927365,
+      "z": 2.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "W_desklamp"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9379275,
+      "z": 0.75,
+      "rotation": 93.15002,
+      "horizon": 42.0,
+      "loc_desc": "W_bed_#2"
+    },
+    {
+      "x": 1.25,
+      "y": 0.937927365,
+      "z": 2.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SW_desklamp"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9379275,
+      "z": -2.0,
+      "rotation": 219.551071,
+      "horizon": 54.0000038,
+      "loc_desc": "NE_chair"
+    },
+    {
+      "x": 0.0,
+      "y": 0.937927365,
+      "z": 3.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "S_lightswitch"
+    },
+    {
+      "x": -2.0,
+      "y": 0.937927365,
+      "z": 3.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "S_armchair_#2"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": -2.0,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "N_desk_E"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan309",
+    "total_path_points": 14
+  }
+}

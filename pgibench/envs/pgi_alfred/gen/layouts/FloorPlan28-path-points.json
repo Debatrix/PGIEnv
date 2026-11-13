@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -4.0,
+      "y": 0.900998235,
+      "z": -2.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NW_diningtable"
+    },
+    {
+      "x": -2.5,
+      "y": 0.900998235,
+      "z": -2.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_coffeemachine"
+    },
+    {
+      "x": -4.0,
+      "y": 0.900998235,
+      "z": -1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_lightswitch"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "W_fridge_SE"
+    },
+    {
+      "x": -2.75,
+      "y": 0.900998235,
+      "z": -1.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SE_diningtable"
+    },
+    {
+      "x": -1.75,
+      "y": 0.900998235,
+      "z": -3.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "N_countertop"
+    },
+    {
+      "x": -3.75,
+      "y": 0.900998235,
+      "z": -2.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_diningtable"
+    },
+    {
+      "x": -1.75,
+      "y": 0.900998235,
+      "z": -2.25,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_stoveknob"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan28",
+    "total_path_points": 8
+  }
+}

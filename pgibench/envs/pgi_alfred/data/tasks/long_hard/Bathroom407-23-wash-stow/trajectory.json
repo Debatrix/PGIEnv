@@ -1,0 +1,285 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Cloth|+00.94|+00.17|-00.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Cloth|+00.94|+00.17|-00.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Sink|-00.53|+00.81|-01.60|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Sink|-00.53|+00.81|-01.60|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleoff",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Cloth|+00.94|+00.17|-00.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Cloth|+00.94|+00.17|-00.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SoapBar|+00.88|+00.17|-01.25",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "SoapBar|+00.88|+00.17|-01.25",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Sink|-00.53|+00.81|-01.60|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Sink|-00.53|+00.81|-01.60|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleon",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleoff",
+      "target": "Faucet|-00.51|+00.90|-01.78",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SoapBar|+00.88|+00.17|-01.25",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "SoapBar|+00.88|+00.17|-01.25",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Toilet|-01.61|00.00|+00.21",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "open",
+      "target": "Toilet|-01.61|00.00|+00.21",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "ToiletPaper|-01.87|+01.04|+00.40",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "ToiletPaper|-01.87|+01.04|+00.40",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Candle|+00.45|+00.59|-01.07",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "Candle|+00.45|+00.59|-01.07",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "CounterTop|-01.04|+00.88|-01.53",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

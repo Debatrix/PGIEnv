@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -3.0,
+      "y": 0.9019853,
+      "z": 1.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_bathtubbasin"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9019853,
+      "z": 2.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "S_toiletpaperhanger"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9019854,
+      "z": 1.0,
+      "rotation": 213.019043,
+      "horizon": 53.0000038,
+      "loc_desc": "NE_garbagecan"
+    },
+    {
+      "x": -3.0,
+      "y": 0.9019853,
+      "z": 1.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_countertop"
+    },
+    {
+      "x": -1.5,
+      "y": 0.901985347,
+      "z": 2.75,
+      "rotation": 302.905243,
+      "horizon": 35.0,
+      "loc_desc": "SE_toiletpaperhanger"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9019854,
+      "z": 1.0,
+      "rotation": 302.038452,
+      "horizon": 49.0000038,
+      "loc_desc": "SE_bathtubbasin"
+    },
+    {
+      "x": -1.25,
+      "y": 0.901985347,
+      "z": 2.5,
+      "rotation": 30.584837,
+      "horizon": 15.0000019,
+      "loc_desc": "SW_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan423",
+    "total_path_points": 7
+  }
+}

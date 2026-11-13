@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.0,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "W_sofa_NW"
+    },
+    {
+      "x": -4.25,
+      "y": 0.9,
+      "z": 3.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "SW_dresser_SE"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.0,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "W_sofa_SW"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.0,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "W_sofa_SW_D"
+    },
+    {
+      "x": -1.75,
+      "y": 0.901056945,
+      "z": 3.5,
+      "rotation": 355.1656,
+      "horizon": 52.0000076,
+      "loc_desc": "S_armchair"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.0,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "W_sofa_N"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.0,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "W_sofa_NE"
+    },
+    {
+      "x": -5.0,
+      "y": 0.901056945,
+      "z": 3.75,
+      "rotation": 250.965027,
+      "horizon": 14.000001,
+      "loc_desc": "E_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan219",
+    "total_path_points": 8
+  }
+}

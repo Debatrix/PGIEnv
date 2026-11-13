@@ -1,0 +1,228 @@
+schema_version: 2
+task_id: Bedroom311-13-organize-room
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: While straightening up the bedroom this morning, could you please put the
+    credit card on the side table and put the cd on the dining table and put the pencil
+    on the side table? It makes the morning so much easier.
+  micro: put the credit card on the side table; put the cd on the dining table; put
+    the pencil on the side table.
+scene:
+  floor_plan: FloorPlan311
+  scene_num: 311
+  room_type: Bedroom
+  random_spawn:
+    seed: 13
+    object_counts:
+      CreditCard: 1
+      CD: 1
+      Pencil: 1
+    distractors:
+      Laptop: 2
+      AlarmClock: 2
+      KeyChain: 1
+      CellPhone: 1
+    min_free:
+      SideTable: 1
+      DiningTable: 1
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: AlarmClock_64d4017f(Clone)_random_copy_0
+    position:
+      x: 2.26298714
+      y: 0.8154603
+      z: 3.27429938
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_098867ef(Clone)_random_copy_0
+    position:
+      x: -1.07318592
+      y: 0.7123361
+      z: 1.973788
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_4c88af94
+    position:
+      x: 0.123219371
+      y: 0.713601649
+      z: 2.25661373
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_64d4017f
+    position:
+      x: 2.88915682
+      y: 0.8154603
+      z: 3.27429938
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_73ef3690
+    position:
+      x: -0.5946238
+      y: 0.7142456
+      z: 1.40813637
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bowl_65828e43
+    position:
+      x: -1.01247966
+      y: 0.915931046
+      z: 4.166336
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_e4e177ec
+    position:
+      x: -1.07814765
+      y: 0.913494945
+      z: 3.98267221
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_81ebd795
+    position:
+      x: 2.758681
+      y: 0.7467077
+      z: -1.61999273
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: RemoteControl_787808a4
+    position:
+      x: -0.6841401
+      y: 0.9147331
+      z: 4.71732759
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_098867ef
+    position:
+      x: -0.355342746
+      y: 0.7123361
+      z: 2.53943944
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_172c7898
+    position:
+      x: 2.26298714
+      y: 0.8116682
+      z: 2.61311626
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_1f84c627
+    position:
+      x: -0.833904862
+      y: 0.785215139
+      z: 2.53943944
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_e745bb37
+    position:
+      x: -0.247310251
+      y: 0.752
+      z: 2.96067333
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_fbb244a0
+    position:
+      x: -0.946811736
+      y: 0.913105667
+      z: 4.71732759
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_2d1adb92
+    position:
+      x: 2.85065842
+      y: 0.84865284
+      z: 0.7551403
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Mug_34663f02
+    position:
+      x: -0.8811438
+      y: 0.911498964
+      z: 4.35
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.5
+    y: 0.9101201
+    z: -1.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CD
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pencil
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

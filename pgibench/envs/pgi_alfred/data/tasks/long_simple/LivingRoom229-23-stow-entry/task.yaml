@@ -1,0 +1,222 @@
+schema_version: 2
+task_id: LivingRoom229-23-stow-entry
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: To make the living room feel put-together again, could you please put the
+    tissue box on the coffee table and put the credit card on the side table? That
+    way the room feels inviting again.
+  micro: put the tissue box on the coffee table; put the credit card on the side table.
+scene:
+  floor_plan: FloorPlan229
+  scene_num: 229
+  room_type: LivingRoom
+  random_spawn:
+    seed: 23
+    object_counts:
+      TissueBox: 1
+      CreditCard: 1
+    distractors:
+      KeyChain: 3
+      Book: 1
+    min_free:
+      CoffeeTable: 1
+      SideTable: 1
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: KeyChain_5ef9825c(Clone)_random_copy_1
+    position:
+      x: -3.48096561
+      y: 0.414587
+      z: 2.530569
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: KeyChain_5ef9825c(Clone)_random_copy_0
+    position:
+      x: -4.02940559
+      y: 0.412289262
+      z: 0.4672128
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Book_6ede4fbf
+    position:
+      x: -3.041977
+      y: 0.415584326
+      z: 2.530569
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Box_3a2ac9e3
+    position:
+      x: -0.228882551
+      y: 0.9904555
+      z: 0.8820116
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: KeyChain_5ef9825c
+    position:
+      x: -5.83508348
+      y: 0.724587
+      z: 2.401
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_0e7ad8bb
+    position:
+      x: -2.147
+      y: 0.615
+      z: 0.59
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 42.94562
+  - objectName: WateringCan_f71b5fc6
+    position:
+      x: -5.238764
+      y: 0.0201935917
+      z: 0.136437342
+    rotation:
+      x: -0.002103566
+      y: 0.000306327129
+      z: 0.000320422638
+  - objectName: TissueBox_a3f43f31
+    position:
+      x: -5.715436
+      y: 0.7304704
+      z: 0.293
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_f698a6b5
+    position:
+      x: -2.60298824
+      y: 0.412995964
+      z: 2.340179
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_1dea4742
+    position:
+      x: -5.65006447
+      y: 0.72776264
+      z: 2.401
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Boots_2407c22b
+    position:
+      x: 0.0340102427
+      y: 0.0217030942
+      z: 3.09199619
+    rotation:
+      x: 359.987549
+      y: 259.598633
+      z: 359.9935
+  - objectName: CellPhone_c0754d90
+    position:
+      x: -5.696319
+      y: 0.726517856
+      z: 2.55149078
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_f9493ff1
+    position:
+      x: -2.89564753
+      y: 0.4186528
+      z: 2.244984
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_10eaeb6a
+    position:
+      x: -3.42713547
+      y: 0.4307963
+      z: 0.535032332
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Pencil_24adbade
+    position:
+      x: -3.18830633
+      y: 0.420346081
+      z: 2.340179
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_b87ac3be
+    position:
+      x: -2.981728
+      y: 0.5270792
+      z: 2.361493
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_2bdb1f8f
+    position:
+      x: -3.18830633
+      y: 0.419679374
+      z: 2.05459356
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Television
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -1.0
+    y: 0.922051549
+    z: 2.0
+    rotation: 270.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: TissueBox
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

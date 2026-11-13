@@ -1,0 +1,96 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 270,
+      "horizon": 30,
+      "loc_desc": "N_sink_W_D"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "N_sink_W"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_sink_SW_D"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_sink_SE"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "N_sink_SE_D"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "N_sink_SW"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "N_sink_E"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "N_sink_NE"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "N_sink_NW"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "S_window_E_D"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9009995,
+      "z": 2.0,
+      "rotation": 18.3661652,
+      "horizon": 16.0,
+      "loc_desc": "S_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan22",
+    "total_path_points": 11
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -1.75,
+      "y": 0.900394559,
+      "z": 3.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_toiletpaperhanger"
+    },
+    {
+      "x": -3.5,
+      "y": 0.900394559,
+      "z": 2.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NW_drawer_#1"
+    },
+    {
+      "x": -2.25,
+      "y": 0.900394559,
+      "z": 2.5,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_countertop"
+    },
+    {
+      "x": -3.5,
+      "y": 0.900394559,
+      "z": 2.5,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_drawer_#2"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 3.5,
+      "rotation": 23.1407585,
+      "horizon": 51.0000038,
+      "loc_desc": "SW_toilet"
+    },
+    {
+      "x": -1.75,
+      "y": 0.900394559,
+      "z": 2.5,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_countertop"
+    },
+    {
+      "x": -3.5,
+      "y": 0.900394559,
+      "z": 2.5,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "NW_drawer_#3"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan410",
+    "total_path_points": 7
+  }
+}

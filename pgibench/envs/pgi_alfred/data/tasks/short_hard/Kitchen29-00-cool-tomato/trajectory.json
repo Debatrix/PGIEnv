@@ -1,0 +1,138 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Tomato|-01.26|+01.53|+02.23",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Tomato|-01.26|+01.53|+02.23",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": false,
+      "err": "Open action failed. The object Fridge|-01.29|+00.02|+01.83 is already open"
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Fridge|-01.29|+00.02|+01.83",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Tomato|-01.26|+01.53|+02.23",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Tomato|-01.26|+01.53|+02.23",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|+00.20|+01.08|-01.51",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|+00.20|+01.08|-01.51",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

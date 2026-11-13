@@ -1,0 +1,7 @@
+model_name: claude-sonnet-4-6
+api_type: claude
+api_key_env: ANTHROPIC_API_KEY
+supports_vision: true
+max_tokens: 2048
+temperature: 0
+fix_json: true

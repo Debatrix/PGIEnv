@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.900999963,
+      "z": -1.5,
+      "rotation": 157.864563,
+      "horizon": 51.9999962,
+      "loc_desc": "N_desk"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_desk_SE"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "N_desk_E_D"
+    },
+    {
+      "x": 0.25,
+      "y": 0.900999963,
+      "z": -1.5,
+      "rotation": 180.260132,
+      "horizon": 55.0000076,
+      "loc_desc": "N_sidetable"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "N_desk_E"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_desk_SW_D"
+    },
+    {
+      "x": -1.5,
+      "y": 0.900999963,
+      "z": 0.75,
+      "rotation": 3.383006,
+      "horizon": 52.0000076,
+      "loc_desc": "S_laundryhamper"
+    },
+    {
+      "x": 0.0,
+      "y": 0.900999963,
+      "z": 0.25,
+      "rotation": 14.0611582,
+      "horizon": 50.00001,
+      "loc_desc": "S_bed"
+    },
+    {
+      "x": -1.0,
+      "y": 0.900999963,
+      "z": -1.75,
+      "rotation": 287.939362,
+      "horizon": -2.0,
+      "loc_desc": "E_poster"
+    },
+    {
+      "x": -1.25,
+      "y": 0.900999963,
+      "z": 1.0,
+      "rotation": 239.886261,
+      "horizon": 29.9999981,
+      "loc_desc": "NE_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan307",
+    "total_path_points": 10
+  }
+}

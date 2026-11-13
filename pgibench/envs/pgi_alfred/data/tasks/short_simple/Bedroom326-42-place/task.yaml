@@ -1,0 +1,263 @@
+schema_version: 2
+task_id: Bedroom326-42-place
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: Could you put the Book on the DiningTable?
+  micro: put the Book on the DiningTable.
+scene:
+  floor_plan: FloorPlan326
+  scene_num: 326
+  room_type: Bedroom
+  random_spawn:
+    seed: 32
+    object_counts:
+      Book: 1
+      Watch: 1
+      CellPhone: 1
+      CreditCard: 1
+    distractors:
+      Laptop: 2
+      Newspaper: 1
+      Pillow: 1
+      Pencil: 1
+      AlarmClock: 1
+      KeyChain: 1
+      CD: 1
+    min_free:
+      DiningTable: 4
+  object_poses:
+  - objectName: Laptop_af69458f(Clone)_random_copy_0
+    position:
+      x: -0.9366015
+      y: 0.6141396
+      z: -1.16096044
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_4c818726
+    position:
+      x: -2.00309777
+      y: 0.599222958
+      z: -0.598402858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_af69458f
+    position:
+      x: -2.15539837
+      y: 0.598532438
+      z: -1.16096044
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_b854204c
+    position:
+      x: 3.27112579
+      y: 0.793235
+      z: -1.12131548
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_9b18bd81
+    position:
+      x: 0.970993042
+      y: -0.00154149532
+      z: -2.404656
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: BaseballBat_7718edb2
+    position:
+      x: -2.982
+      y: 0.015
+      z: -2.698
+    rotation:
+      x: 270.0
+      y: 350.597961
+      z: 0.0
+  - objectName: BasketBall_11d56643
+    position:
+      x: -2.718
+      y: 0.1184585
+      z: -1.925
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_d4cff861
+    position:
+      x: -0.784300745
+      y: 0.6939142
+      z: -0.598402858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_6aec589e
+    position:
+      x: -0.6261245
+      y: 0.650000036
+      z: 0.129896164
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TennisRacket_8b81f72e
+    position:
+      x: -3.018
+      y: 0.301
+      z: -2.199
+    rotation:
+      x: 19.103323
+      y: 272.232483
+      z: 184.97876
+  - objectName: Pencil_b98eece4
+    position:
+      x: -1.45336974
+      y: 0.619384468
+      z: 0.300252467
+    rotation:
+      x: 0.0
+      y: 180.000381
+      z: 0.0
+  - objectName: CreditCard_096e7851
+    position:
+      x: 3.33278346
+      y: 0.791644
+      z: -1.96834755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_85b554b9
+    position:
+      x: 0.911633968
+      y: 0.025
+      z: -2.70249653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TeddyBear_d565c4f0
+    position:
+      x: -2.64507127
+      y: 0.6247293
+      z: -0.4025734
+    rotation:
+      x: 0.0
+      y: 286.876434
+      z: 0.0
+  - objectName: Pen_cbcd5e6d
+    position:
+      x: 3.08615255
+      y: 0.7973008
+      z: -0.5566274
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_83c511c6
+    position:
+      x: 0.705
+      y: -0.00154149532
+      z: -2.75
+    rotation:
+      x: 0.0
+      y: 269.152557
+      z: 0.0
+  - objectName: AlarmClock_0397722d
+    position:
+      x: 0.9225963
+      y: 1.1429919
+      z: -2.8540144
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Watch_e31da285
+    position:
+      x: 3.27112579
+      y: 0.791920662
+      z: -2.25069141
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_1f80dd7b
+    position:
+      x: 3.08615255
+      y: 0.791858
+      z: -2.25069141
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_f52f155c
+    position:
+      x: -2.97970247
+      y: 1.41300833
+      z: -2.06864285
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Mug_0fbdf42c
+    position:
+      x: 3.04099941
+      y: 0.5388018
+      z: -0.665026665
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Bowl_8c269f0e
+    position:
+      x: -2.97970247
+      y: 1.14132226
+      z: -2.197476
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.25
+    y: 0.899458051
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,669 @@
+benchmark_design:
+  name: "ALFRED Agent Spatiotemporal Memory Benchmark"
+  version: "2.0"
+  description: "Detailed EQA design for evaluating agent memory in ALFRED, treating each temporal variant as a distinct question category."
+  
+
+  categories:
+    # 1. Object Spatiotemporal Position
+    - category_name: "Object Spatiotemporal Position"
+      questions:
+        # Variant 1: Initial Moment
+        - id: "obj_loc_initial"
+          type: "single_choice"
+          description: "Object location at the initial moment (t=0)."
+          variables:
+            - "<obj>": "objectType"
+            - "<RE_obj_t>": "locDesc (at t=0)"
+            - "<RE_obj_f>": "list of locDesc (distractors)"
+            - "<X>": "int (number of distractors)"
+          templates:
+            - "Where was the <obj> at the start of the task?"
+            - "Initially, which place contained the <obj>?"
+            - "When the episode began, where could you find the <obj>?"
+            - "What was the initial location of the <obj>?"
+          option_generation:
+            correct_options: "The container <RE_obj_t> where <obj> is located at time 0."
+            distractors: "Select <X> random containers <RE_obj_f> from the scene that are NOT parents of <obj>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj_f> should exclude the parent containers of <obj>, including <RE_obj_t>."
+            - "<obj> should use objectType as the name. <RE_obj_f> and <RE_obj_t> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "The value of <X> must not exceed the total number of possible <RE_obj_f>; generally, <X> should be at least 3."
+
+        # Variant 2: Current Moment
+        - id: "obj_loc_current"
+          type: "single_choice"
+          description: "Object location at the current moment."
+          variables:
+            - "<obj>": "objectType"
+            - "<RE_obj_t>": "locDesc (at current)"
+            - "<RE_obj_f>": "list of locDesc (distractors)"
+            - "<X>": "int"
+          templates:
+            - "Where is the <obj> right now?"
+            - "Currently, where is the <obj> in?"
+            - "At this moment, where would you find the <obj>?"
+            - "What is the location of the <obj> at the current time?"
+          option_generation:
+            correct_options: "The container <RE_obj_t> where <obj> is located at the current time step."
+            distractors: "Select <X> random containers <RE_obj_f> from the scene that are NOT parents of <obj>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj_f> should exclude the parent containers of <obj>, including <RE_obj_t>."
+            - "<obj> should use objectType as the name. <RE_obj_f> and <RE_obj_t> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "The value of <X> must not exceed the total number of possible <RE_obj_f>; generally, <X> should be at least 3."
+
+        # Variant 3: N Steps Ago
+        - id: "obj_loc_n_steps_ago"
+          type: "single_choice"
+          description: "Object location N steps before the current moment."
+          variables:
+            - "<n>": "int"
+            - "<obj>": "objectType"
+            - "<RE_obj_t>": "locDesc (at t-n)"
+            - "<RE_obj_f>": "list of locDesc (distractors)"
+            - "<X>": "int"
+          templates:
+            - "Where was the <obj> <n> steps ago?"
+            - "At <n> steps ago, where was the <obj> located?"
+            - "What was the position of the <obj> <n> steps back?"
+          option_generation:
+            correct_options: "The container <RE_obj_t> where <obj> was located at time (current - n)."
+            distractors: "Select <X> random containers <RE_obj_f> from the scene that are NOT parents of <obj>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj_f> should exclude the parent containers of <obj>, including <RE_obj_t>."
+            - "<obj> should use objectType as the name. <RE_obj_f> and <RE_obj_t> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "The value of <X> must not exceed the total number of possible <RE_obj_f>; generally, <X> should be at least 3."
+
+        # Variant 4: Random Time T
+        - id: "obj_loc_random_t"
+          type: "single_choice"
+          description: "Object location at a random time t (0 <= t <= current)."
+          variables:
+            - "<t>": "int"
+            - "<obj>": "objectType"
+            - "<RE_obj_t>": "locDesc (at t)"
+            - "<RE_obj_f>": "list of locDesc (distractors)"
+            - "<X>": "int"
+          templates:
+            - "Where was the <obj> at time <t>?"
+            - "Which place contained the <obj> at time <t>?"
+            - "At time <t>, where could you find the <obj>?"
+            - "What was the location of the <obj> at step <t>?"
+          option_generation:
+            correct_options: "The container <RE_obj_t> where <obj> was located at random time t."
+            distractors: "Select <X> random containers <RE_obj_f> from the scene that are NOT parents of <obj>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj_f> should exclude the parent containers of <obj>, including <RE_obj_t>."
+            - "<obj> should use objectType as the name. <RE_obj_f> and <RE_obj_t> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "The value of <X> must not exceed the total number of possible <RE_obj_f>; generally, <X> should be at least 3."
+
+        # History Question
+        - id: "obj_loc_history"
+          type: "multi_choice"
+          description: "Locations where the object has been (Cumulative History)."
+          variables:
+            - "<obj>": "objectType"
+            - "<RE_obj_t_list>": "list of locDesc (unique history)"
+            - "<RE_obj_f_list>": "list of locDesc (distractors)"
+            - "<X1>": "int (num correct)"
+            - "<X2>": "int (num incorrect)"
+          templates:
+            - "Select all locations where the <obj> has been placed so far."
+            - "Throughout the episode, where did the <obj> reside?"
+            - "Which of these locations have held the <obj> at some point?"
+          option_generation:
+            correct_options: "Select <X1> unique containers <RE_obj_t_list> from the object's full history."
+            distractors: "Select <X2> random containers <RE_obj_f_list> from the scene that are NOT parents of <obj>."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<RE_obj_f_list> should exclude the parent containers of <obj>, including any in <RE_obj_t_list>."
+            - "<obj> should use objectType as the name. <RE_obj_f_list> and <RE_obj_t_list> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "The value of <X1> must not exceed the total number of possible unique locations in history; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <RE_obj_f_list>; generally, <X2> should be at least 2."
+
+        # Relative Position Variants
+        - id: "obj_rel_pos_initial"
+          type: "single_choice"
+          description: "Relative position between two objects at t=0."
+          templates:
+            - "At the start, what was the position of the <obj_B> relative to the <obj_A>?"
+            - "Initially, was the <obj_B> to the east, south, west, or north of the <obj_A>?"
+            - "When the task began, in which direction of the <obj_A> was the <obj_B>?"
+            - "What was the relative direction of <obj_B> to <obj_A> at the initial moment?"
+          option_generation:
+            correct_options: "The cardinal direction (East, South, West, North) of <obj_B> relative to <obj_A> at t=0 (XZ plane)."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "Only consider x and z coordinates; ignore the y-axis."
+            - "<obj_A> and <obj_B> must be top-level objects (excluding 'Top' type) or objects inside top-level containers."
+            - "<obj_A> and <obj_B> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Select <obj_A> first. The locDesc of <obj_B> should not include the objectType of <obj_A>."
+
+        - id: "obj_rel_pos_current"
+          type: "single_choice"
+          description: "Relative position between two objects at current moment."
+          templates:
+            - "Currently, what is the position of the <obj_B> relative to the <obj_A>?"
+            - "Is the <obj_B> to the east, south, west, or north of the <obj_A> right now?"
+            - "At this moment, from the perspective of the <obj_A>, where is the <obj_B>?"
+            - "In which direction of the <obj_A> is the <obj_B> currently located?"
+            - "What is the relative direction of <obj_B> to <obj_A> at the current time?"
+          option_generation:
+            correct_options: "The cardinal direction (East, South, West, North) of <obj_B> relative to <obj_A> now."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "Only consider x and z coordinates; ignore the y-axis."
+            - "<obj_A> and <obj_B> must be top-level objects (excluding 'Top' type) or objects inside top-level containers."
+            - "<obj_A> and <obj_B> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Select <obj_A> first. The locDesc of <obj_B> should not include the objectType of <obj_A>."
+
+        - id: "obj_rel_pos_n_steps_ago"
+          type: "single_choice"
+          description: "Relative position between two objects n steps ago."
+          templates:
+            - "<n> steps ago, what was the position of the <obj_B> relative to the <obj_A>?"
+            - "From the perspective of the <obj_A>, where was the <obj_B> <n> steps back?"
+            - "In which direction of the <obj_A> was the <obj_B> located <n> steps ago?"
+            - "What was the relative direction of <obj_B> to <obj_A> <n> steps before now?"
+          option_generation:
+            correct_options: "The cardinal direction (East, South, West, North) of <obj_B> relative to <obj_A> at t-n."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "Only consider x and z coordinates; ignore the y-axis."
+            - "<obj_A> and <obj_B> must be top-level objects (excluding 'Top' type) or objects inside top-level containers."
+            - "<obj_A> and <obj_B> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Select <obj_A> first. The locDesc of <obj_B> should not include the objectType of <obj_A>."
+
+        - id: "obj_rel_pos_random_t"
+          type: "single_choice"
+          description: "Relative position between two objects at random time t."
+          templates:
+            - "At time <t>, what was the position of the <obj_B> relative to the <obj_A>?"
+            - "At timestamp <t>, was the <obj_B> to the east, south, west, or north of the <obj_A>?"
+            - "From the perspective of the <obj_A>, where was the <obj_B> at time <t>?"
+            - "In which direction of the <obj_A> was the <obj_B> located at time <t>?"
+            - "What was the relative direction of <obj_B> to <obj_A> at step <t>?"
+          option_generation:
+            correct_options: "The cardinal direction (East, South, West, North) of <obj_B> relative to <obj_A> at time t."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "Only consider x and z coordinates; ignore the y-axis."
+            - "<obj_A> and <obj_B> must be top-level objects (excluding 'Top' type) or objects inside top-level containers."
+            - "<obj_A> and <obj_B> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Select <obj_A> first. The locDesc of <obj_B> should not include the objectType of <obj_A>."
+
+        # Object Types in Container Variants
+        - id: "obj_types_in_container_initial"
+          type: "multi_choice"
+          description: "Object types inside a container at the start."
+          templates:
+            - "Initially, which types of objects were inside the <RE_obj>?"
+            - "At the start, what objects could be found in the <RE_obj>?"
+            - "Select all object types present in the <RE_obj> at time 0."
+            - "Which items did the <RE_obj> contain at the beginning?"
+            - "When the task began, which object types were located in the <RE_obj>?"
+          option_generation:
+            correct_options: "A subset of objects <obj_t_list> actually inside <RE_obj> at t=0."
+            distractors: "Objects <obj_f_list> not inside <RE_obj> at t=0."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<obj_t_list> and <obj_f_list> should use objectType as the name. <RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Filter <obj_t_list> and <obj_f_list> directly using objectType to avoid duplicate options."
+
+        - id: "obj_types_in_container_current"
+          type: "multi_choice"
+          description: "Object types inside a container now."
+          templates:
+            - "Which types of objects are currently inside the <RE_obj>?"
+            - "Right now, what objects can be found in the <RE_obj>?"
+            - "Select all object types present in the <RE_obj> at this moment."
+            - "Which items does the <RE_obj> contain currently?"
+            - "At the current time, which object types are located in the <RE_obj>?"
+          option_generation:
+            correct_options: "A subset of objects <obj_t_list> actually inside <RE_obj> now."
+            distractors: "Objects <obj_f_list> not inside <RE_obj> now."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<obj_t_list> and <obj_f_list> should use objectType as the name. <RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Filter <obj_t_list> and <obj_f_list> directly using objectType to avoid duplicate options."
+
+        - id: "obj_types_in_container_n_steps_ago"
+          type: "multi_choice"
+          description: "Object types inside a container n steps ago."
+          templates:
+            - "<n> steps ago, which types of objects were inside the <RE_obj>?"
+            - "<n> steps ago, what objects could be found in the <RE_obj>?"
+            - "Select all object types present in the <RE_obj> <n> steps back."
+            - "Which items did the <RE_obj> contain <n> steps ago?"
+          option_generation:
+            correct_options: "A subset of objects <obj_t_list> actually inside <RE_obj> at t-n."
+            distractors: "Objects <obj_f_list> not inside <RE_obj> at t-n."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<obj_t_list> and <obj_f_list> should use objectType as the name. <RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Filter <obj_t_list> and <obj_f_list> directly using objectType to avoid duplicate options."
+
+        - id: "obj_types_in_container_random_t"
+          type: "multi_choice"
+          description: "Object types inside a container at random time t."
+          templates:
+            - "At time <t>, which types of objects were inside the <RE_obj>?"
+            - "At time <t>, what objects could be found in the <RE_obj>?"
+            - "Select all object types present in the <RE_obj> at time <t>."
+            - "Which items did the <RE_obj> contain at time <t>?"
+            - "At time <t>, which object types were located in the <RE_obj>?"
+          option_generation:
+            correct_options: "A subset of objects <obj_t_list> actually inside <RE_obj> at time t."
+            distractors: "Objects <obj_f_list> not inside <RE_obj> at time t."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<obj_t_list> and <obj_f_list> should use objectType as the name. <RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Filter <obj_t_list> and <obj_f_list> directly using objectType to avoid duplicate options."
+
+    # 2. Object Attributes and State
+    - category_name: "Object Attributes and State"
+      questions:
+        - id: "obj_existence_seen"
+          type: "multi_choice"
+          description: "Existence state of seen objects."
+          templates:
+            - "Which of the following objects exist in the current scene that you have seen?"
+            - "Select the objects that are present in the scene and have been observed."
+            - "Which of these objects did you see in the environment?"
+            - "Identify the objects that are currently in the scene and visible to you."
+            - "Which of the listed objects are actually present and seen?"
+          option_generation:
+            correct_options: "A random selection of <X1> objects from those seen by the agent (<obj_t_list>)."
+            distractors: "A random selection of <X2> objects from constants.py that do NOT exist in the scene (<obj_f_list>)."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "Distinguish <obj_t_list> and <obj_f_list> using objectType."
+            - "Wrong options <obj_f_list> must be objects that do not exist in the current scene (refer to constants.py)."
+            - "Correct options <obj_t_list> must be objects seen by the agent at the current moment."
+            - "Both <X1> and <X2> should be between 1 and 3."
+
+        # Object Property State Variants
+        - id: "obj_property_initial"
+          type: "single_choice"
+          description: "Object property state at t=0."
+          templates:
+            - "Initially, what was the state of the <obj>?"
+            - "What was the status of the <obj> at the beginning?"
+            - "Describe the state of the <obj> at the initial moment."
+          option_generation:
+            correct_options: "The specific state (e.g., OPEN, CLOSED, ON, OFF, PICKED UP) of <obj> at t=0."
+            distractors: "Other plausible states for that object type."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Properties include: container open/closed, light on/off, heating, cooling, picked up status."
+
+        - id: "obj_property_current"
+          type: "single_choice"
+          description: "Object property state now."
+          templates:
+            - "What is the state of the <obj> right now?"
+            - "What is the current status of the <obj>?"
+            - "Describe the state of the <obj> at the current time."
+          option_generation:
+            correct_options: "The specific state of <obj> at the current time."
+            distractors: "Other plausible states for that object type."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Properties include: container open/closed, light on/off, heating, cooling, picked up status."
+
+        - id: "obj_property_n_steps_ago"
+          type: "single_choice"
+          description: "Object property state n steps ago."
+          templates:
+            - "What was the state of the <obj> <n> steps ago?"
+            - "<n> steps ago, what was the status of the <obj>"
+            - "Describe the state of the <obj> <n> steps before now."
+          option_generation:
+            correct_options: "The specific state of <obj> at time t-n."
+            distractors: "Other plausible states for that object type."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Properties include: container open/closed, light on/off, heating, cooling, picked up status."
+
+        - id: "obj_property_random_t"
+          type: "single_choice"
+          description: "Object property state at random time t."
+          templates:
+            - "At time <t>, what was the state of the <obj>?"
+            - "What was the status of the <obj> at step <t>?"
+            - "Describe the state of the <obj> at time <t>."
+          option_generation:
+            correct_options: "The specific state of <obj> at time t."
+            distractors: "Other plausible states for that object type."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Properties include: container open/closed, light on/off, heating, cooling, picked up status."
+
+        # Count in Container Variants
+        - id: "obj_count_in_container_initial"
+          type: "single_choice"
+          description: "Object count in container at t=0."
+          templates:
+            - "How many objects were inside the <RE_obj> at the start?"
+            - "When the task began, what was the count of objects in the <RE_obj>?"
+            - "Initially, how many items were contained within the <RE_obj>?"
+            - "What was the number of objects in the <RE_obj> at the beginning?"
+          option_generation:
+            correct_options: "The integer count <X> of objects inside <RE_obj> at t=0."
+            distractors: "Integers near <X> (e.g., X-1, X+1, X+2)."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Count objects using objectID."
+
+        - id: "obj_count_in_container_current"
+          type: "single_choice"
+          description: "Object count in container now."
+          templates:
+            - "How many objects are inside the <RE_obj> right now?"
+            - "At this moment, what is the count of objects in the <RE_obj>?"
+            - "Currently, how many items are contained within the <RE_obj>?"
+            - "What is the number of objects in the <RE_obj> at the current time?"
+          option_generation:
+            correct_options: "The integer count <X> of objects inside <RE_obj> now."
+            distractors: "Integers near <X>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Count objects using objectID."
+
+        - id: "obj_count_in_container_n_steps_ago"
+          type: "single_choice"
+          description: "Object count in container n steps ago."
+          templates:
+            - "How many objects were inside the <RE_obj> <n> steps ago?"
+            - "<n> steps ago, how many items were contained within the <RE_obj>?"
+            - "What was the number of objects in the <RE_obj> <n> steps before now?"
+          option_generation:
+            correct_options: "The integer count <X> of objects inside <RE_obj> at t-n."
+            distractors: "Integers near <X>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Count objects using objectID."
+
+        - id: "obj_count_in_container_random_t"
+          type: "single_choice"
+          description: "Object count in container at random time t."
+          templates:
+            - "At time <t>, how many objects were inside the <RE_obj>?"
+            - "At time <t>, what was the count of objects in the <RE_obj>?"
+            - "At time <t>, how many items were contained within the <RE_obj>?"
+            - "What was the number of objects in the <RE_obj> at time <t>?"
+          option_generation:
+            correct_options: "The integer count <X> of objects inside <RE_obj> at time t."
+            distractors: "Integers near <X>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<RE_obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Count objects using objectID."
+
+        # Count in Scene Variants
+        - id: "obj_count_in_scene_current"
+          type: "single_choice"
+          description: "Total count of object type now."
+          templates:
+            - "How many <obj> are there in the scene right now?"
+            - "At this moment, what is the total number of <obj> present?"
+            - "Currently, count the number of <obj> in the environment."
+            - "What is the number of <obj> present at the current time?"
+            - "How many <obj> can be found in the scene now?"
+          option_generation:
+            correct_options: "The integer count <X> of <obj> in the scene now."
+            distractors: "Integers near <X>."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<obj> should use objectType as the name."
+            - "Count objects using objectID."
+
+      # 3. Agent Spatiotemporal Position
+    - category_name: "Agent Spatiotemporal Position"
+      questions:
+        # Question 1: Agent Location (Single Choice)
+        - id: "agent_pos_random_t"
+          type: "single_choice"
+          description: "Agent location at a random time t."
+          templates:
+            - "Where was the agent at time <t>?"
+            - "At timestamp <t>, which pathpoint was the agent located at?"
+            - "At time <t>, the agent was at which of the following locations?"
+            - "What was the agent's location at step <t>?"
+            - "At time <t>, at which waypoint could the agent be found?"
+          option_generation:
+            correct_options: "The waypoint name <pos_t> where the agent was located at time t."
+            distractors: "Select <X> random other waypoint names <pos_f> from the current scene."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "Only use this question if the agent's action at time <t> was 'go to <pos_t>'."
+            - "The value of <X> must not exceed the total number of possible <pos_f>; generally, <X> should be at least 3."
+
+        # Question 2: Agent Relative to Objects (Multi Choice)
+        - id: "agent_rel_objs_initial"
+          type: "multi_choice"
+          description: "Objects located on the <D> side of the agent at t=0."
+          templates:
+            - "Initially, which objects were located to the <D> of the agent?"
+            - "At the start, which items were positioned to the <D> of the agent?"
+            - "Which objects were to the <D> of the agent initially?"
+            - "At the beginning, identify the objects located to the <D> of the agent."
+          option_generation:
+            correct_options: "Select <X1> random objects <obj_t> that are located to the <D> of the agent at time 0."
+            distractors: "Select <X2> random objects <obj_f> that are NOT located to the <D> of the agent at time 0."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use locDesc as the name."
+
+        - id: "agent_rel_objs_current"
+          type: "multi_choice"
+          description: "Objects located on the <D> side of the agent now."
+          templates:
+            - "Currently, which objects are located to the <D> of the agent?"
+            - "At this moment, select all objects that are on the <D> side of the agent."
+            - "Right now, which items are positioned to the <D> of the agent?"
+            - "Which objects are to the <D> of the agent currently?"
+            - "Identify the objects located to the <D> of the agent right now."
+          option_generation:
+            correct_options: "Select <X1> random objects <obj_t> that are located to the <D> of the agent now."
+            distractors: "Select <X2> random objects <obj_f> that are NOT located to the <D> of the agent now."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use locDesc as the name."
+
+        - id: "agent_rel_objs_n_steps_ago"
+          type: "multi_choice"
+          description: "Objects located on the <D> side of the agent N steps ago."
+          templates:
+            - "<n> steps ago, which objects were located to the <D> of the agent?"
+            - "At time <t-n>, select all objects that were on the <D> side of the agent."
+            - "<n> steps back, which items were positioned to the <D> of the agent?"
+            - "Which objects were to the <D> of the agent <n> steps ago?"
+            - "At time <t-n>, identify the objects located to the <D> of the agent."
+          option_generation:
+            correct_options: "Select <X1> random objects <obj_t> that were located to the <D> of the agent at time t-n."
+            distractors: "Select <X2> random objects <obj_f> that were NOT located to the <D> of the agent at time t-n."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use locDesc as the name."
+
+        - id: "agent_rel_objs_random_t"
+          type: "multi_choice"
+          description: "Objects located on the <D> side of the agent at random time t."
+          templates:
+            - "At time <t>, which objects were located to the <D> of the agent?"
+            - "At timestamp <t>, select all objects that were on the <D> side of the agent."
+            - "At time <t>, which items were positioned to the <D> of the agent?"
+            - "Which objects were to the <D> of the agent at time <t>?"
+            - "At time <t>, identify the objects located to the <D> of the agent."
+          option_generation:
+            correct_options: "Select <X1> random objects <obj_t> that were located to the <D> of the agent at time t."
+            distractors: "Select <X2> random objects <obj_f> that were NOT located to the <D> of the agent at time t."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use locDesc as the name."
+
+        # Question 3: Object Relative to Agent (Single Choice)
+        - id: "obj_rel_agent_initial"
+          type: "single_choice"
+          description: "Object direction relative to agent at t=0."
+          templates:
+            - "Initially, was the <obj> to the east, south, west, or north of the agent?"
+            - "At the start, what was the direction of the <obj> relative to the agent?"
+            - "From the agent's starting position, where was the <obj> located?"
+            - "Initially, the <obj> was positioned in which direction relative to the agent?"
+          option_generation:
+            correct_options: "The direction <D> of the <obj> relative to the agent at time 0."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+
+        - id: "obj_rel_agent_current"
+          type: "single_choice"
+          description: "Object direction relative to agent now."
+          templates:
+            - "Currently, is the <obj> to the east, south, west, or north of the agent?"
+            - "At this moment, what is the direction of the <obj> relative to the agent?"
+            - "From the agent's current position, where is the <obj> located?"
+            - "Right now, in which direction of the agent is the <obj>?"
+            - "The <obj> is positioned in which direction relative to the agent?"
+          option_generation:
+            correct_options: "The direction <D> of the <obj> relative to the agent now."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+
+        - id: "obj_rel_agent_n_steps_ago"
+          type: "single_choice"
+          description: "Object direction relative to agent N steps ago."
+          templates:
+            - "<n> steps ago, was the <obj> to the east, south, west, or north of the agent?"
+            - "From the agent's position <n> steps back, where was the <obj> located?"
+            - "<n> steps ago, the <obj> was positioned in which direction relative to the agent?"
+          option_generation:
+            correct_options: "The direction <D> of the <obj> relative to the agent at time t-n."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+
+        - id: "obj_rel_agent_random_t"
+          type: "single_choice"
+          description: "Object direction relative to agent at random time t."
+          templates:
+            - "At time <t>, was the <obj> to the east, south, west, or north of the agent?"
+            - "At timestamp <t>, what was the direction of the <obj> relative to the agent?"
+            - "From the agent's position at time <t>, where was the <obj> located?"
+            - "At time <t>, in which direction of the agent was the <obj>?"
+            - "At time <t>, the <obj> was positioned in which direction relative to the agent?"
+          option_generation:
+            correct_options: "The direction <D> of the <obj> relative to the agent at time t."
+            distractors: "The other 3 incorrect cardinal directions."
+            type: "Single Choice (One Correct)"
+          generation_notes:
+            - "<D> is one of East, South, West, North."
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+
+        # Question 4: Agent Visible Objects (Multi Choice)
+        - id: "agent_vis_current"
+          type: "multi_choice"
+          description: "Objects visible to the agent now."
+          templates:
+            - "Currently, which object types are visible to the agent?"
+            - "At this moment, select all objects that the agent can see."
+            - "Right now, which of these objects are within the agent's field of view?"
+            - "Which objects are visible to the agent at the current time?"
+            - "Identify the objects that are visible to the agent right now."
+          option_generation:
+            correct_options: "Select <X1> random object types <obj_t> that are visible to the agent now."
+            distractors: "Select <X2> random object types <obj_f> that are NOT visible to the agent now."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use objectType to distinguish them."
+
+        - id: "agent_vis_n_steps_ago"
+          type: "multi_choice"
+          description: "Objects visible to the agent N steps ago."
+          templates:
+            - "<n> steps ago, which object types were visible to the agent?"
+            - "<n> steps back, which of these objects were within the agent's field of view?"
+            - "Which objects were visible to the agent <n> steps ago?"
+          option_generation:
+            correct_options: "Select <X1> random object types <obj_t> that were visible to the agent at time t-n."
+            distractors: "Select <X2> random object types <obj_f> that were NOT visible to the agent at time t-n."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use objectType to distinguish them."
+
+        - id: "agent_vis_random_t"
+          type: "multi_choice"
+          description: "Objects visible to the agent at random time t."
+          templates:
+            - "At time <t>, which object types were visible to the agent?"
+            - "At timestamp <t>, select all objects that the agent could see."
+            - "At time <t>, which of these objects were within the agent's field of view?"
+            - "Which objects were visible to the agent at time <t>?"
+            - "At time <t>, identify the objects that were visible to the agent."
+          option_generation:
+            correct_options: "Select <X1> random object types <obj_t> that were visible to the agent at time t."
+            distractors: "Select <X2> random object types <obj_f> that were NOT visible to the agent at time t."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "The value of <X1> must not exceed the total number of possible <obj_t>; generally, <X1> should be at least 1."
+            - "The value of <X2> must not exceed the total number of possible <obj_f>; generally, <X2> should be at least 2."
+            - "<obj_t> and <obj_f> should use objectType to distinguish them."
+
+        # Question 5: Object Visible Locations (Multi Choice)
+        - id: "obj_vis_pos"
+          type: "multi_choice"
+          description: "Locations from which an object can be seen."
+          templates:
+            - "From which of the following pathpoints could the <obj> be seen?"
+            - "Select the locations where the <obj> was visible."
+            - "At which visited positions was the <obj> observable?"
+            - "The <obj> could be seen from which of these locations?"
+            - "From which waypoints did the agent have a clear view of the <obj>?"
+          option_generation:
+            correct_options: "Select the waypoints <pos_t> from which the object is visible."
+            distractors: "Select the waypoints <pos_f> from which the object is NOT visible."
+            type: "Multiple Choice (Select All That Apply)"
+          generation_notes:
+            - "Only select immovable objects."
+            - "<obj> should use locDesc as the name. Do not select objects with locDesc containing sequential numbers."
+            - "Both <pos_t> (correct options) and <pos_f> (wrong options) must be selected from the pathpoints the agent has visited."

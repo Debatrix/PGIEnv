@@ -1,0 +1,241 @@
+schema_version: 2
+task_id: Bedroom328-530-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Put the Pencil, KeyChain, CD and CreditCard on the Bed.
+  micro: Put the Pencil on the Bed; Put the KeyChain on the Bed; Put the CD on the
+    Bed; Put the CreditCard on the Bed.
+scene:
+  floor_plan: FloorPlan328
+  scene_num: 328
+  room_type: Bedroom
+  random_spawn:
+    seed: 530
+    object_counts:
+      Pencil: 1
+      KeyChain: 1
+      CD: 1
+      CreditCard: 1
+    distractors:
+      Pen: 2
+      Book: 2
+      AlarmClock: 3
+      Newspaper: 2
+      Pillow: 2
+      Watch: 1
+    min_free:
+      Bed: 4
+  object_poses:
+  - objectName: Pen_c03a4918(Clone)_random_copy_0
+    position:
+      x: 2.7054255
+      y: 0.804022431
+      z: -1.60523331
+    rotation:
+      x: 0.0
+      y: 90.00017
+      z: 0.0
+  - objectName: Book_7370b40d(Clone)_random_copy_0
+    position:
+      x: -0.0977950245
+      y: 0.569417536
+      z: -0.682665944
+    rotation:
+      x: 0.0
+      y: 3.756604e-05
+      z: 0.0
+  - objectName: Pillow_b9c16add(Clone)_random_copy_0
+    position:
+      x: 0.5527653
+      y: 0.6742386
+      z: -0.236257553
+    rotation:
+      x: 0.0
+      y: 3.756604e-05
+      z: 0.0
+  - objectName: Book_7370b40d
+    position:
+      x: 2.881
+      y: 0.7913696
+      z: -1.623
+    rotation:
+      x: 0.0
+      y: 39.196312
+      z: 0.0
+  - objectName: KeyChain_1cdc4d75
+    position:
+      x: 2.10863519
+      y: 0.7999566
+      z: -1.54362428
+    rotation:
+      x: 0.0
+      y: 0.000174169822
+      z: 0.0
+  - objectName: TissueBox_5673764f
+    position:
+      x: 3.06768131
+      y: 0.53646636
+      z: -1.42140377
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TeddyBear_4a94ac27
+    position:
+      x: -0.07547678
+      y: 0.562
+      z: -0.274973452
+    rotation:
+      x: 353.177338
+      y: 297.143982
+      z: 5.34851742
+  - objectName: Pencil_b0b97ee2
+    position:
+      x: 2.70542622
+      y: 0.8038541
+      z: -1.35880446
+    rotation:
+      x: 0.0
+      y: 0.000174169822
+      z: 0.0
+  - objectName: CreditCard_f82f1c5c
+    position:
+      x: 1.47158933
+      y: 0.515796
+      z: -1.672111
+    rotation:
+      x: 0.0
+      y: 0.0005908113
+      z: 0.0
+  - objectName: TennisRacket_ea5075c1
+    position:
+      x: -0.921
+      y: 0.344
+      z: 0.390329272
+    rotation:
+      x: 13.9117947
+      y: 273.938477
+      z: 195.992615
+  - objectName: Laptop_d69ea96f
+    position:
+      x: 2.362
+      y: 0.7913696
+      z: -1.54
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_66d39ac8
+    position:
+      x: 1.10869932
+      y: 0.5108928
+      z: -1.67275059
+    rotation:
+      x: 359.826874
+      y: 344.9188
+      z: 0.00634730048
+  - objectName: Pen_c03a4918
+    position:
+      x: 1.24
+      y: 0.5161054
+      z: -1.6721065
+    rotation:
+      x: 0.0211594
+      y: 0.000591705553
+      z: -0.000135302835
+  - objectName: Pillow_b9c16add
+    position:
+      x: 0.2994393
+      y: 0.643
+      z: -1.5575825
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_948924de
+    position:
+      x: -0.260435164
+      y: 0.5703095
+      z: -0.9058702
+    rotation:
+      x: 0.0
+      y: 3.756604e-05
+      z: 0.0
+  - objectName: CD_e348100e
+    position:
+      x: 1.799701
+      y: 0.7925867
+      z: -1.42419982
+    rotation:
+      x: -5.925344e-05
+      y: 0.000274915132
+      z: -0.000110967347
+  - objectName: Mug_e2689221
+    position:
+      x: 2.87581086
+      y: 0.543992937
+      z: -1.44199944
+    rotation:
+      x: 0.0
+      y: 90.00016
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 1.25
+    y: 0.9009992
+    z: 0.25
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pencil
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CD
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all
+_meta:
+  template_id: auto
+  n_distractors_planned: 12
+  n_distractors_actual: 6

@@ -1,0 +1,235 @@
+schema_version: 2
+task_id: Bedroom322-186-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Put the AlarmClock, Pen, CellPhone and KeyChain on the Bed.
+  micro: Put the AlarmClock on the Bed; Put the Pen on the Bed; Put the CellPhone
+    on the Bed; Put the KeyChain on the Bed.
+scene:
+  floor_plan: FloorPlan322
+  scene_num: 322
+  room_type: Bedroom
+  random_spawn:
+    seed: 186
+    object_counts:
+      AlarmClock: 1
+      Pen: 1
+      CellPhone: 1
+      KeyChain: 1
+    distractors:
+      Newspaper: 3
+      Pillow: 3
+      Watch: 1
+      Book: 2
+      CD: 1
+      Pencil: 1
+      Laptop: 1
+    min_free:
+      Bed: 4
+  object_poses:
+  - objectName: Book_d7ca8482(Clone)_random_copy_0
+    position:
+      x: 0.08677626
+      y: 0.6932631
+      z: -0.3326877
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_d7ca8482
+    position:
+      x: 2.73245525
+      y: 0.987620354
+      z: 0.439615726
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: KeyChain_de93154e
+    position:
+      x: -1.5141592
+      y: 0.664587
+      z: -1.40501571
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Laptop_fb6464f8
+    position:
+      x: -0.448788047
+      y: 0.691842139
+      z: -0.3326877
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_3f92dde4
+    position:
+      x: 1.763
+      y: 0.0007606298
+      z: -1.732
+    rotation:
+      x: 0.0
+      y: 70.59012
+      z: 0.0
+  - objectName: CreditCard_dcbdc277
+    position:
+      x: 3.08264732
+      y: 0.985096
+      z: 0.439617753
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: Pen_679f38ce
+    position:
+      x: -1.60356832
+      y: 0.668652833
+      z: -1.25
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_367f76c6
+    position:
+      x: 2.82
+      y: 0.9893539
+      z: 1.00800014
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: BaseballBat_5a388b63
+    position:
+      x: 3.076
+      y: 0.629
+      z: -1.762
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 338.300385
+  - objectName: AlarmClock_ca7072bf
+    position:
+      x: 2.99509764
+      y: 0.984410346
+      z: 0.7238092
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: BaseballBat_8659ff3f
+    position:
+      x: 0.808
+      y: 0.05
+      z: 2.151
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 270.000183
+  - objectName: Pillow_2ebb2348
+    position:
+      x: 0.08677626
+      y: 0.7796623
+      z: 0.782695651
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_0f29a798
+    position:
+      x: -0.448788017
+      y: 0.7796623
+      z: 0.782695651
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_c0c82f9a
+    position:
+      x: 2.907548
+      y: 0.9854973
+      z: 1.00800061
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: CD_e652db95
+    position:
+      x: 2.99509931
+      y: 0.9847067
+      z: 0.439617217
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: Mug_781a5acc
+    position:
+      x: -1.55886376
+      y: 0.661
+      z: 1.40149212
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: false
+  - objectType: Lamp
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.75
+    y: 0.9017602
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: AlarmClock
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pen
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Bed
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all
+_meta:
+  template_id: auto
+  n_distractors_planned: 12
+  n_distractors_actual: 7

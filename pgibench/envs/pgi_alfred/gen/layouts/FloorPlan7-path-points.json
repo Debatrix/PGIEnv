@@ -1,0 +1,112 @@
+{
+  "path_points": [
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "S_diningtable_SE"
+    },
+    {
+      "x": 2.5,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "N_lightswitch_SW"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "S_diningtable_SE_D"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009995,
+      "z": -0.75,
+      "rotation": 181.581314,
+      "horizon": 32.0000038,
+      "loc_desc": "N_stoveburner"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "S_diningtable_S"
+    },
+    {
+      "x": -3.5,
+      "y": 0.9009992,
+      "z": 0.25,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "E_window"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9009995,
+      "z": 2.0,
+      "rotation": 4.11253643,
+      "horizon": 30.0000076,
+      "loc_desc": "S_diningtable"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9009992,
+      "z": -0.75,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "NW_cabinet"
+    },
+    {
+      "x": 2.5,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "N_lightswitch_NE"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9009992,
+      "z": 1.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "N_chair"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009992,
+      "z": 1.0,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "S_fridge"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 2.0,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "S_diningtable_E"
+    },
+    {
+      "x": 2.5,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "N_lightswitch_E_D"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan7",
+    "total_path_points": 13
+  }
+}

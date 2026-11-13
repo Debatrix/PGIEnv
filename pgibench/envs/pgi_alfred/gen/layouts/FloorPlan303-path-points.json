@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": 1.5,
+      "y": 0.901000142,
+      "z": -0.5,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SW_garbagecan_#2"
+    },
+    {
+      "x": 1.5,
+      "y": 0.901000142,
+      "z": -2.0,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NE_shelf"
+    },
+    {
+      "x": 1.0,
+      "y": 0.901000142,
+      "z": -0.25,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_garbagecan_#1"
+    },
+    {
+      "x": 0.75,
+      "y": 0.901000142,
+      "z": -2.0,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NW_shelf"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9010005,
+      "z": -1.75,
+      "rotation": 184.106049,
+      "horizon": 54.0000038,
+      "loc_desc": "N_dresser"
+    },
+    {
+      "x": -0.5,
+      "y": 0.901000142,
+      "z": -0.75,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "S_lightswitch"
+    },
+    {
+      "x": 0.25,
+      "y": 0.90100044,
+      "z": -1.75,
+      "rotation": 195.532715,
+      "horizon": 8.000001,
+      "loc_desc": "N_poster"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan303",
+    "total_path_points": 7
+  }
+}

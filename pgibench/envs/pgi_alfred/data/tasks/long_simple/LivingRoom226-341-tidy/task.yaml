@@ -1,0 +1,187 @@
+schema_version: 2
+task_id: LivingRoom226-341-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Put the RemoteControl, KeyChain, Watch and CreditCard on the Sofa.
+  micro: Put the RemoteControl on the Sofa; Put the KeyChain on the Sofa; Put the
+    Watch on the Sofa; Put the CreditCard on the Sofa.
+scene:
+  floor_plan: FloorPlan226
+  scene_num: 226
+  room_type: LivingRoom
+  random_spawn:
+    seed: 341
+    object_counts:
+      RemoteControl: 1
+      KeyChain: 1
+      Watch: 1
+      CreditCard: 1
+    distractors:
+      Pillow: 2
+      Newspaper: 2
+      CellPhone: 3
+      Book: 3
+      Vase: 1
+      Box: 1
+    min_free:
+      Sofa: 4
+  object_poses:
+  - objectName: Newspaper_2d006f19(Clone)_random_copy_0
+    position:
+      x: -0.260919929
+      y: 0.550831139
+      z: -0.106478781
+    rotation:
+      x: 0.0
+      y: 180.000153
+      z: 0.0
+  - objectName: Box_5386643f
+    position:
+      x: 1.724
+      y: 0.202
+      z: 0.44
+    rotation:
+      x: 0.0
+      y: 9.539609
+      z: 0.0
+  - objectName: KeyChain_41d57854
+    position:
+      x: -0.4112802
+      y: 0.55358696
+      z: -0.278826684
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Watch_d51f12e3
+    position:
+      x: -0.7119998
+      y: 0.55274
+      z: -0.278825819
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Newspaper_2d006f19
+    position:
+      x: 1.84983289
+      y: 0.868831158
+      z: 0.326
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Pillow_b7deebb6
+    position:
+      x: 0.151
+      y: 0.561
+      z: -1.794
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 45.3188744
+  - objectName: CreditCard_61ccf647
+    position:
+      x: 1.89166594
+      y: 0.869995952
+      z: 0.6438309
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: RemoteControl_a8fff04d
+    position:
+      x: -0.862359047
+      y: 0.5532341
+      z: -0.106477082
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Laptop_06e40200
+    position:
+      x: -0.981
+      y: 0.530805051
+      z: -0.37
+    rotation:
+      x: 0.0
+      y: 33.8213844
+      z: 0.0
+  - objectName: Statue_27538585
+    position:
+      x: -0.260920644
+      y: 0.562063932
+      z: -0.365001321
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Statue_fc6362d8
+    position:
+      x: 1.80800009
+      y: 0.880902946
+      z: 0.11411275
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: Television
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.75
+    y: 0.9009992
+    z: 0.5
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: RemoteControl
+      parent_target: Sofa
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Sofa
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Watch
+      parent_target: Sofa
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: Sofa
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all
+_meta:
+  template_id: rebuild
+  n_distractors_planned: 12
+  n_distractors_actual: 6

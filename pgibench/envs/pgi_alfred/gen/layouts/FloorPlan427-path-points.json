@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -2.5,
+      "y": 0.902041554,
+      "z": 1.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_sinkbasin"
+    },
+    {
+      "x": -2.75,
+      "y": 0.902041554,
+      "z": 0.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_drawer_#2"
+    },
+    {
+      "x": -1.75,
+      "y": 0.902041554,
+      "z": 0.25,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "N_drawer_#3"
+    },
+    {
+      "x": -2.75,
+      "y": 0.902041554,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 75.00003,
+      "loc_desc": "N_drawer_#1"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9020419,
+      "z": 2.0,
+      "rotation": 71.5241852,
+      "horizon": -5.0,
+      "loc_desc": "W_mirror"
+    },
+    {
+      "x": -1.75,
+      "y": 0.902041554,
+      "z": 1.5,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "S_sinkbasin"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "NE_countertop_NW"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9020419,
+      "z": 0.25,
+      "rotation": 100.870956,
+      "horizon": 57.9999847,
+      "loc_desc": "W_toiletpaperhanger"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan427",
+    "total_path_points": 8
+  }
+}

@@ -1,0 +1,25 @@
+# Bedroom composite task: Examine a book under lamp, then tidy up a cloth
+name: "bedroom_examine_and_tidy"
+description: "Pick up a book and examine it under the desk lamp, then put a cloth on the bed"
+
+scene:
+  room_type: "Bedroom"
+  scene_num: null  # Auto-select
+
+instruction: "look at the {obj_0} under the {toggle_0}, then put the {obj_1} in {recep_1}"
+
+subtasks:
+  # Subtask 1: Examine book under lamp
+  - task_type: "look_at_obj_in_light"
+    object: "Book"
+    toggle: "DeskLamp"
+    sliced: false
+
+  # Subtask 2: Place cloth on bed
+  - task_type: "pick_and_place_simple"
+    object: "Cloth"
+    parent: "Bed"
+    sliced: false
+
+completion:
+  mode: "all"

@@ -1,0 +1,211 @@
+schema_version: 2
+task_id: Bathroom428-00-clean-organize
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: When getting the bathroom ready for the day, could you please rinse the soap
+    bar at the sink and put it on the counter top and open the cabinet and put the
+    scrub brush on the counter top and put the plunger on the cabinet? It keeps the
+    essentials right where you need them.
+  micro: rinse the soap bar at the sink and put it on the counter top; open the cabinet;
+    put the scrub brush on the counter top; put the plunger on the cabinet.
+scene:
+  floor_plan: FloorPlan428
+  scene_num: 428
+  room_type: Bathroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Cloth: 1
+      SoapBottle: 1
+      ToiletPaper: 1
+      ScrubBrush: 1
+      Candle: 1
+      Plunger: 1
+      SprayBottle: 1
+      Towel: 1
+      HandTowel: 1
+    distractors:
+      TissueBox: 2
+      SoapBar: 3
+      DishSponge: 1
+    min_free:
+      CounterTop: 2
+      Shelf: 2
+      Cabinet: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: SoapBar_5fababf8(Clone)_random_copy_1
+    position:
+      x: -1.83169162
+      y: 0.953563
+      z: 1.82150054
+    rotation:
+      x: 0.0
+      y: 179.999756
+      z: 0.0
+  - objectName: SoapBar_5fababf8(Clone)_random_copy_0
+    position:
+      x: -1.885276
+      y: 0.953563
+      z: 2.0715003
+    rotation:
+      x: 0.0
+      y: 179.999756
+      z: 0.0
+  - objectName: Candle_74c9d1eb
+    position:
+      x: -1.80490088
+      y: 0.9534673
+      z: 1.69650066
+    rotation:
+      x: 0.0
+      y: 179.999756
+      z: 0.0
+  - objectName: HandTowel_9f2e6500
+    position:
+      x: -1.67064345
+      y: 1.49639475
+      z: 3.96225166
+    rotation:
+      x: 0.0
+      y: -4.78113252e-05
+      z: 0.0
+  - objectName: SoapBottle_0d121717
+    position:
+      x: -1.69637847
+      y: 0.918449759
+      z: 3.12224221
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Towel_ed9a493d
+    position:
+      x: 0.8339847
+      y: 1.16006589
+      z: 2.35729623
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_e1a5b3e4
+    position:
+      x: -1.69543636
+      y: 0.0312405825
+      z: 3.040513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBar_5fababf8
+    position:
+      x: -1.65217412
+      y: 0.9477896
+      z: 2.68260169
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 10.090683
+  - objectName: ToiletPaper_ddfae4f5
+    position:
+      x: -1.14020634
+      y: 1.01309454
+      z: 1.25650108
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 89.99995
+  - objectName: Plunger_8c1215fa
+    position:
+      x: -1.87680137
+      y: 0.000189825892
+      z: 2.276764
+    rotation:
+      x: 359.840363
+      y: 0.0558536276
+      z: 0.0464878269
+  - objectName: SprayBottle_52cc5647
+    position:
+      x: -1.88527644
+      y: 0.950878561
+      z: 1.82150066
+    rotation:
+      x: 0.0
+      y: 179.999756
+      z: 0.0
+  - objectName: ToiletPaper_a0644457
+    position:
+      x: -1.476
+      y: 0.0423482843
+      z: 1.372
+    rotation:
+      x: -0.002123227
+      y: 0.0
+      z: 0.0
+  - objectName: ScrubBrush_1cbe15ab
+    position:
+      x: -1.70388472
+      y: 0.000493228436
+      z: 2.217829
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: ShowerHead
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.5
+    y: 0.901492238
+    z: 1.75
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Cabinet
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: ScrubBrush
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Plunger
+      parent_target: Cabinet
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,199 @@
+schema_version: 2
+task_id: Bedroom324-88-place
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: Could you put the CellPhone on the Dresser?
+  micro: put the CellPhone on the Dresser.
+scene:
+  floor_plan: FloorPlan324
+  scene_num: 324
+  room_type: Bedroom
+  random_spawn:
+    seed: 30
+    object_counts:
+      AlarmClock: 1
+      CellPhone: 1
+      CreditCard: 1
+      CD: 1
+      KeyChain: 1
+    distractors:
+      Pillow: 1
+      Newspaper: 2
+      Book: 1
+      Watch: 2
+      Laptop: 2
+    min_free:
+      Dresser: 5
+  object_poses:
+  - objectName: Laptop_9408f0f9(Clone)_random_copy_0
+    position:
+      x: -0.08810878
+      y: 0.6930849
+      z: -0.573836863
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_cabf0185
+    position:
+      x: -1.436
+      y: 0.6716
+      z: 0.115
+    rotation:
+      x: 0.0
+      y: 300.000122
+      z: 0.0
+  - objectName: KeyChain_fad316e6
+    position:
+      x: 1.6587
+      y: 0.8031196
+      z: -2.40761662
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_4a3811c5
+    position:
+      x: 1.53622162
+      y: 0.7989114
+      z: -1.65521216
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_91d3b0fa
+    position:
+      x: 1.84241748
+      y: 0.8015286
+      z: -1.84331322
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_9408f0f9
+    position:
+      x: -0.8180689
+      y: 0.6930849
+      z: -0.1461632
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_e69ec9e5
+    position:
+      x: 1.6587
+      y: 0.8056528
+      z: -1.65521216
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_21540f10
+    position:
+      x: 1.53622162
+      y: 0.8042539
+      z: -1.467111
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: BaseballBat_1f0855a3
+    position:
+      x: -1.844
+      y: 0.678
+      z: -2.203
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 8.760847
+  - objectName: Pillow_b87f0fc5
+    position:
+      x: -1.489
+      y: 0.685
+      z: -0.854
+    rotation:
+      x: 0.0
+      y: 345.000031
+      z: 0.0
+  - objectName: Pillow_c61fa688
+    position:
+      x: -1.508
+      y: 0.685
+      z: -0.378
+    rotation:
+      x: 0.0
+      y: 288.596283
+      z: 0.0
+  - objectName: TennisRacket_12fc6383
+    position:
+      x: -1.597
+      y: 0.00100616366
+      z: -1.367
+    rotation:
+      x: 90.0
+      y: 37.7924156
+      z: 0.0
+  - objectName: CellPhone_f01bc236
+    position:
+      x: -0.331428945
+      y: 0.6954822
+      z: -1.00151038
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_3bd63042
+    position:
+      x: 1.53622162
+      y: 0.7996067
+      z: -2.03141451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_55fbfa26
+    position:
+      x: 1.6587
+      y: 0.798
+      z: -1.84331322
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 1.5
+    y: 0.9020053
+    z: -0.5
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

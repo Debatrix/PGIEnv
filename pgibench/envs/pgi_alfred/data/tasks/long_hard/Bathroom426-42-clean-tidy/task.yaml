@@ -1,0 +1,194 @@
+schema_version: 2
+task_id: Bathroom426-42-clean-tidy
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: Could you freshen things up by rinsing the cloth and the soap bar at the
+    sink and setting them on the counter top to dry? Then open the drawer so the bathroom
+    supplies are easy to reach. It keeps the surfaces clear and tidy.
+  micro: Clean the cloth at the sink and put it on the counter top; clean the soap
+    bar at the sink and put it on the counter top; open the drawer.
+scene:
+  floor_plan: FloorPlan426
+  scene_num: 426
+  room_type: Bathroom
+  random_spawn:
+    seed: 42
+    object_counts:
+      Cloth: 1
+      SoapBar: 1
+    distractors:
+      ToiletPaper: 2
+      DishSponge: 1
+      SprayBottle: 2
+      HandTowel: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 2
+      Drawer: 1
+  object_poses:
+  - objectName: SprayBottle_f8d9d3d8(Clone)_random_copy_0
+    position:
+      x: -1.06786585
+      y: 0.805
+      z: 0.3520643
+    rotation:
+      x: 0.0
+      y: 90.0000458
+      z: 0.0
+  - objectName: Towel_376680ac
+    position:
+      x: -2.554
+      y: 0.873
+      z: 0.1069
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_08a0c761
+    position:
+      x: -3.57158732
+      y: 0.219671428
+      z: 0.939
+    rotation:
+      x: 1.40334191e-14
+      y: 0.0
+      z: 0.0
+  - objectName: Candle_9473b390
+    position:
+      x: -2.30106926
+      y: 0.9539024
+      z: 2.57750058
+    rotation:
+      x: 0.0
+      y: 179.999725
+      z: 0.0
+  - objectName: HandTowel_bd5055e8
+    position:
+      x: -0.0383
+      y: 1.68
+      z: 2.956
+    rotation:
+      x: 0.0
+      y: 90.00007
+      z: 0.0
+  - objectName: SoapBar_0156cfc4
+    position:
+      x: -2.24748468
+      y: 0.9539336
+      z: 2.70249987
+    rotation:
+      x: 0.0
+      y: 179.999725
+      z: 0.0
+  - objectName: ToiletPaper_d008e63d
+    position:
+      x: -2.22069168
+      y: 0.950863838
+      z: 2.4525
+    rotation:
+      x: 0.0
+      y: 179.999725
+      z: 0.0
+  - objectName: Plunger_9ac4cec2
+    position:
+      x: -2.307833
+      y: 0.000400774181
+      z: 3.23158574
+    rotation:
+      x: -0.001183682
+      y: 0.0004403221
+      z: 0.000778588641
+  - objectName: SprayBottle_f8d9d3d8
+    position:
+      x: -0.5439111
+      y: 0.805
+      z: 0.221170187
+    rotation:
+      x: 0.0
+      y: 90.0000458
+      z: 0.0
+  - objectName: TissueBox_a688aee8
+    position:
+      x: -0.805888534
+      y: 0.808699548
+      z: 0.2211703
+    rotation:
+      x: 0.0
+      y: 90.0000458
+      z: 0.0
+  - objectName: ToiletPaper_263c6545
+    position:
+      x: -1.06786609
+      y: 0.804999948
+      z: 0.09027678
+    rotation:
+      x: 0.0
+      y: 90.0000458
+      z: 0.0
+  - objectName: ScrubBrush_2d529c27
+    position:
+      x: -2.18917274
+      y: 0.00086376816
+      z: 3.02522182
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_dd61cf08
+    position:
+      x: -1.59182072
+      y: 0.8096635
+      z: 0.417511642
+    rotation:
+      x: 0.0
+      y: 90.0000458
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -2.0
+    y: 0.9018632
+    z: 1.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Cloth
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Cloth
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Drawer
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

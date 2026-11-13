@@ -1,0 +1,112 @@
+{
+  "path_points": [
+    {
+      "x": 0.0,
+      "y": 0.908999562,
+      "z": 2.5,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_chair_#1"
+    },
+    {
+      "x": -0.5,
+      "y": 0.908999562,
+      "z": 0.0,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_cabinet_#1"
+    },
+    {
+      "x": -0.5,
+      "y": 0.908999562,
+      "z": 1.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_cabinet"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.5,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "W_chair_SE"
+    },
+    {
+      "x": -0.25,
+      "y": 0.908999562,
+      "z": 0.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_cabinet_#3"
+    },
+    {
+      "x": 0.0,
+      "y": 0.908999562,
+      "z": 2.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_chair_#2"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.5,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "W_chair_SW"
+    },
+    {
+      "x": -0.5,
+      "y": 0.908999562,
+      "z": 2.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_diningtable"
+    },
+    {
+      "x": -0.5,
+      "y": 0.908999562,
+      "z": 0.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "N_cabinet_#2"
+    },
+    {
+      "x": 0.5,
+      "y": 0.908999562,
+      "z": 0.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "N_stoveburner"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 2.5,
+      "rotation": 180,
+      "horizon": -30,
+      "loc_desc": "W_chair_S_U"
+    },
+    {
+      "x": 0.5,
+      "y": 0.908999562,
+      "z": 0.25,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9089999,
+      "z": 1.5,
+      "rotation": 97.67389,
+      "horizon": 66.0,
+      "loc_desc": "NW_drawer"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan17",
+    "total_path_points": 13
+  }
+}

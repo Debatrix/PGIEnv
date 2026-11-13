@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "E_diningtable_NW"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "E_diningtable_N"
+    },
+    {
+      "x": -1.5,
+      "y": 0.908256352,
+      "z": 2.25,
+      "rotation": 268.979156,
+      "horizon": 44.0000038,
+      "loc_desc": "E_diningtable"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9,
+      "z": 6.75,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "W_sofa_NW_D"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "E_diningtable_SW"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 180,
+      "horizon": 30,
+      "loc_desc": "E_diningtable_S_D"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "E_diningtable_SE"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "E_diningtable_NE"
+    },
+    {
+      "x": -5.0,
+      "y": 0.908256352,
+      "z": 3.75,
+      "rotation": 252.411377,
+      "horizon": 14.0,
+      "loc_desc": "E_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan230",
+    "total_path_points": 9
+  }
+}

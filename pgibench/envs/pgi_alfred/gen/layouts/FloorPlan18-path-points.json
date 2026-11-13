@@ -1,0 +1,128 @@
+{
+  "path_points": [
+    {
+      "x": 0.5,
+      "y": 0.9009997,
+      "z": 7.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_diningtable"
+    },
+    {
+      "x": 1.0,
+      "y": 0.900999844,
+      "z": 5.75,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_drawer_#3"
+    },
+    {
+      "x": 0.25,
+      "y": 0.900999844,
+      "z": 1.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_drawer_#2"
+    },
+    {
+      "x": 0.75,
+      "y": 0.901000559,
+      "z": 6.75,
+      "rotation": 253.0628,
+      "horizon": 41.0000038,
+      "loc_desc": "E_diningtable"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009996,
+      "z": 4.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_stoveknob"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9010002,
+      "z": 5.5,
+      "rotation": 312.2052,
+      "horizon": 53.0000076,
+      "loc_desc": "SE_chair"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009998,
+      "z": 2.75,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_cabinet_#2"
+    },
+    {
+      "x": -1.0,
+      "y": 0.900999844,
+      "z": 7.25,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NW_houseplant"
+    },
+    {
+      "x": -0.5,
+      "y": 0.900999844,
+      "z": 1.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_drawer_#1"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009995,
+      "z": 1.5,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NW_cabinet"
+    },
+    {
+      "x": -1.5,
+      "y": 0.900999844,
+      "z": 7.0,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NE_lightswitch"
+    },
+    {
+      "x": -0.5,
+      "y": 0.900999844,
+      "z": 3.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_cabinet_#1"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9010002,
+      "z": 2.25,
+      "rotation": 84.27215,
+      "horizon": 36.0,
+      "loc_desc": "W_sinkbasin"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "W_blinds_SE"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9010005,
+      "z": 6.5,
+      "rotation": 55.1481361,
+      "horizon": 53.0000038,
+      "loc_desc": "SW_safe"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan18",
+    "total_path_points": 15
+  }
+}

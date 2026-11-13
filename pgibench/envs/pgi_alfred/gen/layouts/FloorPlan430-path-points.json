@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": 0.0,
+      "y": 0.9130393,
+      "z": -1.0,
+      "rotation": 168.995132,
+      "horizon": 44.0000076,
+      "loc_desc": "N_countertop"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9130397,
+      "z": 1.5,
+      "rotation": 226.969818,
+      "horizon": 45.0,
+      "loc_desc": "NE_sink"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9130397,
+      "z": 1.75,
+      "rotation": 84.56834,
+      "horizon": 54.0000038,
+      "loc_desc": "W_toilet"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "NE_bathtub_S"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9130393,
+      "z": 0.0,
+      "rotation": 338.8482,
+      "horizon": 39.0000076,
+      "loc_desc": "S_sinkbasin"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9130397,
+      "z": 1.5,
+      "rotation": 302.220154,
+      "horizon": 50.00001,
+      "loc_desc": "SE_garbagecan"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9130393,
+      "z": 0.0,
+      "rotation": 156.724991,
+      "horizon": 45.0000153,
+      "loc_desc": "NW_bathtubbasin"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9130393,
+      "z": -1.5,
+      "rotation": 119.964935,
+      "horizon": 31.0000057,
+      "loc_desc": "NW_shelf"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "NE_bathtub_W"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9130393,
+      "z": 1.5,
+      "rotation": 20.7400188,
+      "horizon": 9.000001,
+      "loc_desc": "S_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan430",
+    "total_path_points": 10
+  }
+}

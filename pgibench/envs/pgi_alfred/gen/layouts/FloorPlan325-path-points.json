@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": -0.5,
+      "y": 0.94974494,
+      "z": -2.0,
+      "rotation": 329.5373,
+      "horizon": 51.0000038,
+      "loc_desc": "SE_garbagecan"
+    },
+    {
+      "x": 3.25,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "S_sidetable_SW_D"
+    },
+    {
+      "x": 3.25,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "S_sidetable_S"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "W_bed_NW"
+    },
+    {
+      "x": 3.25,
+      "y": 0.949745,
+      "z": 0.25,
+      "rotation": 10.76258,
+      "horizon": 41.0,
+      "loc_desc": "S_sidetable"
+    },
+    {
+      "x": 1.25,
+      "y": 0.94974494,
+      "z": 0.75,
+      "rotation": 99.68317,
+      "horizon": 51.9999962,
+      "loc_desc": "W_bed"
+    },
+    {
+      "x": 3.25,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "S_sidetable_NW"
+    },
+    {
+      "x": -0.5,
+      "y": 0.949745,
+      "z": 2.75,
+      "rotation": 15.275898,
+      "horizon": 57.0,
+      "loc_desc": "SW_shelf"
+    },
+    {
+      "x": -0.25,
+      "y": 0.949745,
+      "z": -0.25,
+      "rotation": 271.643524,
+      "horizon": 12.0,
+      "loc_desc": "E_mirror"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan325",
+    "total_path_points": 9
+  }
+}

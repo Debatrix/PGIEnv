@@ -1,0 +1,284 @@
+schema_version: 2
+task_id: Kitchen14-23-slice-bread-counter
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: Getting the breakfast spread ready — would you slice the bread and set
+    the slices out on the counter top? That way everything's prepped and waiting
+    for toasting.
+  micro: Slice the bread and put it on the counter top.
+scene:
+  floor_plan: FloorPlan14
+  scene_num: 14
+  room_type: Kitchen
+  random_spawn:
+    seed: 23
+    object_counts:
+      Potato: 1
+      Egg: 1
+      Bowl: 1
+      SaltShaker: 1
+      SoapBottle: 1
+      PepperShaker: 1
+    distractors:
+      Spatula: 2
+      ButterKnife: 1
+      Bread: 1
+      Pan: 1
+      Plate: 1
+    min_free:
+      CounterTop: 2
+      DiningTable: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: Spatula_83c41bbf(Clone)_random_copy_0
+    position:
+      x: 0.894013643
+      y: 0.7757628
+      z: -1.54422009
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: -1.40334191e-14
+  - objectName: Plate_e8bf9352
+    position:
+      x: 1.796106
+      y: 0.9128847
+      z: -1.37455583
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: SoapBottle_fd471042
+    position:
+      x: 1.45192051
+      y: 0.908764064
+      z: 0.5708317
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Cup_5ecc05ec
+    position:
+      x: 0.9890007
+      y: 0.9088847
+      z: 0.827641368
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Egg_85efe221
+    position:
+      x: 1.50158286
+      y: 0.9457633
+      z: 1.26924419
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Fork_192d20c7
+    position:
+      x: 1.762083
+      y: 0.9111485
+      z: 0.467115164
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Ladle_4b0a72cf
+    position:
+      x: 1.79610693
+      y: 0.955562353
+      z: -1.7172941
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Apple_5b80d804
+    position:
+      x: 1.03216934
+      y: 0.817953348
+      z: -1.48894024
+    rotation:
+      x: 1.40334191e-14
+      y: 0.0
+      z: 0.0
+  - objectName: SaltShaker_b3498f3e
+    position:
+      x: 1.79610646
+      y: 0.906199932
+      z: -1.545925
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Pan_7013969f
+    position:
+      x: 1.5433
+      y: 0.9098
+      z: -0.3203
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Tomato_817a54e2
+    position:
+      x: 1.58645439
+      y: 0.9750553
+      z: -1.28887177
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Spatula_83c41bbf
+    position:
+      x: 1.696
+      y: 1.0807
+      z: 0.0741453841
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 49.76936
+  - objectName: Potato_6d0d5c3c
+    position:
+      x: 1.451921
+      y: 0.9508022
+      z: 0.415255427
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Knife_06a240e2
+    position:
+      x: 1.13941145
+      y: 0.7615735
+      z: -1.58444154
+    rotation:
+      x: 273.597839
+      y: 16.2309265
+      z: 343.3139
+  - objectName: ButterKnife_38537d23
+    position:
+      x: 1.30848074
+      y: 0.7608111
+      z: -1.5995
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 1.40334191e-14
+  - objectName: Bread_8f8a19bf
+    position:
+      x: 1.61500013
+      y: 0.977039754
+      z: 0.7609999
+    rotation:
+      x: -1.31674676e-06
+      y: 50.5256081
+      z: -1.94851182e-05
+  - objectName: Lettuce_e61d6e1d
+    position:
+      x: 0.8565267
+      y: 0.989360154
+      z: 1.11928868
+    rotation:
+      x: 0.303996265
+      y: 270.002136
+      z: 2.38245058
+  - objectName: PepperShaker_3caefad1
+    position:
+      x: 0.9262093
+      y: 0.906199932
+      z: -1.24763918
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Pot_bb5e3511
+    position:
+      x: 1.807
+      y: 0.9098
+      z: 0.075
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: DishSponge_00484768
+    position:
+      x: 1.17031038
+      y: 0.7552712
+      z: -1.48887038
+    rotation:
+      x: 357.8117
+      y: 359.9888
+      z: 0.06439502
+  - objectName: Spoon_89592edf
+    position:
+      x: 1.7578752
+      y: 0.9117294
+      z: 1.0926044
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Bowl_7266264e
+    position:
+      x: 0.22012496
+      y: 0.9094071
+      z: 0.915959358
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Mug_f9995e03
+    position:
+      x: 0.7327081
+      y: 0.9056
+      z: 1.00428116
+    rotation:
+      x: 0.0
+      y: 269.999817
+      z: 0.0
+  object_toggles:
+  - objectType: Toaster
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Microwave
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.9009992
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_slice_then_place_in_recep
+    pddl_params:
+      object_target: Bread
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: true
+completion:
+  mode: all

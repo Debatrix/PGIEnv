@@ -1,0 +1,249 @@
+schema_version: 2
+task_id: LivingRoom227-07-place-keychain
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: The keychain got left on the sofa. Could you put it on the shelf so it's
+    not buried in the cushions?
+  micro: Pick up the KeyChain from the sofa and place it on the Shelf.
+scene:
+  floor_plan: FloorPlan227
+  scene_num: 227
+  room_type: LivingRoom
+  random_spawn:
+    seed: 7
+    object_counts:
+      KeyChain: 1
+    distractors:
+      Laptop: 1
+      CellPhone: 1
+      RemoteControl: 1
+      Book: 1
+      Pillow: 1
+      Newspaper: 1
+    min_free:
+      Shelf: 1
+  object_poses:
+  - objectName: Box_1d5da5eb
+    position:
+      x: -5.817
+      y: 0.8233535
+      z: 1.86185122
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Statue_ad3c08e2
+    position:
+      x: -3.25973749
+      y: 0.4909379
+      z: 0.314629734
+    rotation:
+      x: 0.0
+      y: 89.99999
+      z: 0.0
+  - objectName: KeyChain_782acb33
+    position:
+      x: -2.92560816
+      y: 0.278586984
+      z: 3.381836
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_2a8098f1
+    position:
+      x: -6.18572235
+      y: 0.6424052
+      z: 2.21292567
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_b9b39613
+    position:
+      x: -2.807835
+      y: 0.305259466
+      z: 1.88716555
+    rotation:
+      x: 0.0
+      y: 270.510132
+      z: 0.0
+  - objectName: Vase_4a91c96f
+    position:
+      x: -5.69409227
+      y: 0.6468658
+      z: 2.21292567
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Newspaper_19b4d78c
+    position:
+      x: -2.77921581
+      y: 0.299450457
+      z: 2.20824862
+    rotation:
+      x: 0.0
+      y: 0.5100519
+      z: 0.0
+  - objectName: CreditCard_c6613840
+    position:
+      x: -6.45152855
+      y: 1.037663
+      z: 5.20506
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_9824b9d2
+    position:
+      x: -3.127304
+      y: 0.278234124
+      z: 3.59128046
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_262c32db
+    position:
+      x: -5.69409227
+      y: 0.6397063
+      z: 3.26614857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_eda1b909
+    position:
+      x: -1.51520538
+      y: 0.438748926
+      z: 3.31957245
+    rotation:
+      x: 6.83018925e-06
+      y: 300.000061
+      z: 90.00001
+  - objectName: Vase_95e8614f
+    position:
+      x: -2.53017831
+      y: 0.3007989
+      z: 1.88469326
+    rotation:
+      x: 0.0
+      y: 270.510132
+      z: 0.0
+  - objectName: Statue_a678bdc5
+    position:
+      x: -5.44827747
+      y: 0.6517703
+      z: 2.915074
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Vase_fe654f0e
+    position:
+      x: -0.875281036
+      y: 1.58574283
+      z: 0.1850004
+    rotation:
+      x: 0.0
+      y: 179.999939
+      z: 0.0
+  - objectName: Plate_14e5c8ca
+    position:
+      x: -6.06281471
+      y: 0.6488784
+      z: 3.26614857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_f95445a2
+    position:
+      x: -6.18572235
+      y: 0.6424052
+      z: 3.61722279
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_1ffd6824
+    position:
+      x: -2.082262
+      y: 0.492346466
+      z: 0.21502775
+    rotation:
+      x: 0.0
+      y: 89.99999
+      z: 0.0
+  - objectName: Statue_89bdecef
+    position:
+      x: -6.06281471
+      y: 0.643503368
+      z: 2.564
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Statue_d3c3c310
+    position:
+      x: -1.49352431
+      y: 0.495113969
+      z: 0.264828861
+    rotation:
+      x: 0.0
+      y: 89.99999
+      z: 0.0
+  - objectName: Statue_27221ca1
+    position:
+      x: -5.571185
+      y: 0.7432305
+      z: 1.510777
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_119cdf81
+    position:
+      x: -5.44827747
+      y: 0.6483857
+      z: 1.86185122
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: FloorLamp
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -1.5
+    y: 0.9270526
+    z: 4.5
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: KeyChain
+  parent_target: Shelf
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: Shelf
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

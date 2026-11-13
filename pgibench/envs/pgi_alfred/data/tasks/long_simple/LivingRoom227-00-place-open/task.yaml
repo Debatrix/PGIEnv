@@ -1,0 +1,281 @@
+schema_version: 2
+task_id: LivingRoom227-00-place-open
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: When getting the living room ready for guests, could you please turn on the
+    floor lamp and open the cabinet and put the vase on the coffee table and put the
+    remote control on the coffee table? It keeps everything within easy reach.
+  micro: turn on the floor lamp; open the cabinet; put the vase on the coffee table;
+    put the remote control on the coffee table.
+scene:
+  floor_plan: FloorPlan227
+  scene_num: 227
+  room_type: LivingRoom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Plate: 1
+      Statue: 1
+      Newspaper: 1
+      Laptop: 1
+      RemoteControl: 1
+      Vase: 1
+      Pillow: 1
+      CreditCard: 1
+      KeyChain: 1
+    distractors:
+      Box: 2
+      CellPhone: 3
+      Book: 1
+    min_free:
+      CoffeeTable: 2
+      SideTable: 2
+      DiningTable: 2
+      Dresser: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: Box_1d5da5eb
+    position:
+      x: -2.89352155
+      y: 0.4817472
+      z: 2.07042718
+    rotation:
+      x: 0.0
+      y: 0.5100519
+      z: 0.0
+  - objectName: Statue_ad3c08e2
+    position:
+      x: -6.589
+      y: 1.022049
+      z: 5.172
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: KeyChain_782acb33
+    position:
+      x: -6.45152855
+      y: 1.039254
+      z: 5.24012041
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Vase_2a8098f1
+    position:
+      x: -1.70107973
+      y: 0.93094933
+      z: 0.179179981
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_b9b39613
+    position:
+      x: -0.7641
+      y: 0.9409
+      z: 0.2033
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_4a91c96f
+    position:
+      x: -5.93990755
+      y: 0.6468658
+      z: 1.510777
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Newspaper_19b4d78c
+    position:
+      x: -3.127304
+      y: 0.276350439
+      z: 3.45165062
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: CreditCard_c6613840
+    position:
+      x: -2.80481482
+      y: 0.300095975
+      z: 2.22637677
+    rotation:
+      x: 0.0
+      y: 270.510132
+      z: 0.0
+  - objectName: RemoteControl_9824b9d2
+    position:
+      x: -6.06281471
+      y: 0.642940462
+      z: 2.915074
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_262c32db
+    position:
+      x: -5.817
+      y: 0.6397063
+      z: 3.61722279
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Pillow_eda1b909
+    position:
+      x: -1.51520538
+      y: 0.438748926
+      z: 3.31957245
+    rotation:
+      x: 6.83018925e-06
+      y: 300.000061
+      z: 90.00001
+  - objectName: Vase_95e8614f
+    position:
+      x: -5.713303
+      y: 0.38693583
+      z: 5.136794
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_a678bdc5
+    position:
+      x: -2.52816463
+      y: 0.310163975
+      z: 2.11083436
+    rotation:
+      x: 0.0
+      y: 270.510132
+      z: 0.0
+  - objectName: Vase_fe654f0e
+    position:
+      x: -1.35239077
+      y: 1.258489
+      z: 0.228351533
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_14e5c8ca
+    position:
+      x: -5.69409227
+      y: 0.6488784
+      z: 3.26614857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_f95445a2
+    position:
+      x: -4.95822239
+      y: 0.940958
+      z: 5.20115042
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_1ffd6824
+    position:
+      x: -5.033
+      y: 1.566
+      z: 5.212
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Statue_89bdecef
+    position:
+      x: -0.8126194
+      y: 1.5655
+      z: 0.2098827
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_d3c3c310
+    position:
+      x: -3.851355
+      y: 0.930947
+      z: 5.1692
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_27221ca1
+    position:
+      x: -3.174636
+      y: 1.105
+      z: 5.193249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_119cdf81
+    position:
+      x: -5.865033
+      y: 0.6348236
+      z: 2.786734
+    rotation:
+      x: 0.0
+      y: 65.579
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: FloorLamp
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -1.5
+    y: 0.9270526
+    z: 4.5
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: toggle_object_on
+    pddl_params:
+      object_target: ''
+      parent_target: ''
+      mrecep_target: ''
+      toggle_target: FloorLamp
+      object_sliced: false
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Cabinet
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Vase
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: RemoteControl
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

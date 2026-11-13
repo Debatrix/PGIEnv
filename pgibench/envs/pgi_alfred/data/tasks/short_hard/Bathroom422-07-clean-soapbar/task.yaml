@@ -1,0 +1,171 @@
+schema_version: 2
+task_id: Bathroom422-07-clean-soapbar
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: After freshening up, could you wash the soap bar that's sitting on the back
+    of the toilet and set it on the counter top? That way it stays clean and ready
+    to use.
+  micro: Pick up the soap bar from the toilet; rinse it under the faucet at the sink;
+    put it on the counter top.
+scene:
+  floor_plan: FloorPlan422
+  scene_num: 422
+  room_type: Bathroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      SoapBar: 1
+    distractors:
+      SprayBottle: 1
+      DishSponge: 1
+      ToiletPaper: 1
+      Cloth: 1
+      Candle: 1
+      TissueBox: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 1
+  object_poses:
+  - objectName: HandTowel_19fcdd83
+    position:
+      x: -1.29699993
+      y: 1.765
+      z: 0.0403
+    rotation:
+      x: 0.0
+      y: 180.000229
+      z: 0.0
+  - objectName: SoapBar_4377717d
+    position:
+      x: -0.5064967
+      y: 0.9529055
+      z: 2.64269185
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: ToiletPaper_627d584e
+    position:
+      x: -0.921371
+      y: 1.1245687
+      z: 0.2105791
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_95f11d6a
+    position:
+      x: -0.7359993
+      y: -0.000627331436
+      z: 2.732999
+    rotation:
+      x: -0.00118203438
+      y: 0.000425778737
+      z: 0.000781116367
+  - objectName: Candle_09b3c1b2
+    position:
+      x: -0.318996429
+      y: 0.952843249
+      z: 2.749858
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: TissueBox_88aa8e4d
+    position:
+      x: -0.8126646
+      y: 1.13481438
+      z: 0.466661543
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_08605e08
+    position:
+      x: -0.06760002
+      y: 1.015
+      z: 2.17159986
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 270.0
+  - objectName: SoapBottle_278ed190
+    position:
+      x: -0.256496668
+      y: 0.9560918
+      z: 2.66948271
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SprayBottle_285434f4
+    position:
+      x: -0.8126646
+      y: 1.135519
+      z: 0.228938013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Towel_62af54f6
+    position:
+      x: -2.76097
+      y: 1.56931639
+      z: 0.107438818
+    rotation:
+      x: 0.0
+      y: 1.70754731e-06
+      z: 0.0
+  - objectName: Cloth_ddffbf40
+    position:
+      x: -3.5119853
+      y: 0.219977736
+      z: 0.449700475
+    rotation:
+      x: 1.40334191e-14
+      y: 0.0
+      z: 0.0
+  - objectName: ScrubBrush_dcbdffc2
+    position:
+      x: -0.657668
+      y: -0.0001643449
+      z: 2.5607872
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -1.0
+    y: 0.900835156
+    z: 1.5
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: SoapBar
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,8 @@
+model_name: gpt-5.4-mini
+api_type: openai
+base_url: null
+api_key_env: OPENAI_API_KEY
+supports_vision: true
+max_tokens: 2048
+temperature: 0
+fix_json: true

@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "S_sink_SE"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9009992,
+      "z": 2.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_drawer_#2"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009992,
+      "z": 2.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_chair_#1"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9009996,
+      "z": 2.75,
+      "rotation": 354.3376,
+      "horizon": 38.0000038,
+      "loc_desc": "S_sinkbasin"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9009992,
+      "z": 1.5,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_stoveburner"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9009992,
+      "z": 2.25,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "W_drawer_#1"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "E_fridge_NW"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009992,
+      "z": 2.0,
+      "rotation": 180.0,
+      "horizon": 59.9999962,
+      "loc_desc": "N_chair_#2"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 45,
+      "horizon": -30,
+      "loc_desc": "S_sink_NE_U"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan24",
+    "total_path_points": 9
+  }
+}

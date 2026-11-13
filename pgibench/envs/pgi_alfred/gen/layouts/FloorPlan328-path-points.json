@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 1.5,
+      "y": 0.9009995,
+      "z": -0.75,
+      "rotation": 135.2394,
+      "horizon": 52.0000076,
+      "loc_desc": "NW_chair"
+    },
+    {
+      "x": 2.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_desk_SW_D"
+    },
+    {
+      "x": 2.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "N_desk_SW"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9009995,
+      "z": -1.0,
+      "rotation": 272.911255,
+      "horizon": 52.0000038,
+      "loc_desc": "E_bed"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 315.486359,
+      "horizon": 55.9999962,
+      "loc_desc": "SE_houseplant"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 25.0771828,
+      "horizon": 21.0000019,
+      "loc_desc": "SW_mirror"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9009995,
+      "z": -0.75,
+      "rotation": 62.1718254,
+      "horizon": 52.0000038,
+      "loc_desc": "SW_garbagecan"
+    },
+    {
+      "x": 2.0,
+      "y": 0.9009995,
+      "z": 0.0,
+      "rotation": 0.6118734,
+      "horizon": 24.0000019,
+      "loc_desc": "S_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan328",
+    "total_path_points": 8
+  }
+}

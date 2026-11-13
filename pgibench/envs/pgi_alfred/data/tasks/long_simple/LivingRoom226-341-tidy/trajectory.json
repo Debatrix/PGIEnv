@@ -1,0 +1,159 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "RemoteControl|-00.86|+00.55|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "RemoteControl|-00.86|+00.55|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "KeyChain|-00.41|+00.55|-00.28",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "KeyChain|-00.41|+00.55|-00.28",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Watch|-00.71|+00.55|-00.28",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Watch|-00.71|+00.55|-00.28",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "CreditCard|+01.89|+00.87|+00.64",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "CreditCard|+01.89|+00.87|+00.64",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "Sofa|-00.50|+00.00|-01.89",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

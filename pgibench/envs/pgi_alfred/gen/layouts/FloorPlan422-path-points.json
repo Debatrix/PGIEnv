@@ -1,0 +1,104 @@
+{
+  "path_points": [
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 129.709,
+      "horizon": 33.0000038,
+      "loc_desc": "NW_sinkbasin"
+    },
+    {
+      "x": -3.0,
+      "y": 1.5823642,
+      "z": 1.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "SE_faucet"
+    },
+    {
+      "x": -0.5,
+      "y": 0.900835156,
+      "z": 1.5,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_lightswitch"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 175.354538,
+      "horizon": 39.0000038,
+      "loc_desc": "N_sink"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 180.0,
+      "horizon": 0.0,
+      "loc_desc": "N_cabinet"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9008354,
+      "z": 0.75,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NE_sinkbasin"
+    },
+    {
+      "x": -3.75,
+      "y": 1.1413399,
+      "z": 0.5,
+      "rotation": 29.4647121,
+      "horizon": 60.0000038,
+      "loc_desc": "SW_bathtub"
+    },
+    {
+      "x": -0.75,
+      "y": 1.5823642,
+      "z": 0.75,
+      "rotation": 270.0,
+      "horizon": 75.00003,
+      "loc_desc": "NW_cabinet"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9008352,
+      "z": 2.25,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "E_drawer"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 180.513474,
+      "horizon": 67.00001,
+      "loc_desc": "NE_cabinet"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": 1.75,
+      "rotation": 45.7245522,
+      "horizon": 62.00001,
+      "loc_desc": "SW_toiletpaperhanger"
+    },
+    {
+      "x": -1.5,
+      "y": 1.5823642,
+      "z": 0.75,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "NE_mirror"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan422",
+    "total_path_points": 12
+  }
+}

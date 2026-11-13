@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 1.5,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "W_ottoman_NE"
+    },
+    {
+      "x": -2.75,
+      "y": 0.9,
+      "z": 1.5,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "W_ottoman_N"
+    },
+    {
+      "x": -5.0,
+      "y": 0.905754745,
+      "z": 0.0,
+      "rotation": 100.324974,
+      "horizon": 55.0000076,
+      "loc_desc": "W_garbagecan"
+    },
+    {
+      "x": -2.75,
+      "y": 0.905754745,
+      "z": 1.5,
+      "rotation": 72.55587,
+      "horizon": 51.9999962,
+      "loc_desc": "W_ottoman"
+    },
+    {
+      "x": -3.5,
+      "y": 0.905754745,
+      "z": 1.25,
+      "rotation": 279.3678,
+      "horizon": 55.0000038,
+      "loc_desc": "E_armchair"
+    },
+    {
+      "x": -6.5,
+      "y": 0.905754745,
+      "z": 1.0,
+      "rotation": 152.236252,
+      "horizon": 52.0000076,
+      "loc_desc": "NW_chair"
+    },
+    {
+      "x": -2.75,
+      "y": 0.905754745,
+      "z": 1.25,
+      "rotation": 167.145508,
+      "horizon": 52.0000038,
+      "loc_desc": "N_sofa"
+    },
+    {
+      "x": -1.25,
+      "y": 0.905754745,
+      "z": 2.5,
+      "rotation": 112.022919,
+      "horizon": 45.0000153,
+      "loc_desc": "W_houseplant"
+    },
+    {
+      "x": -6.0,
+      "y": 0.905754745,
+      "z": 2.25,
+      "rotation": 289.595734,
+      "horizon": 13.000001,
+      "loc_desc": "E_lightswitch"
+    },
+    {
+      "x": -0.25,
+      "y": 0.905754745,
+      "z": 0.75,
+      "rotation": 179.006927,
+      "horizon": 55.0000038,
+      "loc_desc": "N_floorlamp"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan210",
+    "total_path_points": 10
+  }
+}

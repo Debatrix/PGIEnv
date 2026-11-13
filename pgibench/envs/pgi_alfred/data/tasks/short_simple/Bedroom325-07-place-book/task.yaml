@@ -1,0 +1,178 @@
+schema_version: 2
+task_id: Bedroom325-07-place-book
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: >-
+    As you finish up your bedtime reading, could you put the book on the side
+    table? Keeps the bed clear for a good night's sleep.
+  micro: Pick up the book from the bed and put it on the side table.
+scene:
+  floor_plan: FloorPlan325
+  scene_num: 325
+  room_type: Bedroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      Book: 1
+    distractors:
+      Pillow: 1
+      Laptop: 1
+      CreditCard: 1
+      CellPhone: 1
+      AlarmClock: 1
+      Watch: 1
+    min_free:
+      SideTable: 1
+  object_poses:
+  - objectName: Book_0377f6ae
+    position:
+      x: 2.545877
+      y: 0.6101945
+      z: 0.790008664
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_cad0928e
+    position:
+      x: 3.37773132
+      y: 0.725087047
+      z: 1.26261485
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  - objectName: CreditCard_ad77a4bf
+    position:
+      x: 0.023779422
+      y: 1.10797977
+      z: 3.22617435
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  - objectName: Pen_bffe7373
+    position:
+      x: 2.51919174
+      y: 0.9907528
+      z: -1.94999754
+    rotation:
+      x: 0.0
+      y: 269.9995
+      z: 0.0
+  - objectName: Pencil_a8af6fa7
+    position:
+      x: -0.9709755
+      y: 0.7882538
+      z: -0.338463545
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_e2ca26c2
+    position:
+      x: 2.05256152
+      y: 0.607911348
+      z: 0.308749318
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_afb1a602
+    position:
+      x: 1.95080638
+      y: 0.9902596
+      z: -1.7749064
+    rotation:
+      x: 0.0
+      y: 269.9995
+      z: 0.0
+  - objectName: AlarmClock_04e7d5d6
+    position:
+      x: 3.08757615
+      y: 0.986661
+      z: -1.94999242
+    rotation:
+      x: 0.0
+      y: 269.9995
+      z: 0.0
+  - objectName: Pillow_e5a1e585
+    position:
+      x: 2.5335052
+      y: 0.631
+      z: 1.26413584
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_6d49bf8e
+    position:
+      x: 1.96676731
+      y: 0.631
+      z: 1.22695339
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_5a98df14
+    position:
+      x: 2.80338144
+      y: 0.9854973
+      z: -1.68735075
+    rotation:
+      x: 0.0
+      y: 269.9995
+      z: 0.0
+  - objectName: CD_3c1722d2
+    position:
+      x: -0.772289
+      y: 0.784675241
+      z: 0.08141923
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_5a6580bb
+    position:
+      x: 1.95080853
+      y: 0.9922758
+      z: -2.03755069
+    rotation:
+      x: 0.0
+      y: 269.9995
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.25
+    y: 0.949744344
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Book
+  parent_target: SideTable
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

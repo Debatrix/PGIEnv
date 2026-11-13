@@ -1,0 +1,252 @@
+schema_version: 2
+task_id: Bathroom430-430-tidy-refresh
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: The bathroom is looking a little lived-in after the day - would you give
+    the washcloth and the soap bar a quick rinse and set them on the counter, restock
+    a fresh roll of toilet paper on its holder, and open the drawer? It makes the
+    whole space feel fresh and ready for whoever comes in next.
+  micro: Rinse the washcloth at the sink and put it on the counter top; rinse the
+    soap bar and put it on the counter top; put the toilet paper on the toilet paper
+    hanger; open the drawer.
+scene:
+  floor_plan: FloorPlan430
+  scene_num: 430
+  room_type: Bathroom
+  random_spawn:
+    seed: 430
+    object_counts:
+      Cloth: 1
+      SoapBar: 1
+      ToiletPaper: 1
+    distractors:
+      SprayBottle: 2
+      SoapBottle: 4
+      Plunger: 1
+      ScrubBrush: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 2
+      ToiletPaperHanger: 1
+      Drawer: 1
+  object_poses:
+  - objectName: SprayBottle_2f71aee2(Clone)_random_copy_0
+    position:
+      x: 0.07300373
+      y: 0.9624092
+      z: 2.27727461
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SoapBottle_67d42c38(Clone)_random_copy_2
+    position:
+      x: 1.5675931
+      y: 0.6344514
+      z: -2.1683197
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_67d42c38(Clone)_random_copy_1
+    position:
+      x: 0.111016423
+      y: 0.973848939
+      z: -1.99327743
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_67d42c38(Clone)_random_copy_0
+    position:
+      x: -0.527925968
+      y: 0.973848939
+      z: -1.80532086
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Candle_2ebf1d6c
+    position:
+      x: -0.114496559
+      y: 0.965005159
+      z: 2.19690037
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: HandTowel_31149277
+    position:
+      x: -0.885
+      y: 1.617
+      z: -2.5037
+    rotation:
+      x: 0.0
+      y: 179.999969
+      z: 0.0
+  - objectName: Towel_24c29b1a
+    position:
+      x: 0.465890378
+      y: 1.21
+      z: -1.095
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SoapBottle_67d42c38
+    position:
+      x: -0.05199659
+      y: 0.976142764
+      z: 2.277275
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: SoapBar_25110512
+    position:
+      x: -1.84013462
+      y: 0.07697809
+      z: -1.55148458
+    rotation:
+      x: 9.923122e-15
+      y: 45.00003
+      z: 9.92313e-15
+  - objectName: ToiletPaper_cc5027dd
+    position:
+      x: -0.178
+      y: 0.957429349
+      z: 2.268322
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plunger_65d4d49a
+    position:
+      x: 0.5063196
+      y: 0.0115768015
+      z: 2.268863
+    rotation:
+      x: -0.00118246267
+      y: 0.0004405065
+      z: 0.000780726841
+  - objectName: SprayBottle_2f71aee2
+    position:
+      x: 2.20495749
+      y: 0.620348454
+      z: -2.46304083
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_7f6b7a12
+    position:
+      x: 1.78004789
+      y: 0.624048
+      z: -2.02095914
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ToiletPaper_b4152fb5
+    position:
+      x: -0.515000165
+      y: 0.0313048363
+      z: 2.338677
+    rotation:
+      x: -1.56447834e-06
+      y: -6.521771e-07
+      z: 90.0006561
+  - objectName: ScrubBrush_f6ab61ab
+    position:
+      x: 0.342862785
+      y: 0.0120397955
+      z: 2.072015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_72b782f7
+    position:
+      x: 1.5675931
+      y: 0.6222749
+      z: -2.31568027
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_91046b03
+    position:
+      x: -2.01076555
+      y: 0.0784726441
+      z: -1.486671
+    rotation:
+      x: 9.923122e-15
+      y: 45.00003
+      z: 9.92313e-15
+  - objectName: Footstool_4fb1de73
+    position:
+      x: -0.325
+      y: 0.297
+      z: -1.98
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  - objectType: ShowerHead
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -0.75
+    y: 0.9130393
+    z: 0.5
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Cloth
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Cloth
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: SoapBar
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: ToiletPaper
+      parent_target: ToiletPaperHanger
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Drawer
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

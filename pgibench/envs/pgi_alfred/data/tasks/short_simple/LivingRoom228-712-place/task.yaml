@@ -1,0 +1,179 @@
+schema_version: 2
+task_id: LivingRoom228-712-place
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: Could you put the Newspaper on the DiningTable?
+  micro: put the Newspaper on the DiningTable.
+scene:
+  floor_plan: FloorPlan228
+  scene_num: 228
+  room_type: LivingRoom
+  random_spawn:
+    seed: 712
+    object_counts:
+      RemoteControl: 1
+      Vase: 1
+      CreditCard: 1
+      Newspaper: 1
+    distractors:
+      CellPhone: 4
+      Laptop: 3
+      Book: 3
+      Box: 2
+    min_free:
+      DiningTable: 4
+  object_poses:
+  - objectName: Box_c5c1d96c(Clone)_random_copy_0
+    position:
+      x: -3.893718
+      y: 0.833336949
+      z: 4.349313
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Laptop_b0614b76(Clone)_random_copy_0
+    position:
+      x: -1.396
+      y: 0.82
+      z: 1.75398421
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Box_c5c1d96c
+    position:
+      x: -4.06033659
+      y: 0.6235962
+      z: 2.06113386
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_452ecd39
+    position:
+      x: -5.40761375
+      y: 0.46779865
+      z: 2.89465857
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Newspaper_61f71d68
+    position:
+      x: -3.90914178
+      y: 0.438281417
+      z: 2.8835783
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_0e507493
+    position:
+      x: -1.65411055
+      y: 0.821996152
+      z: 1.12544918
+    rotation:
+      x: 0.0
+      y: 115.696846
+      z: 0.0
+  - objectName: RemoteControl_1307e4c0
+    position:
+      x: -0.980849862
+      y: 0.823234141
+      z: 1.75398421
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_b0614b76
+    position:
+      x: -5.245971
+      y: 0.47543624
+      z: 2.66032934
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Plate_ba3c37ee
+    position:
+      x: -4.135934
+      y: 0.448931783
+      z: 2.55460048
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_451f4919
+    position:
+      x: -4.161
+      y: 0.542
+      z: 0.575
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_2556898c
+    position:
+      x: -2.69457626
+      y: 0.6317016
+      z: 4.605693
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_27281106
+    position:
+      x: -1.44236135
+      y: 0.8247408
+      z: 0.8441451
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Watch_cc25f6e2
+    position:
+      x: -1.98885512
+      y: 0.822272837
+      z: 1.57174492
+    rotation:
+      x: 0.0
+      y: 16.1802139
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -2.5
+    y: 0.8938638
+    z: 3.0
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Newspaper
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

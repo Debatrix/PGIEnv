@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 2.5,
+      "y": 0.9009999,
+      "z": -0.5,
+      "rotation": 208.213913,
+      "horizon": 59.0000076,
+      "loc_desc": "NE_chair"
+    },
+    {
+      "x": 1.0,
+      "y": 0.900999844,
+      "z": -1.25,
+      "rotation": 104.774963,
+      "horizon": 46.0,
+      "loc_desc": "W_desk"
+    },
+    {
+      "x": 0.75,
+      "y": 0.900999844,
+      "z": -0.75,
+      "rotation": 213.734421,
+      "horizon": 43.0000038,
+      "loc_desc": "NE_sidetable"
+    },
+    {
+      "x": 0.25,
+      "y": 0.900999844,
+      "z": -0.75,
+      "rotation": 261.091278,
+      "horizon": 51.0000038,
+      "loc_desc": "E_bed"
+    },
+    {
+      "x": 1.75,
+      "y": 0.900999844,
+      "z": 0.75,
+      "rotation": 59.8890953,
+      "horizon": 51.0000076,
+      "loc_desc": "SW_garbagecan"
+    },
+    {
+      "x": 1.75,
+      "y": 0.900999844,
+      "z": 0.25,
+      "rotation": 106.53714,
+      "horizon": -5.0,
+      "loc_desc": "W_mirror"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009999,
+      "z": 0.75,
+      "rotation": 247.446014,
+      "horizon": 12.0,
+      "loc_desc": "NE_window"
+    },
+    {
+      "x": 0.25,
+      "y": 0.900999844,
+      "z": 1.0,
+      "rotation": 296.944427,
+      "horizon": 20.0000038,
+      "loc_desc": "SE_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan312",
+    "total_path_points": 8
+  }
+}

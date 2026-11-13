@@ -1,0 +1,8 @@
+model_name: gemini-3-flash-preview
+api_type: openai
+base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+api_key_env: GEMINI_API_KEY
+supports_vision: true
+max_tokens: 2048
+temperature: 0
+fix_json: true

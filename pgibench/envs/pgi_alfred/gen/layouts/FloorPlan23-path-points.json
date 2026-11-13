@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -1.0,
+      "y": 0.9009995,
+      "z": -1.25,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_cabinet_#2"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009995,
+      "z": -1.75,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_cabinet"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9009993,
+      "z": -2.75,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_stoveburner_#1"
+    },
+    {
+      "x": -1.5,
+      "y": 0.900999069,
+      "z": -1.25,
+      "rotation": 121.14312,
+      "horizon": 43.9999962,
+      "loc_desc": "NW_cabinet_#1"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009984,
+      "z": -3.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_stoveburner_#2"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": -3.0,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "W_countertop_NE"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9009995,
+      "z": -1.0,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "NW_cabinet_#3"
+    },
+    {
+      "x": -3.0,
+      "y": 0.9009995,
+      "z": -0.25,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_chair"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9,
+      "z": -3.5,
+      "rotation": 137.2259,
+      "horizon": 69.0,
+      "loc_desc": "W_stoveburner"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9,
+      "z": -3.0,
+      "rotation": 196.647629,
+      "horizon": -41.0,
+      "loc_desc": "N_blinds"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan23",
+    "total_path_points": 10
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": 1.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "E_chair_SE"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009992,
+      "z": -0.75,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SW_stoveburner"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9009992,
+      "z": -0.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_countertop"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009992,
+      "z": -1.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_sinkbasin"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": 1.75,
+      "rotation": 180,
+      "horizon": 30,
+      "loc_desc": "E_chair_S_D"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9009992,
+      "z": 0.75,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "E_countertop"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": -0.5,
+      "rotation": 140.7025,
+      "horizon": 36.0000076,
+      "loc_desc": "NW_sink"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009995,
+      "z": 1.75,
+      "rotation": 274.885223,
+      "horizon": 51.0000076,
+      "loc_desc": "E_chair"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": 1.75,
+      "rotation": 180,
+      "horizon": -30,
+      "loc_desc": "E_chair_S_U"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 90,
+      "horizon": -30,
+      "loc_desc": "NW_sink_E_U"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": 1.75,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "E_chair_NW"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan6",
+    "total_path_points": 11
+  }
+}

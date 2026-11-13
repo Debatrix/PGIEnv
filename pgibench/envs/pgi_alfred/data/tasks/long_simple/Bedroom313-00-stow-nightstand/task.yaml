@@ -1,0 +1,222 @@
+schema_version: 2
+task_id: Bedroom313-00-stow-nightstand
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: When making the bedroom feel calm and orderly, could you please put the book
+    on the side table and put the cell phone on the side table and put the key chain
+    on the side table? It keeps your things exactly where they belong.
+  micro: put the book on the side table; put the cell phone on the side table; put
+    the key chain on the side table.
+scene:
+  floor_plan: FloorPlan313
+  scene_num: 313
+  room_type: Bedroom
+  random_spawn:
+    seed: 0
+    object_counts:
+      Book: 1
+      CellPhone: 1
+      KeyChain: 1
+    distractors:
+      Pen: 1
+      CreditCard: 1
+      Watch: 2
+      Pillow: 1
+      AlarmClock: 1
+    min_free:
+      SideTable: 3
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: Box_bc1de45f
+    position:
+      x: 1.537
+      y: 1.652
+      z: 0.692
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_af63f8ac
+    position:
+      x: -1.63000393
+      y: 0.5277761
+      z: -0.5704446
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_aaa51558
+    position:
+      x: 1.46969163
+      y: 1.41260839
+      z: 0.7792515
+    rotation:
+      x: 0.0
+      y: 270.000153
+      z: 0.0
+  - objectName: CellPhone_ba9fc135
+    position:
+      x: -1.48300779
+      y: 0.530629158
+      z: 0.6482868
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_8d9a2301
+    position:
+      x: 1.51117349
+      y: 0.490037173
+      z: -0.464598447
+    rotation:
+      x: 0.0
+      y: 269.999969
+      z: 0.0
+  - objectName: TeddyBear_52590c6e
+    position:
+      x: -2.204
+      y: 0.5001
+      z: 0.181
+    rotation:
+      x: 355.000061
+      y: 297.467682
+      z: 9.162092
+  - objectName: CreditCard_8168a6e4
+    position:
+      x: 0.9874868
+      y: 0.7039794
+      z: -1.42399025
+    rotation:
+      x: 0.0
+      y: 179.999939
+      z: 0.0
+  - objectName: KeyChain_ce99f974
+    position:
+      x: 1.47999656
+      y: 0.704819143
+      z: -1.52158272
+    rotation:
+      x: 0.0
+      y: -5.79560765e-05
+      z: 0.0
+  - objectName: BaseballBat_433a0e8d
+    position:
+      x: -2.202
+      y: 0.04
+      z: -1.343
+    rotation:
+      x: 5.122642e-06
+      y: 44.99992
+      z: 89.9998245
+  - objectName: TennisRacket_7b4a37c4
+    position:
+      x: -2.254
+      y: 0.324
+      z: -1.806
+    rotation:
+      x: 15.0002995
+      y: 180.0
+      z: 180.0
+  - objectName: Pillow_75bd6d3d
+    position:
+      x: -2.03975916
+      y: 0.545
+      z: 0.6772269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_44137064
+    position:
+      x: -1.923996
+      y: 0.525324166
+      z: -0.08295202
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_45b3def1
+    position:
+      x: 1.631487
+      y: 1.41141617
+      z: 0.00777882338
+    rotation:
+      x: 0.0
+      y: 270.000153
+      z: 0.0
+  - objectName: Pen_7d241fed
+    position:
+      x: 1.550589
+      y: 1.41746235
+      z: 0.264936477
+    rotation:
+      x: 0.0
+      y: 270.000153
+      z: 0.0
+  - objectName: Pencil_cbb1b9aa
+    position:
+      x: 1.60046935
+      y: 0.7120754
+      z: -0.465
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_6594cbaa
+    position:
+      x: 0.248722732
+      y: 0.6995
+      z: -1.81436312
+    rotation:
+      x: 0.0
+      y: 179.999939
+      z: 0.0
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: Lamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.5
+    y: 0.9009992
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

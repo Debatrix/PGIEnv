@@ -1,0 +1,200 @@
+schema_version: 2
+task_id: LivingRoom224-224-reading-setup
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: After a long day, I'm in the mood to wind down with a movie in the living
+    room - would you switch off the desk lamp and the floor lamp to dim the room,
+    set the keychain on the armchair, and open the drawer so the space is all set
+    for a cozy night? It makes relaxing here so much easier.
+  micro: Turn off the desk lamp; turn off the floor lamp; put the keychain on the
+    armchair; open the drawer.
+scene:
+  floor_plan: FloorPlan224
+  scene_num: 224
+  room_type: LivingRoom
+  random_spawn:
+    seed: 224
+    object_counts:
+      KeyChain: 1
+    distractors: {}
+    min_free:
+      ArmChair: 1
+      Drawer: 1
+  object_poses:
+  - objectName: Book_4e0dbe45
+    position:
+      x: 0.116
+      y: 0.902580142
+      z: 1.073
+    rotation:
+      x: 0.0
+      y: 29.9999466
+      z: 0.0
+  - objectName: Box_ec78f573
+    position:
+      x: -2.81280375
+      y: 0.7539902
+      z: 1.18768549
+    rotation:
+      x: 0.0
+      y: 270.0008
+      z: 0.0
+  - objectName: Statue_7e494874
+    position:
+      x: -0.113969006
+      y: 0.915468
+      z: 2.18891549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_5dc34411
+    position:
+      x: -2.958818
+      y: 0.5457306
+      z: 1.80662513
+    rotation:
+      x: 0.0
+      y: 270.0008
+      z: 0.0
+  - objectName: Laptop_c532ec98
+    position:
+      x: -2.78081179
+      y: 0.365461469
+      z: -1.874968
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WateringCan_cb2be04d
+    position:
+      x: 2.89399958
+      y: 0.014939107
+      z: -1.91600132
+    rotation:
+      x: 0.0007921082
+      y: 328.832336
+      z: 0.000867555
+  - objectName: Newspaper_1e8f1c02
+    position:
+      x: 3.18
+      y: 0.586334169
+      z: -0.543
+    rotation:
+      x: 0.0
+      y: 259.7471
+      z: 0.0
+  - objectName: Vase_4c89f135
+    position:
+      x: -2.16899252
+      y: 1.19524324
+      z: -2.1836822
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_dad3503f
+    position:
+      x: -3.29934573
+      y: 0.5907116
+      z: -0.5562123
+    rotation:
+      x: 0.0
+      y: 6.659434e-05
+      z: 0.0
+  - objectName: RemoteControl_b0bc5ae3
+    position:
+      x: -3.031829
+      y: 0.564614058
+      z: 1.80662632
+    rotation:
+      x: 0.0
+      y: 270.0008
+      z: 0.0
+  - objectName: Vase_eef72b70
+    position:
+      x: -1.04643679
+      y: 1.19524324
+      z: -2.15178347
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_fe37edd9
+    position:
+      x: -2.893
+      y: 0.616
+      z: 0.818
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_ec44dd4c
+    position:
+      x: 0.249107033
+      y: 0.9097272
+      z: 1.94603217
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Television
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -2.0
+    y: 0.916797757
+    z: 1.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: DeskLamp
+  object_sliced: false
+  subtasks:
+  - task_type: toggle_object_off
+    pddl_params:
+      object_target: ''
+      parent_target: ''
+      mrecep_target: ''
+      toggle_target: DeskLamp
+      object_sliced: false
+  - task_type: toggle_object_off
+    pddl_params:
+      object_target: ''
+      parent_target: ''
+      mrecep_target: ''
+      toggle_target: FloorLamp
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: ArmChair
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Drawer
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,347 @@
+schema_version: 2
+task_id: Kitchen16-31-meal-prep-cleanup
+task_type: composite
+eval_set: long_hard
+instructions:
+  macro: After a long morning in the kitchen, I'd love to get a simple meal laid out
+    and the place tidied — could you heat the potato in the microwave and set it on
+    the counter top, slice the tomato and add it to the counter too, chill the apple
+    in the fridge and bring it out to the dining table, rinse the mug at the sink
+    and set it on the counter top, then serve the egg in a bowl on the counter? That
+    way everything's prepped and ready to eat with the table set.
+  micro: Heat the potato in the microwave and put it on the counter top; slice the
+    tomato and put it on the counter top; chill the apple in the fridge and put it
+    on the dining table; rinse the mug at the sink and put it on the counter top;
+    put the egg in the bowl and put the bowl on the counter top.
+scene:
+  floor_plan: FloorPlan16
+  scene_num: 16
+  room_type: Kitchen
+  random_spawn:
+    seed: 31
+    object_counts:
+      Potato: 1
+      Tomato: 1
+      Apple: 1
+      Mug: 1
+      Egg: 1
+      Bowl: 1
+    distractors:
+      Bread: 1
+      Cup: 2
+      Pot: 1
+      PepperShaker: 1
+      Fork: 1
+      Knife: 1
+      DishSponge: 1
+    min_free:
+      SinkBasin: 1
+      CounterTop: 4
+      DiningTable: 1
+  object_poses:
+  - objectName: Cup_7fa88b29(Clone)_random_copy_0
+    position:
+      x: 2.451
+      y: 0.76306
+      z: 3.445
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pan_c7f7c9bb
+    position:
+      x: 1.836
+      y: 1.0276562
+      z: -1.84
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: Glassbottle_105a13ed
+    position:
+      x: 2.893106
+      y: 0.765187
+      z: 4.307145
+    rotation:
+      x: 0.0
+      y: 224.999969
+      z: 0.0
+  - objectName: Knife_2539b087
+    position:
+      x: 1.88249016
+      y: 1.05222309
+      z: 1.65305948
+    rotation:
+      x: 0.0
+      y: 226.999985
+      z: 0.0
+  - objectName: SoapBottle_a47378fd
+    position:
+      x: 2.85909867
+      y: 1.02554524
+      z: 1.44796753
+    rotation:
+      x: 0.0
+      y: 136.999985
+      z: 0.0
+  - objectName: Egg_6cf51d94
+    position:
+      x: 2.4234333
+      y: 0.8084784
+      z: 4.25731659
+    rotation:
+      x: 0.0
+      y: 224.999969
+      z: 0.0
+  - objectName: Fork_8af67485
+    position:
+      x: -0.418909073
+      y: 1.02804852
+      z: 2.31163669
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Potato_a189bfca
+    position:
+      x: 2.62600017
+      y: 0.8064741
+      z: 3.747344
+    rotation:
+      x: 0.0
+      y: 269.999939
+      z: 0.0
+  - objectName: Ladle_8232b75a
+    position:
+      x: -0.544271946
+      y: 1.06666756
+      z: 2.31163669
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Tomato_6be5e93d
+    position:
+      x: 2.8157115
+      y: 0.8181622
+      z: 4.124789
+    rotation:
+      x: 0.0
+      y: 224.999969
+      z: 0.0
+  - objectName: Pot_267fd2ad
+    position:
+      x: 1.761
+      y: 1.0276562
+      z: -1.59929013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WineBottle_ca02bbc4
+    position:
+      x: -0.7949977
+      y: 1.02842867
+      z: 2.55691051
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_1895c9f9
+    position:
+      x: -0.4189102
+      y: 1.027989
+      z: 0.508360863
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Spatula_87bb090b
+    position:
+      x: 1.230588
+      y: 1.04187334
+      z: -1.66760111
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: PaperTowelRoll_758d0bf4
+    position:
+      x: -0.5442727
+      y: 1.13178539
+      z: 0.785099745
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Lettuce_2bc5be8e
+    position:
+      x: -0.851217866
+      y: 0.874713242
+      z: 1.181684
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Apple_dc079739
+    position:
+      x: -0.4189102
+      y: 1.07785249
+      z: 0.323868275
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SaltShaker_c2d3cb7a
+    position:
+      x: 2.976
+      y: 0.7607765
+      z: 3.97000051
+    rotation:
+      x: 0.0
+      y: 269.999939
+      z: 0.0
+  - objectName: PepperShaker_26395c85
+    position:
+      x: 2.626
+      y: 0.7607765
+      z: 3.89578152
+    rotation:
+      x: 0.0
+      y: 269.999939
+      z: 0.0
+  - objectName: ButterKnife_98253f2a
+    position:
+      x: -0.5442727
+      y: 1.02754211
+      z: 0.600607157
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bread_7275394e
+    position:
+      x: 2.621801
+      y: 1.09497416
+      z: -0.8465846
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cup_7fa88b29
+    position:
+      x: 2.30256248
+      y: 0.76306
+      z: 3.97
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_00fca5a2
+    position:
+      x: -0.6459911
+      y: 0.816120446
+      z: 1.1816839
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Bowl_b3ba1f80
+    position:
+      x: 2.73566413
+      y: 0.7629045
+      z: 4.46458673
+    rotation:
+      x: 0.0
+      y: 224.999969
+      z: 0.0
+  - objectName: Spoon_5dd10cb9
+    position:
+      x: -0.8512178
+      y: 0.8176854
+      z: 1.492535
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Mug_a04e993b
+    position:
+      x: -0.6459911
+      y: 0.81155616
+      z: 1.4148221
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  object_toggles:
+  - objectType: Microwave
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Toaster
+    isOn: false
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 1.25
+    y: 0.900999665
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Potato
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_heat_then_place_in_recep
+    pddl_params:
+      object_target: Potato
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_slice_then_place_in_recep
+    pddl_params:
+      object_target: Tomato
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: true
+  - task_type: pick_cool_then_place_in_recep
+    pddl_params:
+      object_target: Apple
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_clean_then_place_in_recep
+    pddl_params:
+      object_target: Mug
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_with_movable_recep
+    pddl_params:
+      object_target: Egg
+      parent_target: CounterTop
+      mrecep_target: Bowl
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

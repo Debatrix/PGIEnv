@@ -1,0 +1,177 @@
+schema_version: 2
+task_id: Bedroom329-07-place-book
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: While tidying the bedroom, could you move the book from the bed to the side
+    table? It keeps your reading within easy reach for later.
+  micro: Put the book on the side table.
+scene:
+  floor_plan: FloorPlan329
+  scene_num: 329
+  room_type: Bedroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      Book: 1
+    distractors:
+      Pillow: 1
+      Laptop: 1
+      CreditCard: 1
+      CellPhone: 1
+      AlarmClock: 1
+      Watch: 1
+    min_free:
+      SideTable: 1
+  object_poses:
+  - objectName: Box_95ab5ac0
+    position:
+      x: 2.45341372
+      y: 0.222
+      z: -0.04186213
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Book_082f1ecc
+    position:
+      x: -0.666090965
+      y: 0.5553288
+      z: -0.988662541
+    rotation:
+      x: 0.0
+      y: 3.756604e-05
+      z: 0.0
+  - objectName: KeyChain_1e1344a8
+    position:
+      x: -0.27647683
+      y: 0.6217005
+      z: 0.9109521
+    rotation:
+      x: 0.0
+      y: 180.00032
+      z: 0.0
+  - objectName: Pillow_5d0c297b
+    position:
+      x: 0.192
+      y: 0.607
+      z: -2.307
+    rotation:
+      x: 0.7996851
+      y: 0.0
+      z: 0.0
+  - objectName: BaseballBat_270ea6b4
+    position:
+      x: 0.419
+      y: 0.6664
+      z: 1.0441
+    rotation:
+      x: 10.3601227
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_2fafcdd0
+    position:
+      x: 0.1884599
+      y: 0.623979747
+      z: 0.59914124
+    rotation:
+      x: 0.0
+      y: 180.00032
+      z: 0.0
+  - objectName: CellPhone_c6101754
+    position:
+      x: -0.4833941
+      y: 0.5571268
+      z: -1.43441033
+    rotation:
+      x: 0.0
+      y: 3.756604e-05
+      z: 0.0
+  - objectName: CreditCard_4d76afad
+    position:
+      x: -1.38145411
+      y: 0.6759502
+      z: -2.50887346
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pen_0913ea1c
+    position:
+      x: -1.1448487
+      y: 0.681607068
+      z: -2.50887346
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_de3577db
+    position:
+      x: -0.661
+      y: 0.6131135
+      z: 0.778
+    rotation:
+      x: 0.0
+      y: 165.00032
+      z: 0.0
+  - objectName: AlarmClock_1883a1af
+    position:
+      x: 0.03348127
+      y: 0.6218786
+      z: 0.755046248
+    rotation:
+      x: 0.0
+      y: 180.00032
+      z: 0.0
+  - objectName: CD_65d0c202
+    position:
+      x: -0.431458145
+      y: 0.618101954
+      z: 0.5991447
+    rotation:
+      x: 0.0
+      y: 180.00032
+      z: 0.0
+  - objectName: Mug_1b2382a9
+    position:
+      x: -0.121496439
+      y: 0.6181135
+      z: 1.06685531
+    rotation:
+      x: 0.0
+      y: 180.00032
+      z: 0.0
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 1.0
+    y: 0.9009992
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Book
+  parent_target: SideTable
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,347 @@
+schema_version: 2
+task_id: Kitchen1-42-smoke-mug-apple
+task_type: composite
+eval_set: smoke_test
+instructions:
+  macro: The mug and the apple ended up out of place - could you put both of them
+    away on the kitchen counter?
+  micro: Pick up the mug and put it on the counter top. Then pick up the apple and
+    put it on the counter top.
+scene:
+  floor_plan: FloorPlan1
+  scene_num: 1
+  room_type: Kitchen
+  random_spawn:
+    seed: 42
+    object_counts:
+      Mug: 1
+      Apple: 1
+    distractors:
+      Potato: 1
+      Bread: 1
+      Plate: 1
+      Knife: 1
+    min_free:
+      CounterTop: 2
+  object_poses:
+  - objectName: Book_f5814e4b
+    position:
+      x: 0.0790954158
+      y: 1.11098993
+      z: -0.5065479
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Glassbottle_c5dfb511
+    position:
+      x: 1.89316678
+      y: 0.5537753
+      z: -2.61467481
+    rotation:
+      x: -3.41504619e-06
+      y: 180.00032
+      z: -1.70754829e-05
+  - objectName: Knife_c9d70d0f
+    position:
+      x: 0.582688
+      y: 0.93604964
+      z: -2.33036733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bread_35d530e8
+    position:
+      x: 0.0790954158
+      y: 1.18406522
+      z: 0.251773834
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Fork_89238ee6
+    position:
+      x: 1.09816635
+      y: 0.911248565
+      z: -2.33036685
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Potato_dc7b7f7e
+    position:
+      x: -1.85282016
+      y: 0.80024153
+      z: -1.58758128
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: SoapBottle_0fe5b61f
+    position:
+      x: -1.574208
+      y: 0.9123807
+      z: -1.869518
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Kettle_7ed44c70
+    position:
+      x: 0.355485976
+      y: 1.11264133
+      z: -0.253773928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pan_e8d2711b
+    position:
+      x: -0.4652
+      y: 0.950499952
+      z: -2.372
+    rotation:
+      x: 0.0
+      y: 90.00001
+      z: 0.0
+  - objectName: Plate_ba789e3c
+    position:
+      x: 1.68576694
+      y: 0.549977243
+      z: -2.56289959
+    rotation:
+      x: -3.41504619e-06
+      y: 180.00032
+      z: -1.70754829e-05
+  - objectName: Tomato_811f3b02
+    position:
+      x: -0.473685682
+      y: 1.15066838
+      z: -0.253773928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_d1ae33eb
+    position:
+      x: 0.355485976
+      y: 1.11375952
+      z: -0.5065479
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Egg_30762d8a
+    position:
+      x: -1.85627437
+      y: 0.9465633
+      z: -0.513000965
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CreditCard_01a9d33b
+    position:
+      x: 0.8404269
+      y: 0.907696068
+      z: -2.484
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_1a4cbefa
+    position:
+      x: 1.955
+      y: 0.168442056
+      z: -2.543
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WineBottle_c21bc5e7
+    position:
+      x: 0.969296634
+      y: 0.9116288
+      z: -2.40718341
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pot_9e34d9fc
+    position:
+      x: -0.0361
+      y: 0.950499952
+      z: -2.3722
+    rotation:
+      x: 0.0
+      y: 270.000061
+      z: 0.0
+  - objectName: Spatula_1e920a81
+    position:
+      x: -2.01865983
+      y: 0.784756
+      z: -1.67392874
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: PaperTowelRoll_2c38299b
+    position:
+      x: 0.582687557
+      y: 1.01498532
+      z: -2.484
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cup_77fad61b
+    position:
+      x: -1.90810013
+      y: 0.7676379
+      z: -1.76027608
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: Vase_5ffb3206
+    position:
+      x: 1.09816635
+      y: 0.9083989
+      z: -2.637633
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bowl_9960ee75
+    position:
+      x: -1.85282
+      y: 0.766376555
+      z: -1.32853913
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: SaltShaker_b714915a
+    position:
+      x: 1.68690836
+      y: 0.8771373
+      z: -2.509263
+    rotation:
+      x: -3.41504619e-06
+      y: 180.00032
+      z: -1.70754829e-05
+  - objectName: PepperShaker_816f44ce
+    position:
+      x: -0.197295129
+      y: 1.10790622
+      z: -0.00100004673
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Lettuce_e166a32f
+    position:
+      x: -0.059099853
+      y: 1.19122255
+      z: -0.253773928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ButterKnife_f63cc56c
+    position:
+      x: -1.733601
+      y: 0.911442041
+      z: -2.63708615
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Apple_a0b666be
+    position:
+      x: 0.324948162
+      y: 0.961277664
+      z: -2.484
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_56e11318
+    position:
+      x: 0.8404269
+      y: 0.910264254
+      z: -2.637633
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Spoon_cd066502
+    position:
+      x: 0.711557269
+      y: 0.9118294
+      z: -2.56081653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_b5db8038
+    position:
+      x: 0.355485976
+      y: 1.1066
+      z: 0.251773834
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Microwave
+    isOn: false
+  - objectType: Toaster
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -1.0
+    y: 0.9009995
+    z: 1.0
+    rotation: 270.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Mug
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Mug
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Apple
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

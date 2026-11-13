@@ -1,0 +1,234 @@
+schema_version: 2
+task_id: LivingRoom204-00-lights-on-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: When getting the living room ready for guests, could you please turn on the
+    floor lamp and put the key chain on the coffee table and put the cell phone on
+    the dining table? It keeps everything within easy reach.
+  micro: turn on the floor lamp; put the key chain on the coffee table; put the cell
+    phone on the dining table.
+scene:
+  floor_plan: FloorPlan204
+  scene_num: 204
+  room_type: LivingRoom
+  random_spawn:
+    seed: 0
+    object_counts:
+      KeyChain: 1
+      CellPhone: 1
+    distractors:
+      Box: 2
+      Pillow: 2
+      Newspaper: 1
+      RemoteControl: 1
+    min_free:
+      CoffeeTable: 1
+      DiningTable: 1
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: Box_6194c360(Clone)_random_copy_0
+    position:
+      x: -2.46511
+      y: 0.945289254
+      z: -2.07489562
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_b4695ca2(Clone)_random_copy_0
+    position:
+      x: -2.16406155
+      y: 0.446492016
+      z: 5.91638756
+    rotation:
+      x: 0.0
+      y: 179.999664
+      z: 0.0
+  - objectName: Box_6194c360
+    position:
+      x: -3.58553886
+      y: 0.684397042
+      z: 3.34842682
+    rotation:
+      x: 0.0
+      y: 179.999832
+      z: 0.0
+  - objectName: Vase_dcfe6563
+    position:
+      x: -2.10600162
+      y: 0.462161452
+      z: 4.187356
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_204455c6
+    position:
+      x: -0.355232179
+      y: 0.744805
+      z: 1.69095564
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: WateringCan_e84430bf
+    position:
+      x: -3.58026171
+      y: 0.00347067416
+      z: 5.50336838
+    rotation:
+      x: 4.13911343
+      y: 0.431015462
+      z: 359.444031
+  - objectName: KeyChain_dc99b2bc
+    position:
+      x: -4.36691236
+      y: 1.26923573
+      z: 0.771
+    rotation:
+      x: 0.0
+      y: 180.0
+      z: 0.0
+  - objectName: Vase_6ec6da3b
+    position:
+      x: -2.38630962
+      y: 0.462161452
+      z: 4.325874
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_a35e5095
+    position:
+      x: -0.108977363
+      y: 0.7471429
+      z: 1.39817667
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_b52a600c
+    position:
+      x: -1.09399664
+      y: 0.739983439
+      z: 1.39817667
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_b4695ca2
+    position:
+      x: -3.48369169
+      y: 0.451097369
+      z: 4.415502
+    rotation:
+      x: 0.0
+      y: 89.9998245
+      z: 0.0
+  - objectName: RemoteControl_c0567e89
+    position:
+      x: -0.6046075
+      y: 0.6936635
+      z: 6.142245
+    rotation:
+      x: 0.0
+      y: 314.9998
+      z: 0.0
+  - objectName: CreditCard_1332ecdc
+    position:
+      x: -4.255292
+      y: 0.7946959
+      z: 0.9205899
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_e6ddb463
+    position:
+      x: -0.742658138
+      y: 0.696376
+      z: 6.00419331
+    rotation:
+      x: 0.0
+      y: 314.9998
+      z: 0.0
+  - objectName: Statue_0b2c9eee
+    position:
+      x: -1.68554
+      y: 0.454587847
+      z: 3.91032052
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_aa71ba08
+    position:
+      x: -1.78399992
+      y: 0.665064
+      z: -2.456691
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_be040014
+    position:
+      x: -0.453243136
+      y: 0.7938242
+      z: 5.645755
+    rotation:
+      x: 0.0
+      y: 314.9998
+      z: 0.0
+  object_toggles:
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: FloorLamp
+    isOn: false
+  - objectType: Television
+    isOn: false
+  - objectType: Lamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: -1.25
+    y: 0.9023143
+    z: 3.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: toggle_object_on
+    pddl_params:
+      object_target: ''
+      parent_target: ''
+      mrecep_target: ''
+      toggle_target: FloorLamp
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

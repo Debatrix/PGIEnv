@@ -1,0 +1,142 @@
+schema_version: 2
+task_id: LivingRoom222-07-place-remotecontrol
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: While straightening up the living room, could you move the remote control
+    from the sofa over to the coffee table? It's the perfect spot to keep it handy
+    for when you want to watch something.
+  micro: Pick up the remote control from the sofa and put it on the coffee table.
+scene:
+  floor_plan: FloorPlan222
+  scene_num: 222
+  room_type: LivingRoom
+  random_spawn:
+    seed: 7
+    object_counts:
+      RemoteControl: 1
+    distractors:
+      Laptop: 1
+      CellPhone: 1
+      Vase: 1
+      Book: 1
+      Pillow: 1
+      Newspaper: 1
+    min_free:
+      CoffeeTable: 1
+  object_poses:
+  - objectName: Box_7aceb70d
+    position:
+      x: -0.636
+      y: 0.7781
+      z: -1.469371
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_8814b82b
+    position:
+      x: 0.228966713
+      y: 0.358735025
+      z: -0.3061229
+    rotation:
+      x: 0.0
+      y: 349.282959
+      z: 0.0
+  - objectName: CreditCard_4f2d1c9f
+    position:
+      x: 3.07275915
+      y: 0.603641152
+      z: 1.50895429
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Newspaper_7448b0f9
+    position:
+      x: 0.216016561
+      y: 0.522273839
+      z: -1.56731081
+    rotation:
+      x: 0.0
+      y: 350.0592
+      z: 0.0
+  - objectName: RemoteControl_aff7b9d3
+    position:
+      x: 2.814015
+      y: 0.4573664
+      z: -0.151073039
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_41b2aa37
+    position:
+      x: -0.875
+      y: 0.575
+      z: -0.798
+    rotation:
+      x: 359.301056
+      y: 267.9566
+      z: 341.1246
+  - objectName: KeyChain_b9cac54b
+    position:
+      x: 0.9896354
+      y: 0.410947084
+      z: 1.40143824
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Watch_6eaefd3b
+    position:
+      x: 1.30084085
+      y: 0.411618
+      z: 1.597111
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_81d9d58e
+    position:
+      x: 0.227
+      y: 0.374507457
+      z: 0.130506024
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Television
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 1.25
+    y: 0.900999248
+    z: 0.5
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: RemoteControl
+  parent_target: CoffeeTable
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: RemoteControl
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "E_countertop_S"
+    },
+    {
+      "x": 0.5,
+      "y": 1.12341189,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "S_drawer_#1"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "E_countertop_SW"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": -0.75,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "E_window_SW"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 1.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "E_countertop_SE"
+    },
+    {
+      "x": -1.0,
+      "y": 1.12341189,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SE_cabinet"
+    },
+    {
+      "x": 0.25,
+      "y": 1.12341189,
+      "z": 1.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "W_drawer"
+    },
+    {
+      "x": -1.0,
+      "y": 1.12298036,
+      "z": 1.25,
+      "rotation": 326.086182,
+      "horizon": 46.0,
+      "loc_desc": "SE_garbagecan"
+    },
+    {
+      "x": 0.5,
+      "y": 1.12341189,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 75.00003,
+      "loc_desc": "S_drawer_#2"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan3",
+    "total_path_points": 9
+  }
+}

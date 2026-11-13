@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "W_drawer_SW"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009995,
+      "z": 0.75,
+      "rotation": 270.7493,
+      "horizon": 53.0000038,
+      "loc_desc": "E_tvstand"
+    },
+    {
+      "x": -4.0,
+      "y": 0.9009995,
+      "z": -3.75,
+      "rotation": 81.39757,
+      "horizon": 55.0000076,
+      "loc_desc": "W_diningtable"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 85.07071,
+      "horizon": 51.0000076,
+      "loc_desc": "W_sidetable"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 131.3134,
+      "horizon": 54.0000038,
+      "loc_desc": "NW_floorlamp"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 337.903961,
+      "horizon": 55.0000076,
+      "loc_desc": "S_ottoman"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9009995,
+      "z": 1.75,
+      "rotation": 77.93022,
+      "horizon": 52.9999962,
+      "loc_desc": "W_armchair"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 0,
+      "horizon": 0,
+      "loc_desc": "W_drawer_N"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan208",
+    "total_path_points": 8
+  }
+}

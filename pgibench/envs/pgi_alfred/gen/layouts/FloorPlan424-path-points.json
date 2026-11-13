@@ -1,0 +1,56 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.901031,
+      "z": 2.0,
+      "rotation": 87.45706,
+      "horizon": 37.0000038,
+      "loc_desc": "W_toiletpaperhanger"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "W_mirror_SE"
+    },
+    {
+      "x": -0.75,
+      "y": 0.901031,
+      "z": 2.5,
+      "rotation": 168.372787,
+      "horizon": 52.0000076,
+      "loc_desc": "N_toilet"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "W_mirror_NE"
+    },
+    {
+      "x": -1.5,
+      "y": 0.901031,
+      "z": 3.25,
+      "rotation": 275.436676,
+      "horizon": 10.999999,
+      "loc_desc": "E_lightswitch"
+    },
+    {
+      "x": -1.5,
+      "y": 0.901031,
+      "z": 3.0,
+      "rotation": 317.0874,
+      "horizon": 51.0000038,
+      "loc_desc": "SE_garbagecan"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan424",
+    "total_path_points": 6
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 2.25,
+      "y": 0.9009995,
+      "z": -0.25,
+      "rotation": 177.210388,
+      "horizon": 55.0000076,
+      "loc_desc": "N_desk"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_desk_SW_D"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "N_desk_W"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "N_desk_SW"
+    },
+    {
+      "x": 2.75,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "NE_chair_S"
+    },
+    {
+      "x": 2.75,
+      "y": 0.9009995,
+      "z": 1.25,
+      "rotation": 351.684875,
+      "horizon": 26.0000038,
+      "loc_desc": "S_lightswitch"
+    },
+    {
+      "x": 2.25,
+      "y": 0.9,
+      "z": -0.25,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "N_desk_SE"
+    },
+    {
+      "x": 1.75,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 91.68313,
+      "horizon": 50.0000038,
+      "loc_desc": "W_garbagecan"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan301",
+    "total_path_points": 8
+  }
+}

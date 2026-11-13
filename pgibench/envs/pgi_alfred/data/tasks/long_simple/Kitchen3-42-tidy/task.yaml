@@ -1,0 +1,153 @@
+schema_version: 2
+task_id: Kitchen3-42-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: Oh dear, a few things have ended up on the kitchen floor — could you grab
+    the bread, fork, potato, and knife and pop them onto the counter top? It saves
+    me from having to bend down and pick them all up myself.
+  micro: Pick up the bread from the floor and put it on the counter top; pick up the
+    fork from the floor and put it on the counter top; pick up the potato from the
+    floor and put it on the counter top; pick up the knife from the floor and put
+    it on the counter top.
+scene:
+  floor_plan: FloorPlan3
+  scene_num: 3
+  room_type: Kitchen
+  random_spawn:
+    seed: 42
+    object_counts:
+      Bread: 1
+      Fork: 1
+      Potato: 1
+      Knife: 1
+    distractors:
+      Lettuce: 2
+      Apple: 4
+      Plate: 1
+      Mug: 4
+      PepperShaker: 1
+      SaltShaker: 2
+      Spatula: 1
+      Cup: 1
+      Bowl: 1
+      Spoon: 1
+      Tomato: 1
+      DishSponge: 1
+    min_free:
+      CounterTop: 1
+    scene_positions_scatter:
+    - objectType: Bread
+      count: 1
+      floor_only: true
+    - objectType: Fork
+      count: 1
+      floor_only: true
+    - objectType: Potato
+      count: 1
+      floor_only: true
+    - objectType: Knife
+      count: 1
+      floor_only: true
+  object_poses:
+  - objectName: Bread_dd060264
+    position:
+      x: -1.934
+      y: 0.273
+      z: 2.043
+    rotation:
+      x: 0.200000018
+      y: 0.0
+      z: 0.0
+  - objectName: Knife_bee62bfa
+    position:
+      x: 0.416
+      y: 0.292999983
+      z: 0.873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Potato_e8912d85
+    position:
+      x: -1.934
+      y: 0.273
+      z: 2.043
+    rotation:
+      x: 0.200000018
+      y: 0.0
+      z: 0.0
+  - objectName: Fork_61df51be
+    position:
+      x: 0.4159999
+      y: 0.292999983
+      z: 0.873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Faucet
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Microwave
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Toaster
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 1.12401652
+    z: -1.75
+    rotation: 270.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Bread
+  parent_target: CounterTop
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Bread
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Fork
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Potato
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Knife
+      parent_target: CounterTop
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

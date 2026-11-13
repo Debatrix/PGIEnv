@@ -1,0 +1,30 @@
+# Intent for Stage 1 (preview step) of compose-alfred-task.
+# Fill, then: python -m pgibench.envs.pgi_alfred.scripts.task_builder preview --intent <this.yaml>
+# After reading the preview layout_summary, assemble a full cfg (schema v2, see
+# full_cfg_template.yaml) and run `task_builder write`.
+# Legality: references/object_constraints.md. Examples: references/examples.md.
+name: "<Room><scene_num>-<seed>-<slug>"   # e.g. Kitchen8-07-heat-potato
+room_type: "Kitchen"        # Kitchen | LivingRoom | Bedroom | Bathroom
+scene_num: 8                # Kitchen 1-30, LivingRoom 201-230, Bedroom 301-330, Bathroom 401-430
+seed: 7                     # optional, default 0 (determines spawn layout + distractor pick)
+n_distractors: 6            # optional, default 6 (random irrelevant objects spawned in).
+                            # Distractors double as alternatives (objects the agent could
+                            # mistake for the target) and interference. Use 6-10 so the
+                            # scene is richly populated; pool caps the actual count.
+                            # Repeat sampling is on, so values may be >1.
+macro: "<one-sentence goal idea for this task; also satisfies preview's non-empty-instruction check. The REAL macro + micro are authored later from the preview layout_summary, AFTER the semantic-coherence check passes (see SKILL.md 'Core principle').>"
+
+# Optional: scatter instruction objects to verified curated poses (incl. floor-level
+# y<0.3) for "pick up from the floor" semantics. Only objects already spawned via
+# object_counts (in subtasks below) or scene-inherent can be re-posed. See
+# references/examples.md "Pattern 0 — Floor scatter". Leave empty/omit for normal tasks.
+scene_positions_scatter:
+  # - {objectType: Tomato, count: 1, floor_only: true}   # floor-level scatter
+
+subtasks:
+  # Skeleton: decides which objects to spawn + facility dependencies. parent may
+  # be a preferred receptacle; the final receptacle instance is fixed by the agent
+  # from the preview layout_summary at the write stage.
+  - task_type: "pick_heat_then_place_in_recep"
+    object: "Apple"         # must be Heatable
+    parent: "CounterTop"    # preference; agent confirms from layout

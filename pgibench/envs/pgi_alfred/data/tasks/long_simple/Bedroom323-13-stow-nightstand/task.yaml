@@ -1,0 +1,194 @@
+schema_version: 2
+task_id: Bedroom323-13-stow-nightstand
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: While straightening up the bedroom this morning, could you please put the
+    key chain on the side table and put the cell phone on the side table? It makes
+    the morning so much easier.
+  micro: put the key chain on the side table; put the cell phone on the side table.
+scene:
+  floor_plan: FloorPlan323
+  scene_num: 323
+  room_type: Bedroom
+  random_spawn:
+    seed: 13
+    object_counts:
+      KeyChain: 1
+      CellPhone: 1
+    distractors:
+      Newspaper: 1
+      CD: 1
+    min_free:
+      SideTable: 2
+    scene_positions_scatter: null
+  object_poses:
+  - objectName: Book_6af2ca87
+    position:
+      x: -2.484939
+      y: 0.6800014
+      z: -3.30473566
+    rotation:
+      x: 0.0
+      y: 90.00049
+      z: 0.0
+  - objectName: CreditCard_d3dde43e
+    position:
+      x: -2.53004551
+      y: 0.680996
+      z: -3.14999986
+    rotation:
+      x: 0.0
+      y: 90.00049
+      z: 0.0
+  - objectName: Pen_007dc71b
+    position:
+      x: 2.544322
+      y: 1.23424435
+      z: 1.28314841
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Pencil_60b0ad3a
+    position:
+      x: -2.57515216
+      y: 0.685253859
+      z: -0.35926342
+    rotation:
+      x: 0.0
+      y: 90.0004654
+      z: 0.0
+  - objectName: TeddyBear_fee2aeab
+    position:
+      x: -0.6678181
+      y: 0.612493753
+      z: -1.36408424
+    rotation:
+      x: 0.0
+      y: 81.4677048
+      z: 0.0
+  - objectName: Laptop_47496765
+    position:
+      x: -1.31
+      y: 0.612493753
+      z: -1.542
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_ead726ec
+    position:
+      x: 2.211905
+      y: 0.90056
+      z: -3.113354
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_bdf4a642
+    position:
+      x: -1.87449574
+      y: 0.619483232
+      z: -1.86162186
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: KeyChain_235e1525
+    position:
+      x: 1.86725879
+      y: 0.896906853
+      z: -3.113354
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_0b6c1a13
+    position:
+      x: -1.02538633
+      y: 0.680686533
+      z: -2.26129913
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: Pillow_91b27506
+    position:
+      x: 2.18800354
+      y: 0.415439069
+      z: -0.29622364
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_4eeddff6
+    position:
+      x: 1.69493556
+      y: 0.8963665
+      z: -3.04438734
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Mug_291e6e8a
+    position:
+      x: -2.39472032
+      y: 0.679
+      z: -0.281897068
+    rotation:
+      x: 0.0
+      y: 90.0004654
+      z: 0.0
+  - objectName: Bowl_fd13eed7
+    position:
+      x: 2.63854313
+      y: 1.23062932
+      z: 1.511738
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.25
+    y: 0.9009992
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

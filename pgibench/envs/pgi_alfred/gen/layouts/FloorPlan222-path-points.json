@@ -1,0 +1,88 @@
+{
+  "path_points": [
+    {
+      "x": -0.25,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 180,
+      "horizon": 30,
+      "loc_desc": "E_floorlamp_S_D"
+    },
+    {
+      "x": 1.5,
+      "y": 0.9009995,
+      "z": -0.75,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SE_drawer"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "NE_coffeetable_SW"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 90,
+      "horizon": 30,
+      "loc_desc": "NE_coffeetable_E_D"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "NE_coffeetable_NE"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 0.75,
+      "rotation": 135,
+      "horizon": 0,
+      "loc_desc": "NE_coffeetable_SE"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": 0.5,
+      "rotation": 4.649681,
+      "horizon": 50.00001,
+      "loc_desc": "S_tvstand"
+    },
+    {
+      "x": 1.5,
+      "y": 0.9009995,
+      "z": -1.25,
+      "rotation": 155.929916,
+      "horizon": -3.0,
+      "loc_desc": "NW_houseplant"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 272.545349,
+      "horizon": 54.0000038,
+      "loc_desc": "E_floorlamp"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 344.918549,
+      "horizon": 18.0,
+      "loc_desc": "S_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan222",
+    "total_path_points": 10
+  }
+}

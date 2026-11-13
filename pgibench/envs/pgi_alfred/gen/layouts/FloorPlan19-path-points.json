@@ -1,0 +1,104 @@
+{
+  "path_points": [
+    {
+      "x": -1.25,
+      "y": 0.901171744,
+      "z": -0.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "W_cabinet"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9016038,
+      "z": -2.75,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_drawer_#1"
+    },
+    {
+      "x": -1.75,
+      "y": 0.9016907,
+      "z": -3.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "N_sink"
+    },
+    {
+      "x": -2.0,
+      "y": 0.901086032,
+      "z": -0.25,
+      "rotation": 257.906281,
+      "horizon": 36.0000076,
+      "loc_desc": "E_diningtable"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9016907,
+      "z": -2.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "W_stoveknob"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9011711,
+      "z": -3.25,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NE_cabinet"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9016907,
+      "z": -2.75,
+      "rotation": 180.0,
+      "horizon": 59.9999962,
+      "loc_desc": "SW_stoveknob_#2"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9016038,
+      "z": -2.75,
+      "rotation": 180.0,
+      "horizon": 59.9999962,
+      "loc_desc": "E_drawer_#2"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9012582,
+      "z": -0.75,
+      "rotation": 98.1301041,
+      "horizon": 30.0000038,
+      "loc_desc": "W_microwave"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9019502,
+      "z": -2.75,
+      "rotation": 95.21553,
+      "horizon": 43.0000038,
+      "loc_desc": "SW_stoveknob_#1"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9017773,
+      "z": -2.25,
+      "rotation": 273.960266,
+      "horizon": 53.9999962,
+      "loc_desc": "E_fridge"
+    },
+    {
+      "x": -2.0,
+      "y": 0.901777267,
+      "z": -2.25,
+      "rotation": 270.0,
+      "horizon": -30.0,
+      "loc_desc": "NE_drawer"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan19",
+    "total_path_points": 12
+  }
+}

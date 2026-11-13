@@ -1,0 +1,206 @@
+schema_version: 2
+task_id: Bedroom330-07-place-book
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: While tidying the bedroom, could you move the book from the bed to the dresser?
+    It keeps the sleeping area neat and the book within easy reach.
+  micro: Put the book on the dresser.
+scene:
+  floor_plan: FloorPlan330
+  scene_num: 330
+  room_type: Bedroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      Book: 1
+    distractors:
+      Pillow: 1
+      Laptop: 1
+      CreditCard: 1
+      CellPhone: 1
+      AlarmClock: 1
+      Watch: 1
+    min_free:
+      Dresser: 1
+  object_poses:
+  - objectName: Book_88b330d0
+    position:
+      x: 0.537682
+      y: 0.774509549
+      z: -0.695633948
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_ac032140
+    position:
+      x: -1.66817355
+      y: 1.63940215
+      z: -2.41545
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: AlarmClock_3a2d6b92
+    position:
+      x: -1.6995002
+      y: 1.63763475
+      z: -2.07341766
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: Pillow_64d86fa7
+    position:
+      x: 1.413
+      y: 0.794
+      z: -1.505
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_f78b5f5c
+    position:
+      x: 0.652
+      y: 0.794
+      z: -1.531
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_305dccf0
+    position:
+      x: -1.73093832
+      y: 0.973002553
+      z: -0.7420347
+    rotation:
+      x: 0.0
+      y: -0.000140018863
+      z: 0.0
+  - objectName: Laptop_a777a0ae
+    position:
+      x: 1.502318
+      y: 0.773138165
+      z: -0.9902473
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Vase_3dd4c039
+    position:
+      x: -1.699498
+      y: 1.15151417
+      z: -1.84539437
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: Pencil_c0c69a42
+    position:
+      x: 2.3606317
+      y: 0.6864845
+      z: -1.671937
+    rotation:
+      x: 0.0
+      y: 0.0006744811
+      z: 0.0
+  - objectName: CreditCard_a6306ccf
+    position:
+      x: -1.636838
+      y: 1.14635062
+      z: -1.845395
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: Boots_6438362f
+    position:
+      x: -1.84297776
+      y: 0.000668019056
+      z: -1.077008
+    rotation:
+      x: 0.0903331637
+      y: 135.194382
+      z: 0.00278281514
+  - objectName: Pen_cfe375f5
+    position:
+      x: -1.73094034
+      y: 0.9779565
+      z: 0.0621766448
+    rotation:
+      x: 0.0
+      y: -0.000140018863
+      z: 0.0
+  - objectName: CellPhone_7035669b
+    position:
+      x: -1.66817093
+      y: 1.1465646
+      z: -2.18742919
+    rotation:
+      x: 0.0
+      y: 90.0005
+      z: 0.0
+  - objectName: CD_e8ffdc91
+    position:
+      x: -1.58354783
+      y: 0.971910357
+      z: 0.4642827
+    rotation:
+      x: 0.0
+      y: -0.000140018863
+      z: 0.0
+  - objectName: Bowl_d59970df
+    position:
+      x: 1.65367794
+      y: 0.68111527
+      z: 2.262951
+    rotation:
+      x: 0.0
+      y: 90.00069
+      z: 0.0
+  - objectName: Statue_15407ea7
+    position:
+      x: -1.65724409
+      y: 0.9808639
+      z: 0.263229668
+    rotation:
+      x: 0.0
+      y: 179.999878
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.0
+    y: 0.9009992
+    z: 1.25
+    rotation: 180.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: Book
+  parent_target: Dresser
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Book
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

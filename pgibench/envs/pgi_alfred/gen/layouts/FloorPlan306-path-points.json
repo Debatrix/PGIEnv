@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -0.75,
+      "y": 0.9009999,
+      "z": -0.5,
+      "rotation": 167.8067,
+      "horizon": 51.0000038,
+      "loc_desc": "N_desk"
+    },
+    {
+      "x": 0.75,
+      "y": 0.900999844,
+      "z": -1.5,
+      "rotation": 267.088043,
+      "horizon": 61.00001,
+      "loc_desc": "E_laundryhamperlid"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "N_desk_SW_D"
+    },
+    {
+      "x": 1.5,
+      "y": 0.9009999,
+      "z": 0.75,
+      "rotation": 62.7928658,
+      "horizon": 51.0,
+      "loc_desc": "SW_sidetable"
+    },
+    {
+      "x": 3.0,
+      "y": 0.900999844,
+      "z": 1.0,
+      "rotation": 148.384537,
+      "horizon": 19.0000019,
+      "loc_desc": "NW_lightswitch"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009999,
+      "z": -1.0,
+      "rotation": 92.0739746,
+      "horizon": 41.0,
+      "loc_desc": "W_bed"
+    },
+    {
+      "x": 0.75,
+      "y": 0.900999844,
+      "z": -1.0,
+      "rotation": 181.704422,
+      "horizon": 2.0,
+      "loc_desc": "N_window"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009999,
+      "z": -1.0,
+      "rotation": 180.05603,
+      "horizon": -36.0,
+      "loc_desc": "N_blinds"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan306",
+    "total_path_points": 8
+  }
+}

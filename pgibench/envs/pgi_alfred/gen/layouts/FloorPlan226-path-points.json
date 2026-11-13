@@ -1,0 +1,80 @@
+{
+  "path_points": [
+    {
+      "x": 0.75,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "W_sidetable_SW_D"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 315,
+      "horizon": 30,
+      "loc_desc": "W_armchair_NW_D"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9009995,
+      "z": -1.25,
+      "rotation": 2.45864725,
+      "horizon": 55.0000153,
+      "loc_desc": "S_coffeetable"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "W_armchair_W"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 85.89129,
+      "horizon": 51.0000076,
+      "loc_desc": "W_sidetable"
+    },
+    {
+      "x": -2.5,
+      "y": 0.9009995,
+      "z": -0.25,
+      "rotation": 355.66333,
+      "horizon": 53.0000076,
+      "loc_desc": "S_garbagecan"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9,
+      "z": -0.5,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "W_armchair_SW"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": -2.0,
+      "rotation": 220.760178,
+      "horizon": 24.0000057,
+      "loc_desc": "NE_lightswitch"
+    },
+    {
+      "x": 0.75,
+      "y": 0.9009995,
+      "z": -2.0,
+      "rotation": 95.42102,
+      "horizon": 53.0000038,
+      "loc_desc": "W_floorlamp"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan226",
+    "total_path_points": 9
+  }
+}

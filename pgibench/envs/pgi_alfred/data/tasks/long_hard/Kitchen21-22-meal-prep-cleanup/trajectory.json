@@ -1,0 +1,460 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Tomato|-02.05|+00.75|-01.09",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "slice",
+      "target": "Tomato|-02.05|+00.75|-01.09",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Tomato|-02.05|+00.75|-01.09|TomatoSliced_4",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Tomato|-02.05|+00.75|-01.09|TomatoSliced_4",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "SideTable|+00.77|+00.70|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "SideTable|+00.77|+00.70|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_slice_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "open",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "close",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleon",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "toggleoff",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "open",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": false,
+      "err": "The Potato is not visible. Please navigate to the object before picking it up."
+    },
+    {
+      "subtask": 1,
+      "op": "adjust",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": false,
+      "err": "look_up"
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "Potato|-01.58|+00.73|-03.36",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "close",
+      "target": "Microwave|-02.01|+00.69|-03.69",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "SideTable|+00.77|+00.70|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "SideTable|+00.77|+00.70|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_heat_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Apple|+00.66|+00.72|+00.39",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Apple|+00.66|+00.72|+00.39",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "open",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "close",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "open",
+      "target": "Fridge|+00.68|-00.03|-01.96",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Apple|+00.66|+00.72|+00.39",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Apple|+00.66|+00.72|+00.39",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Mug|+00.90|+00.66|+00.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "Mug|+00.90|+00.66|+00.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Sink|+00.75|+00.88|-00.68|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "Sink|+00.75|+00.88|-00.68|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Faucet|+01.03|+00.87|-00.68",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "toggleon",
+      "target": "Faucet|+01.03|+00.87|-00.68",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Faucet|+01.03|+00.87|-00.68",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "toggleoff",
+      "target": "Faucet|+01.03|+00.87|-00.68",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Mug|+00.90|+00.66|+00.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "Mug|+00.90|+00.66|+00.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 4,
+      "op": "nav",
+      "target": "Egg|+00.76|+00.81|-00.79",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "op": "pick",
+      "target": "Egg|+00.76|+00.81|-00.79",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "op": "nav",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "op": "put",
+      "target": "CounterTop|+00.79|+00.92|-00.11",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 4,
+      "task_type": "pick_and_place_simple",
+      "goal_s": 1,
+      "goal_ts": 1,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

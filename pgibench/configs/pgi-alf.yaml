@@ -1,0 +1,29 @@
+model_name: Qwen3.5-35B-A3B
+model_type: remote
+down_sample_ratio: 1
+language_only: False
+eval_sets: ['short_simple', 'short_hard', 'long_simple', 'long_hard']
+chat_history: True
+image_history_keep: 5  # act: image sliding-window, keep last K frames (negative = all images)
+eqa_image_history_keep: 5  # EQA: independent sliding-window for ask_eqa_question (negative = all images)
+max_steps: 150
+detection_box: False
+multistep: False
+resolution: 500
+exp_name: baseline
+env_feedback: True
+action_display_mode: command  # 'full' | 'visible' | 'command' - action space display mode
+object_reference_mode: id  # command mode only: id|bbox|point|ordinal|type
+instruction_mode: micro   # which NL field the planner sees: macro | micro
+nav_mode: ['created_waypoint', 'object']  # list of: default_waypoint|created_waypoint|object|coordinate
+bbox_iou_threshold: 0.3       # command bbox mode: min IoU to accept a match (else invalid)
+point_dist_ratio: 0.3         # command point mode: max point-to-box-center dist as fraction of image diagonal
+visual_prompt: False
+tp: 1
+x_display: '1'  # X display number for AI2-THOR (Xvfb/Xorg), e.g. '1' -> DISPLAY=:1
+
+# EQA (Embodied Question Answering) configuration
+enable_eqa: True
+eqa_interval_steps: -1  # Generate EQA questions every N steps
+eqa_questions_per_interval: 5  # Number of questions to generate each interval
+eqa_end_episode_questions: -15  # Number of questions generated per category at end of task

@@ -1,0 +1,411 @@
+{
+  "exec_log": [
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Potato|-00.57|+00.93|+03.54",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Potato|-00.57|+00.93|+03.54",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleon",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "toggleoff",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "open",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Potato|-00.57|+00.93|+03.54",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "pick",
+      "target": "Potato|-00.57|+00.93|+03.54",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "close",
+      "target": "Microwave|-00.36|+00.91|+00.22",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "nav",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "op": "put",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 0,
+      "task_type": "pick_heat_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Cup|-02.58|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "Cup|-02.58|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "open",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "close",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "open",
+      "target": "Fridge|-02.80|+00.00|+04.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "Cup|-02.58|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "pick",
+      "target": "Cup|-02.58|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "nav",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "op": "put",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 1,
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Mug|-03.00|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Mug|-03.00|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Sink|-01.11|+00.93|+00.34|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "Sink|-01.11|+00.93|+00.34|SinkBasin",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Faucet|-01.08|+00.92|+00.03",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "toggleon",
+      "target": "Faucet|-01.08|+00.92|+00.03",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Faucet|-01.08|+00.92|+00.03",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "toggleoff",
+      "target": "Faucet|-01.08|+00.92|+00.03",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "Mug|-03.00|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "pick",
+      "target": "Mug|-03.00|+00.90|+02.57",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "nav",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "op": "put",
+      "target": "CounterTop|-01.37|+00.95|+00.35",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 2,
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Tomato|-01.27|+00.86|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "slice",
+      "target": "Tomato|-01.27|+00.86|+00.45",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Tomato|-01.27|+00.86|+00.45|TomatoSliced_1",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "pick",
+      "target": "Tomato|-01.27|+00.86|+00.45|TomatoSliced_1",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "nav",
+      "target": "Plate|-01.90|+00.93|+00.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "op": "put",
+      "target": "Plate|-01.90|+00.93|+00.43",
+      "ok": true,
+      "err": ""
+    },
+    {
+      "subtask": 3,
+      "task_type": "pick_slice_then_place_in_recep",
+      "goal_s": 3,
+      "goal_ts": 3,
+      "ok": true
+    }
+  ],
+  "high_pddl": [
+    {
+      "high_idx": 0,
+      "discrete_action": {
+        "action": "End",
+        "args": []
+      },
+      "planner_action": {
+        "action": "End",
+        "value": 1
+      }
+    }
+  ],
+  "low_actions": [],
+  "images": []
+}

@@ -1,0 +1,248 @@
+schema_version: 2
+task_id: LivingRoom230-07-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: As you settle into the living room for the evening, could you please put
+    the boots on the coffee table and put the credit card on the coffee table and
+    put the candle on the side table and put the remote control on the side table?
+    It makes the space so much more comfortable.
+  micro: put the boots on the coffee table; put the credit card on the coffee table;
+    put the candle on the side table; put the remote control on the side table.
+scene:
+  floor_plan: FloorPlan230
+  scene_num: 230
+  room_type: LivingRoom
+  random_spawn:
+    seed: 7
+    object_counts:
+      Plate: 1
+      Newspaper: 1
+      CreditCard: 1
+      Pillow: 1
+      Laptop: 1
+      Boots: 1
+      Statue: 1
+      TissueBox: 1
+      RemoteControl: 1
+    distractors:
+      CellPhone: 2
+      Book: 2
+      Box: 1
+      Vase: 1
+    min_free:
+      CoffeeTable: 2
+      SideTable: 2
+      DiningTable: 2
+      Dresser: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: Box_9dff4699
+    position:
+      x: -3.43260431
+      y: 0.910361648
+      z: 1.906896
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_5b0f81e2
+    position:
+      x: -0.4876549
+      y: 0.677327752
+      z: 0.26638037
+    rotation:
+      x: 0.0
+      y: 329.4372
+      z: 0.0
+  - objectName: Plate_5e7db3f1
+    position:
+      x: -2.60149837
+      y: 0.798100352
+      z: 2.52654219
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Candle_baa7deba
+    position:
+      x: -3.43260431
+      y: 0.7828239
+      z: 2.6814537
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_1c7e6d26
+    position:
+      x: -1.85204864
+      y: 0.5167066
+      z: 7.33413267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Candle_926dae3a
+    position:
+      x: -2.92625642
+      y: 0.457007527
+      z: 6.556262
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_908cc737
+    position:
+      x: -2.60149837
+      y: 0.7833995
+      z: 2.06180763
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_1ce7ed17
+    position:
+      x: -2.324463
+      y: 0.779700041
+      z: 2.06180763
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Newspaper_a5054344
+    position:
+      x: -3.005
+      y: 0.532850564
+      z: 8.427632
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+  - objectName: CreditCard_edffc522
+    position:
+      x: -2.8785336
+      y: 0.781695962
+      z: 2.52654219
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: RemoteControl_06e16364
+    position:
+      x: -2.00421858
+      y: 0.4570642
+      z: 6.14456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Boots_7fb33fbb
+    position:
+      x: -5.786989
+      y: 0.007925332
+      z: 4.817991
+    rotation:
+      x: 0.09014016
+      y: 167.028427
+      z: 0.003741637
+  - objectName: Candle_6f5401e5
+    position:
+      x: -3.28955245
+      y: 0.53611654
+      z: 8.471499
+    rotation:
+      x: 0.0
+      y: 179.999847
+      z: 0.0
+  - objectName: Statue_ed97bba2
+    position:
+      x: -2.71359587
+      y: 0.902
+      z: 2.29446149
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Watch_724f65b7
+    position:
+      x: -2.60149837
+      y: 0.781972647
+      z: 1.906896
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Statue_1d7526da
+    position:
+      x: -2.60149837
+      y: 0.792243361
+      z: 1.75198448
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Candle
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: Laptop
+    isOn: false
+  - objectType: Candle
+    isOn: false
+  - objectType: FloorLamp
+    isOn: true
+  - objectType: Television
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: false
+  - objectType: Lamp
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -4.5
+    y: 0.9082557
+    z: 3.75
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Boots
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CreditCard
+      parent_target: CoffeeTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Candle
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: RemoteControl
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

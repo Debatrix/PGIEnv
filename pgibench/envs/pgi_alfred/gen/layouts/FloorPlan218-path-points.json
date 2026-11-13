@@ -1,0 +1,112 @@
+{
+  "path_points": [
+    {
+      "x": -2.75,
+      "y": 0.9008399,
+      "z": 5.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "N_sofa"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9008399,
+      "z": 5.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_drawer"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9008399,
+      "z": 1.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NE_window"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": 2.25,
+      "rotation": 284.9348,
+      "horizon": 50.0000038,
+      "loc_desc": "E_coffeetable"
+    },
+    {
+      "x": -6.75,
+      "y": 0.9,
+      "z": 5.0,
+      "rotation": 94.58468,
+      "horizon": 50.00001,
+      "loc_desc": "W_diningtable"
+    },
+    {
+      "x": -2.25,
+      "y": 0.9008399,
+      "z": 2.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SW_coffeetable_#1"
+    },
+    {
+      "x": -4.0,
+      "y": 0.9008399,
+      "z": 2.25,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NW_houseplant"
+    },
+    {
+      "x": -4.75,
+      "y": 0.9008399,
+      "z": 4.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_chair"
+    },
+    {
+      "x": -2.0,
+      "y": 0.9008399,
+      "z": 1.75,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SW_coffeetable_#2"
+    },
+    {
+      "x": 0.5,
+      "y": 0.9,
+      "z": 4.75,
+      "rotation": 161.482132,
+      "horizon": 49.9999924,
+      "loc_desc": "N_dresser"
+    },
+    {
+      "x": -3.0,
+      "y": 0.90084,
+      "z": 0.25,
+      "rotation": 312.959778,
+      "horizon": -7.0,
+      "loc_desc": "SE_painting"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9008399,
+      "z": 5.0,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SW_chair"
+    },
+    {
+      "x": -5.0,
+      "y": 0.9008399,
+      "z": 2.5,
+      "rotation": 270.0,
+      "horizon": 30.0000038,
+      "loc_desc": "N_window"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan218",
+    "total_path_points": 13
+  }
+}

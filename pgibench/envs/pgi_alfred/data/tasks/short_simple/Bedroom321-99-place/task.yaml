@@ -1,0 +1,171 @@
+schema_version: 2
+task_id: Bedroom321-99-place
+task_type: composite
+eval_set: short_simple
+instructions:
+  macro: Could you put the CD on the DiningTable?
+  micro: put the CD on the DiningTable.
+scene:
+  floor_plan: FloorPlan321
+  scene_num: 321
+  room_type: Bedroom
+  random_spawn:
+    seed: 16
+    object_counts:
+      Book: 1
+      CD: 1
+      Pen: 1
+      Pencil: 1
+      AlarmClock: 1
+    distractors:
+      Newspaper: 3
+      Pillow: 2
+      Watch: 2
+      Laptop: 1
+    min_free:
+      DiningTable: 5
+  object_poses:
+  - objectName: Book_9dcb1956
+    position:
+      x: 2.956
+      y: 0.773010433
+      z: -1.499
+    rotation:
+      x: 0.0
+      y: 4.88676
+      z: 0.0
+  - objectName: KeyChain_1a9bddbb
+    position:
+      x: 0.3176127
+      y: 0.699247062
+      z: -1.23797047
+    rotation:
+      x: 0.227250084
+      y: -0.00554003753
+      z: 359.214935
+  - objectName: Pillow_801065cc
+    position:
+      x: 0.463
+      y: 0.6389
+      z: 0.408
+    rotation:
+      x: 0.0
+      y: 101.363876
+      z: 0.0
+  - objectName: Pillow_b8577ff9
+    position:
+      x: 1.37425935
+      y: 0.6770957
+      z: 0.722367167
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: CreditCard_2946225d
+    position:
+      x: 0.291927844
+      y: 0.7055716
+      z: -1.10207164
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  - objectName: Pen_369f1c16
+    position:
+      x: 2.80732822
+      y: 0.778543532
+      z: -1.8401407
+    rotation:
+      x: 0.0294822752
+      y: 3.826817e-05
+      z: 0.0640221238
+  - objectName: Pencil_7030f200
+    position:
+      x: 3.7015028
+      y: 0.784027159
+      z: -1.76859689
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TissueBox_528d8e8a
+    position:
+      x: 0.3245734
+      y: 0.7061996
+      z: 1.29679358
+    rotation:
+      x: 0.0
+      y: 90.0007
+      z: 0.0
+  - objectName: Laptop_f3c3a308
+    position:
+      x: 0.9687707
+      y: 0.594881654
+      z: -0.43036738
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: CellPhone_a02909a5
+    position:
+      x: 3.08483267
+      y: 0.7779894
+      z: -1.85789537
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: AlarmClock_55797a1f
+    position:
+      x: 3.239
+      y: 0.779816031
+      z: -1.76859689
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_f2466fdb
+    position:
+      x: 0.228421792
+      y: 0.7041067
+      z: -0.8486745
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: Lamp
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 2.25
+    y: 0.9009992
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CD
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

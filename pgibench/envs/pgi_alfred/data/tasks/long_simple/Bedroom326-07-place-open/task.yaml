@@ -1,0 +1,281 @@
+schema_version: 2
+task_id: Bedroom326-07-place-open
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: As you get the bedroom ready for the night, could you please open the drawer
+    and put the pencil on the side table and put the key chain on the side table and
+    put the alarm clock on the dining table? It makes the morning so much easier.
+  micro: open the drawer; put the pencil on the side table; put the key chain on the
+    side table; put the alarm clock on the dining table.
+scene:
+  floor_plan: FloorPlan326
+  scene_num: 326
+  room_type: Bedroom
+  random_spawn:
+    seed: 7
+    object_counts:
+      Mug: 1
+      Bowl: 1
+      CreditCard: 1
+      KeyChain: 1
+      BasketBall: 1
+      Pencil: 1
+      CellPhone: 1
+      AlarmClock: 1
+      Pillow: 1
+      Book: 1
+    distractors:
+      Newspaper: 2
+      Laptop: 2
+      CD: 1
+      Watch: 1
+    min_free:
+      SideTable: 2
+      DiningTable: 2
+      SinkBasin: 1
+  object_poses:
+  - objectName: Book_4c818726
+    position:
+      x: -1.08890235
+      y: 0.614830136
+      z: -1.16096044
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Laptop_af69458f
+    position:
+      x: -0.479699224
+      y: 0.6141396
+      z: -1.16096044
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_b854204c
+    position:
+      x: 3.14781022
+      y: 0.794340432
+      z: -1.12131548
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_9b18bd81
+    position:
+      x: 0.970993042
+      y: -0.00154149532
+      z: -2.404656
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: BaseballBat_7718edb2
+    position:
+      x: -2.982
+      y: 0.015
+      z: -2.698
+    rotation:
+      x: 270.0
+      y: 350.597961
+      z: 0.0
+  - objectName: BasketBall_11d56643
+    position:
+      x: -2.718
+      y: 0.1184585
+      z: -1.925
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_d4cff861
+    position:
+      x: -0.784300745
+      y: 0.6939142
+      z: -0.598402858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pillow_6aec589e
+    position:
+      x: -0.6261245
+      y: 0.650000036
+      z: 0.129896164
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TennisRacket_8b81f72e
+    position:
+      x: -3.018
+      y: 0.301
+      z: -2.199
+    rotation:
+      x: 19.103323
+      y: 272.232483
+      z: 184.97876
+  - objectName: Pencil_b98eece4
+    position:
+      x: -2.97970247
+      y: 1.14718628
+      z: -2.06864285
+    rotation:
+      x: 0.0
+      y: 89.99983
+      z: 0.0
+  - objectName: CreditCard_096e7851
+    position:
+      x: -1.66226149
+      y: 0.613895953
+      z: 0.503239155
+    rotation:
+      x: 0.0
+      y: 180.000381
+      z: 0.0
+  - objectName: Cloth_85b554b9
+    position:
+      x: 0.911633968
+      y: 0.025
+      z: -2.70249653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TeddyBear_d565c4f0
+    position:
+      x: -2.64507127
+      y: 0.6247293
+      z: -0.4025734
+    rotation:
+      x: 0.0
+      y: 286.876434
+      z: 0.0
+  - objectName: Pen_cbcd5e6d
+    position:
+      x: 3.08615255
+      y: 0.7973008
+      z: -0.5566274
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cloth_83c511c6
+    position:
+      x: 0.705
+      y: -0.00154149532
+      z: -2.75
+    rotation:
+      x: 0.0
+      y: 269.152557
+      z: 0.0
+  - objectName: AlarmClock_0397722d
+    position:
+      x: 0.9225997
+      y: 1.1429919
+      z: -2.28305721
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Watch_e31da285
+    position:
+      x: 3.01748419
+      y: 0.5422744
+      z: -2.08626437
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: CellPhone_1f80dd7b
+    position:
+      x: -0.784300745
+      y: 0.616349638
+      z: -1.16096044
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CD_f52f155c
+    position:
+      x: 0.922600448
+      y: 1.14130843
+      z: -2.025391
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  - objectName: Mug_0fbdf42c
+    position:
+      x: -1.66226232
+      y: 0.6119
+      z: 0.381447971
+    rotation:
+      x: 0.0
+      y: 180.000381
+      z: 0.0
+  - objectName: Bowl_8c269f0e
+    position:
+      x: 3.04099941
+      y: 0.5416223
+      z: -2.36812758
+    rotation:
+      x: 0.0
+      y: 270.000183
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Lamp
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.25
+    y: 0.899458051
+    z: 0.0
+    rotation: 90.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: open_receptacle
+    pddl_params:
+      object_target: ''
+      parent_target: Drawer
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: Pencil
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: KeyChain
+      parent_target: SideTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: AlarmClock
+      parent_target: DiningTable
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

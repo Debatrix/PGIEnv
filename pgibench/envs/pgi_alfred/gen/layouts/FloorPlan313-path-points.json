@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -1.75,
+      "y": 0.9009992,
+      "z": -1.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "SE_painting"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009997,
+      "z": -0.25,
+      "rotation": 182.812683,
+      "horizon": 52.9999962,
+      "loc_desc": "N_chair"
+    },
+    {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 0.25,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "SE_mirror_SE_D"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_shelf"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "NW_drawer_#2"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9009992,
+      "z": -0.75,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "NW_drawer_#1"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009998,
+      "z": 0.5,
+      "rotation": 307.4492,
+      "horizon": 66.00002,
+      "loc_desc": "SW_lightswitch"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009992,
+      "z": -0.25,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "NW_shelf"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan313",
+    "total_path_points": 8
+  }
+}

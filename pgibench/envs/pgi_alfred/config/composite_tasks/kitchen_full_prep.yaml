@@ -1,0 +1,37 @@
+# Kitchen long-horizon composite task: Multiple state changes
+name: "kitchen_full_prep"
+description: "Clean an apple, heat a potato, cool a mug, and slice bread for a full meal prep"
+
+scene:
+  room_type: "Kitchen"
+  scene_num: 1  # Use scene 1 where we have synthetic trajectories
+
+instruction: "clean the {obj_0} and put it in {recep_0}, heat the {obj_1} and put it in {recep_1}, cool the {obj_2} and put it in {recep_2}, then slice the {obj_3} and put it in {recep_3}"
+
+subtasks:
+  # Subtask 1: Clean apple
+  - task_type: "pick_clean_then_place_in_recep"
+    object: "Apple"
+    parent: "CounterTop"
+    sliced: false
+
+  # Subtask 2: Heat potato
+  - task_type: "pick_heat_then_place_in_recep"
+    object: "Potato"
+    parent: "Plate"
+    sliced: false
+
+  # Subtask 3: Cool mug in fridge
+  - task_type: "pick_cool_then_place_in_recep"
+    object: "Mug"
+    parent: "Shelf"
+    sliced: false
+
+  # Subtask 4: Slice bread
+  - task_type: "pick_and_place_simple"
+    object: "Bread"
+    parent: "Plate"
+    sliced: true
+
+completion:
+  mode: "all"

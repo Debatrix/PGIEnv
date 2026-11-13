@@ -1,0 +1,96 @@
+{
+  "path_points": [
+    {
+      "x": 1.0,
+      "y": 0.9,
+      "z": -1.5,
+      "rotation": 225,
+      "horizon": 30,
+      "loc_desc": "E_coffeetable_SW_D"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9,
+      "z": -2.0,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "W_armchair_W"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 180.0,
+      "horizon": 30.0000038,
+      "loc_desc": "E_shelf_#1"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009995,
+      "z": -1.5,
+      "rotation": 291.690765,
+      "horizon": 51.0000038,
+      "loc_desc": "E_coffeetable"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009992,
+      "z": -0.5,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "E_shelf_#2"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9009992,
+      "z": -0.25,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "NE_shelf_#1"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9009992,
+      "z": -1.25,
+      "rotation": 180.0,
+      "horizon": 75.0,
+      "loc_desc": "NE_shelf_#2"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9009995,
+      "z": 0.25,
+      "rotation": 352.912445,
+      "horizon": 54.0000038,
+      "loc_desc": "S_sofa"
+    },
+    {
+      "x": 2.0,
+      "y": 0.9009995,
+      "z": 1.0,
+      "rotation": 317.621338,
+      "horizon": 18.9999981,
+      "loc_desc": "SE_lightswitch"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9009992,
+      "z": 0.0,
+      "rotation": 90.0,
+      "horizon": 75.00003,
+      "loc_desc": "S_lightswitch"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9009995,
+      "z": -2.0,
+      "rotation": 91.15345,
+      "horizon": 51.00001,
+      "loc_desc": "W_armchair"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan206",
+    "total_path_points": 11
+  }
+}

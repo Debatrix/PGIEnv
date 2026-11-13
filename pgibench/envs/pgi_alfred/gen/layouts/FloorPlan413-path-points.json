@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 235.2503,
+      "horizon": 54.0000038,
+      "loc_desc": "NE_garbagecan"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 295.013519,
+      "horizon": 41.0,
+      "loc_desc": "SE_countertop"
+    },
+    {
+      "x": -0.25,
+      "y": 0.900691152,
+      "z": 1.25,
+      "rotation": 0.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_showerdoor"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 241.941315,
+      "horizon": 52.0000076,
+      "loc_desc": "NE_bathtubbasin"
+    },
+    {
+      "x": -0.75,
+      "y": 0.9,
+      "z": 3.5,
+      "rotation": 297.0072,
+      "horizon": 9.000003,
+      "loc_desc": "SE_handtowelholder"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "NE_garbagecan_S"
+    },
+    {
+      "x": -0.25,
+      "y": 0.900691152,
+      "z": 3.0,
+      "rotation": 90.0,
+      "horizon": 30.0000038,
+      "loc_desc": "SW_dresser"
+    },
+    {
+      "x": -1.0,
+      "y": 0.9,
+      "z": 2.75,
+      "rotation": 90,
+      "horizon": 0,
+      "loc_desc": "NE_garbagecan_E"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan413",
+    "total_path_points": 8
+  }
+}

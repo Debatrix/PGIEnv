@@ -1,0 +1,72 @@
+{
+  "path_points": [
+    {
+      "x": 1.25,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "SW_sidetable_SW"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 180,
+      "horizon": 0,
+      "loc_desc": "SW_sidetable_S"
+    },
+    {
+      "x": 0.25,
+      "y": 0.9019261,
+      "z": -1.0,
+      "rotation": 196.7323,
+      "horizon": 56.0000153,
+      "loc_desc": "N_dresser"
+    },
+    {
+      "x": -1.5,
+      "y": 0.9,
+      "z": -1.25,
+      "rotation": 135,
+      "horizon": 30,
+      "loc_desc": "NE_garbagecan_SE_D"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9019261,
+      "z": 1.0,
+      "rotation": 61.27839,
+      "horizon": 51.0000076,
+      "loc_desc": "SW_sidetable"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9019261,
+      "z": -1.0,
+      "rotation": 7.06585455,
+      "horizon": 51.0,
+      "loc_desc": "S_bed"
+    },
+    {
+      "x": 2.0,
+      "y": 0.9019261,
+      "z": -1.0,
+      "rotation": 23.4443169,
+      "horizon": 6.00000048,
+      "loc_desc": "SW_poster"
+    },
+    {
+      "x": 1.25,
+      "y": 0.9,
+      "z": 1.0,
+      "rotation": 270,
+      "horizon": 0,
+      "loc_desc": "SW_sidetable_W"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan317",
+    "total_path_points": 8
+  }
+}

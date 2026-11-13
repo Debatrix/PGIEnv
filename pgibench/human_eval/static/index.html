@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PGI-ALFRED Human Evaluation</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         margin: 0; background: #f5f6f8; color: #222; }
+  header { background: #2c3e50; color: #fff; padding: 10px 16px; display: flex;
+           align-items: center; gap: 16px; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; }
+  header .meta { font-size: 13px; opacity: .85; }
+  .container { display: flex; gap: 16px; padding: 16px; align-items: flex-start; }
+  .left { flex: 0 0 540px; }
+  .right { flex: 1; min-width: 320px; }
+  .card { background: #fff; border-radius: 8px; padding: 12px; margin-bottom: 12px;
+          box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .card h3 { margin: 0 0 8px; font-size: 14px; color: #2c3e50; }
+  #viewWrap { position: relative; display: inline-block; line-height: 0; }
+  #view { border: 1px solid #ccc; cursor: crosshair; background: #000; }
+  #overlay { position: absolute; left: 0; top: 0; pointer-events: none; }
+  .bar { height: 12px; background: #e8f4fd; border-radius: 3px; margin: 4px 0; }
+  .bar > i { display: block; height: 100%; background: #3498db; border-radius: 3px; }
+  textarea, input[type=text], select { width: 100%; padding: 6px; font-size: 13px;
+           border: 1px solid #ccc; border-radius: 4px; }
+  button { padding: 6px 12px; font-size: 13px; border: none; border-radius: 4px;
+           cursor: pointer; margin: 2px 4px 2px 0; }
+  .btn-go { background: #27ae60; color: #fff; }
+  .btn-end { background: #e67e22; color: #fff; }
+  .btn-close { background: #7f8c8d; color: #fff; }
+  .btn-eqa { background: #2980b9; color: #fff; }
+  .row { display: flex; gap: 8px; margin: 6px 0; }
+  .row > div { flex: 1; }
+  .feedback { padding: 6px; border-left: 3px solid #ccc; margin: 6px 0; font-size: 13px; }
+  .feedback.ok { border-color: #27ae60; }
+  .feedback.bad { border-color: #e74c3c; }
+  .obj-tag { display: inline-block; background: #d4edda; padding: 2px 6px;
+            border-radius: 3px; margin: 2px; font-size: 12px; }
+  .history-item { display: flex; gap: 6px; align-items: center; padding: 4px;
+                  border-bottom: 1px solid #eee; cursor: pointer; font-size: 12px; }
+  .history-item:hover { background: #f0f8ff; }
+  .history-item img { width: 48px; height: 48px; object-fit: cover;
+                      border: 1px solid #ddd; }
+  .eqa-opt { display: block; margin: 4px 0; font-size: 14px; }
+  #coordHint { font-size: 12px; color: #666; margin: 4px 0; }
+  .mode-badge { background: #34495e; padding: 2px 8px; border-radius: 10px;
+                font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PGI-ALFRED Human Evaluation</h1>
+  <span class="meta">Evaluator: <input id="evaluatorId" type="text" value="human_001"
+        style="width:120px;color:#000"></span>
+  <span class="meta">eval_set: <select id="evalSet"></select></span>
+  <span class="meta">Session: <input id="sessionId" type="text"
+        value="sess_001" style="width:100px;color:#000"></span>
+  <button class="btn-go" id="btnStart">Start</button>
+  <button class="btn-close" id="btnClose">End Session</button>
+  <span id="modeBadge" class="mode-badge"></span>
+</header>
+
+<div class="container">
+  <div class="left">
+    <div class="card">
+      <h3>Task Instruction</h3>
+      <div id="instruction" style="font-size:14px;"></div>
+      <div class="bar"><i id="progressBar" style="width:0%"></i></div>
+      <div id="statusLine" style="font-size:12px;color:#666;"></div>
+    </div>
+
+    <div class="card">
+      <h3>Current View (click to pick a point / drag to draw a bbox)</h3>
+      <div id="viewWrap">
+        <img id="view" />
+        <canvas id="overlay"></canvas>
+      </div>
+      <div id="coordHint">Click Start to begin.</div>
+      <div>
+        <span id="pointLabel" style="font-size:12px;color:#2980b9;"></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Action Input</h3>
+      <div class="row">
+        <div>
+          <label style="font-size:12px;">Action type</label>
+          <select id="actionType">
+            <option value="">-- helper --</option>
+            <option value="Movement">Movement (look/move/rotate)</option>
+            <option value="Navigation">Navigation (goto/navigate)</option>
+            <option value="Object">Object interaction (pick/put/open...)</option>
+            <option value="Termination">Termination (Done)</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:12px;">Target object</label>
+          <select id="objSelect"><option value="">-- visible objects --</option></select>
+        </div>
+      </div>
+      <textarea id="command" rows="2" placeholder="Type a command here, e.g.: pick up mug"></textarea>
+      <div style="margin-top:6px;">
+        <button class="btn-go" id="btnExec">Execute</button>
+        <button class="btn-end" id="btnEnd">End Task &amp; Answer EQA</button>
+      </div>
+      <div id="feedback" class="feedback" style="display:none;"></div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="card">
+      <h3>Agent State</h3>
+      <div id="agentState" style="font-size:12px;white-space:pre-wrap;"></div>
+      <div id="visibleObjs"></div>
+    </div>
+
+    <div class="card">
+      <h3>History (click to review a past frame)</h3>
+      <div id="history"></div>
+    </div>
+
+    <div class="card" id="eqaCard" style="display:none;">
+      <h3>EQA Questions (<span id="eqaProg"></span>)</h3>
+      <div id="eqaQuestion" style="font-size:14px;"></div>
+      <div id="eqaOptions"></div>
+      <button class="btn-eqa" id="btnEqaSubmit">Submit &amp; Next</button>
+      <div id="eqaFeedback" style="margin-top:6px;font-size:13px;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = '';
+let sessionId = '';
+let mode = '';            // point / bbox / id / ...
+let resolution = 500;     // view size, filled from /config
+let maxSteps = 100;       // filled from /config, refreshed from /state
+let dragging = false;
+let dragStart = null;
+let curPoint = null;      // [cx, cy] normalized
+let curBbox = null;       // [x1, y1, x2, y2] normalized
+let historyArr = [];      // local copy of the step history for this episode
+let eqaQuestions = [];
+let eqaIdx = 0;
+
+// ---------- helpers ----------
+async function post(path, body) {
+  const r = await fetch(API + path, {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body || {})
+  });
+  if (!r.ok) {
+    const e = await r.json().catch(() => ({detail: r.statusText}));
+    alert('Error: ' + (e.detail || r.statusText));
+    throw new Error(e.detail || r.statusText);
+  }
+  return r.json();
+}
+
+function b64img(b64) { return 'data:image/png;base64,' + b64; }
+
+function drawOverlay() {
+  const c = document.getElementById('overlay');
+  const ctx = c.getContext('2d');
+  ctx.clearRect(0, 0, c.width, c.height);
+  if (mode === 'point' && curPoint) {
+    const x = curPoint[0] * c.width, y = curPoint[1] * c.height;
+    ctx.strokeStyle = '#e74c3c'; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(x, y, 8, 0, 2 * Math.PI); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x - 14, y); ctx.lineTo(x + 14, y);
+    ctx.moveTo(x, y - 14); ctx.lineTo(x, y + 14); ctx.stroke();
+  } else if (mode === 'bbox' && curBbox) {
+    const x1 = curBbox[0] * c.width, y1 = curBbox[1] * c.height;
+    const x2 = curBbox[2] * c.width, y2 = curBbox[3] * c.height;
+    ctx.strokeStyle = '#e74c3c'; ctx.lineWidth = 3;
+    ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+  }
+}
+
+// ---------- click / drag coordinate picking ----------
+const view = document.getElementById('view');
+view.addEventListener('mousedown', e => {
+  if (mode !== 'bbox') return;
+  const rect = view.getBoundingClientRect();
+  const x = (e.clientX - rect.left) / rect.width;
+  const y = (e.clientY - rect.top) / rect.height;
+  dragging = true; dragStart = [x, y]; curBbox = [x, y, x, y]; drawOverlay();
+});
+view.addEventListener('mousemove', e => {
+  if (!dragging) return;
+  const rect = view.getBoundingClientRect();
+  const x = (e.clientX - rect.left) / rect.width;
+  const y = (e.clientY - rect.top) / rect.height;
+  curBbox = [dragStart[0], dragStart[1], x, y]; drawOverlay();
+});
+view.addEventListener('mouseup', () => { dragging = false; });
+view.addEventListener('click', e => {
+  if (mode !== 'point') return;
+  const rect = view.getBoundingClientRect();
+  const x = (e.clientX - rect.left) / rect.width;
+  const y = (e.clientY - rect.top) / rect.height;
+  curPoint = [x, y];
+  document.getElementById('pointLabel').textContent =
+    `Selected point: (${x.toFixed(3)}, ${y.toFixed(3)})`;
+  drawOverlay();
+});
+
+// ---------- state rendering ----------
+function updateState(data) {
+  if (data.instruction !== undefined) {
+    document.getElementById('instruction').textContent = data.instruction;
+  }
+  if (data.state) {
+    const st = data.state;
+    let txt = '';
+    if (st.agent) {
+      const a = st.agent; const p = a.position || {};
+      txt += `Position: (${p.x?.toFixed(2)}, ${p.z?.toFixed(2)})\n`;
+      txt += `Facing: ${a.direction} (${a.rotation_y?.toFixed(0)}°)\n`;
+      txt += `Pitch: ${a.horizon?.toFixed(0)}°\n`;
+      if (a.closest_path_point) txt += `Closest path point: ${a.closest_path_point}\n`;
+    }
+    document.getElementById('agentState').textContent = txt;
+    if (st.object_catalog) {
+      document.getElementById('visibleObjs').innerHTML =
+        '<b>Visible objects:</b><br>' +
+        st.object_catalog.split('\n').filter(x => x.trim()).map(
+          o => `<span class="obj-tag">${o.trim()}</span>`).join('');
+    } else { document.getElementById('visibleObjs').innerHTML = ''; }
+    // Object dropdown
+    const sel = document.getElementById('objSelect');
+    sel.innerHTML = '<option value="">-- visible objects --</option>';
+    if (st.object_catalog) {
+      st.object_catalog.split('\n').filter(x => x.trim()).forEach(line => {
+        const name = line.split('[')[0].trim();
+        const opt = document.createElement('option');
+        opt.value = name; opt.textContent = name; sel.appendChild(opt);
+      });
+    }
+  }
+}
+
+function renderHistory() {
+  const h = document.getElementById('history');
+  h.innerHTML = '';
+  historyArr.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'history-item';
+    div.innerHTML = `<img src="${b64img(item.frame)}"><span>S${item.step}: ${item.action}</span>`;
+    div.onclick = () => { view.src = b64img(item.frame); };
+    h.appendChild(div);
+  });
+}
+
+function setFeedback(msg, ok) {
+  const f = document.getElementById('feedback');
+  f.style.display = 'block';
+  f.className = 'feedback ' + (ok ? 'ok' : 'bad');
+  f.textContent = msg;
+}
+
+function setStatus(success, progress, steps, max) {
+  document.getElementById('progressBar').style.width = (progress * 100).toFixed(0) + '%';
+  document.getElementById('statusLine').textContent =
+    `Step ${steps}/${max} | Progress ${(progress * 100).toFixed(0)}% | ` +
+    `Status ${success ? 'Success' : 'In progress'}`;
+}
+
+// ---------- flow ----------
+async function doReset() {
+  const data = await post('/reset', {session_id: sessionId});
+  view.src = b64img(data.frame);
+  curPoint = null; curBbox = null; drawOverlay();
+  updateState(data);
+  historyArr = [{step: 0, action: '(initial state)', frame: data.frame,
+                 feedback: 'Environment reset'}];
+  renderHistory();
+  setStatus(0, 0, 0, maxSteps);
+  document.getElementById('eqaCard').style.display = 'none';
+}
+
+async function applyConfig() {
+  const cfg = await post('/config', {});
+  mode = cfg.object_reference_mode;
+  resolution = cfg.resolution || 500;
+  maxSteps = cfg.max_steps || 100;
+  // Size the view and overlay from the actual configured resolution instead
+  // of hardcoded constants, so overlay math stays correct at any resolution.
+  view.style.width = resolution + 'px';
+  view.style.height = resolution + 'px';
+  const ov = document.getElementById('overlay');
+  ov.width = resolution; ov.height = resolution;
+  ov.style.width = resolution + 'px'; ov.style.height = resolution + 'px';
+  document.getElementById('modeBadge').textContent =
+    `action=${cfg.action_display_mode} / ref=${mode}`;
+  document.getElementById('coordHint').textContent =
+    mode === 'bbox'
+      ? 'bbox mode: drag from top-left to bottom-right on the image.'
+      : (mode === 'point'
+         ? 'point mode: click the center of the target object.'
+         : 'Current reference mode needs no point selection on the image (use object name/id in the command).');
+  return cfg;
+}
+
+document.getElementById('btnStart').onclick = async () => {
+  sessionId = document.getElementById('sessionId').value;
+  const evaluatorId = document.getElementById('evaluatorId').value;
+  const evalSet = document.getElementById('evalSet').value;
+  await post('/start', {session_id: sessionId, evaluator_id: evaluatorId,
+                        eval_set: evalSet});
+  await applyConfig();
+  await doReset();
+};
+
+document.getElementById('btnExec').onclick = async () => {
+  const cmd = document.getElementById('command').value.trim();
+  if (!cmd) { alert('Please enter a command'); return; }
+  const body = {session_id: sessionId, command: cmd};
+  if (mode === 'point' && curPoint) body.target_point = curPoint;
+  if (mode === 'bbox' && curBbox) {
+    const b = curBbox;
+    body.target_bbox = [Math.min(b[0], b[2]), Math.min(b[1], b[3]),
+                        Math.max(b[0], b[2]), Math.max(b[1], b[3])];
+  }
+  const data = await post('/step', body);
+  view.src = b64img(data.frame);
+  updateState(data);
+  setFeedback(`Feedback: ${data.info.env_feedback}`, data.info.last_action_success);
+  setStatus(data.info.task_success, data.info.task_progress,
+            data.info.env_step, maxSteps);
+  // Append locally from the step response; no extra /state round-trip needed.
+  historyArr.push({step: data.info.env_step, action: cmd, frame: data.frame,
+                   feedback: data.info.env_feedback,
+                   success: data.info.last_action_success});
+  renderHistory();
+  if (data.done) { await enterEqa(); }
+};
+
+document.getElementById('btnEnd').onclick = async () => {
+  const data = await post('/end_task', {session_id: sessionId});
+  await enterEqa(data);
+};
+
+document.getElementById('btnClose').onclick = async () => {
+  if (!sessionId) return;
+  await post('/close', {session_id: sessionId});
+  sessionId = '';
+  document.getElementById('instruction').textContent = '';
+  document.getElementById('agentState').textContent = '';
+  document.getElementById('visibleObjs').innerHTML = '';
+  document.getElementById('history').innerHTML = '';
+  document.getElementById('feedback').style.display = 'none';
+  document.getElementById('eqaCard').style.display = 'none';
+  document.getElementById('statusLine').textContent = '';
+  document.getElementById('progressBar').style.width = '0%';
+  view.src = '';
+  alert('Session closed.');
+};
+
+// Action helper dropdown
+document.getElementById('actionType').onchange = e => {
+  const t = e.target.value;
+  const cmd = document.getElementById('command');
+  if (t === 'Termination') cmd.value = 'Done';
+  else if (t === 'Movement') cmd.value = 'move ahead';
+  else if (t === 'Navigation') cmd.value = 'goto waypoint_#0';
+  else if (t === 'Object') cmd.value = 'pick up ';
+};
+document.getElementById('objSelect').onchange = e => {
+  const obj = e.target.value;
+  if (!obj) return;
+  const cmd = document.getElementById('command');
+  let v = cmd.value.trim();
+  if (v.endsWith('pick up') || v.endsWith('put down') || v === '')
+    cmd.value = 'pick up ' + obj;
+  else cmd.value = v + ' ' + obj;
+};
+
+// Best-effort session cleanup when the page is unloaded, so an idle server
+// session does not hold a THOR controller + X display until the TTL reaper
+// fires. keepalive lets the request survive page teardown.
+window.addEventListener('beforeunload', () => {
+  if (!sessionId) return;
+  fetch(API + '/close', {
+    method: 'POST', keepalive: true,
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({session_id: sessionId})
+  }).catch(() => {});
+});
+
+// ---------- EQA ----------
+async function enterEqa(data) {
+  data = data || await post('/end_task', {session_id: sessionId});
+  if (!data.eqa_enabled || !data.questions.length) {
+    document.getElementById('eqaCard').style.display = 'none';
+    await finalize();
+    return;
+  }
+  eqaQuestions = data.questions;
+  eqaIdx = 0;
+  document.getElementById('eqaCard').style.display = 'block';
+  showEqa();
+}
+
+function showEqa() {
+  const q = eqaQuestions[eqaIdx];
+  document.getElementById('eqaProg').textContent =
+    `${eqaIdx + 1}/${eqaQuestions.length}`;
+  document.getElementById('eqaQuestion').textContent = q.question_text;
+  const opts = document.getElementById('eqaOptions');
+  opts.innerHTML = '';
+  const isMulti = q.question_type === 'multi_choice';
+  for (const [k, v] of Object.entries(q.options)) {
+    const label = document.createElement('label');
+    label.className = 'eqa-opt';
+    const input = document.createElement('input');
+    input.type = isMulti ? 'checkbox' : 'radio';
+    input.name = 'eqa'; input.value = k;
+    label.appendChild(input);
+    label.appendChild(document.createTextNode(` ${k}. ${v}`));
+    opts.appendChild(label);
+  }
+  document.getElementById('eqaFeedback').textContent = '';
+}
+
+document.getElementById('btnEqaSubmit').onclick = async () => {
+  const checked = [...document.querySelectorAll('input[name=eqa]:checked')]
+    .map(i => i.value);
+  if (!checked.length) { alert('Please select an answer'); return; }
+  const r = await post('/eqa_answer', {session_id: sessionId, selected: checked});
+  document.getElementById('eqaFeedback').innerHTML =
+    r.is_correct ? '<span style="color:green">✓ Correct</span>'
+                 : `<span style="color:red">✗ Incorrect (correct answer: ${r.correct_answer})</span>`;
+  eqaIdx++;
+  if (r.done) { await finalize(); }
+  else setTimeout(showEqa, 800);
+};
+
+async function finalize() {
+  const r = await post('/save', {session_id: sessionId});
+  alert('Episode saved to: ' + r.path);
+  // Move on to the next episode automatically
+  await doReset();
+}
+
+// ---------- init ----------
+(async () => {
+  const cfg = await applyConfig();
+  const sel = document.getElementById('evalSet');
+  (cfg.eval_sets || []).forEach(es => {
+    const o = document.createElement('option'); o.value = es; o.textContent = es;
+    sel.appendChild(o);
+  });
+})();
+</script>
+</body>
+</html>

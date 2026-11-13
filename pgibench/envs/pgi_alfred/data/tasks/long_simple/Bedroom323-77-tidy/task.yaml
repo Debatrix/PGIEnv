@@ -1,0 +1,217 @@
+schema_version: 2
+task_id: Bedroom323-77-tidy
+task_type: composite
+eval_set: long_simple
+instructions:
+  macro: The bedroom's looking a little scattered - could you help tidy up? Please
+    pick up the alarm clock and the cell phone and set them both neatly on the dresser
+    so the room feels a bit more orderly.
+  micro: pick up the alarm clock and place it on the dresser; pick up the cell phone
+    and place it on the dresser
+scene:
+  floor_plan: FloorPlan323
+  scene_num: 323
+  room_type: Bedroom
+  random_spawn:
+    seed: 21
+    object_counts:
+      Book: 1
+      AlarmClock: 1
+      CellPhone: 1
+      TeddyBear: 1
+    distractors:
+      Newspaper: 2
+      KeyChain: 1
+      CreditCard: 1
+      CD: 2
+      Pen: 2
+    min_free:
+      Dresser: 4
+  object_poses:
+  - objectName: CD_4eeddff6(Clone)_random_copy_0
+    position:
+      x: -2.48493958
+      y: 0.6806067
+      z: -3.38210344
+    rotation:
+      x: 0.0
+      y: 90.00049
+      z: 0.0
+  - objectName: Pen_007dc71b(Clone)_random_copy_0
+    position:
+      x: -2.41593814
+      y: 0.6791159
+      z: -0.746810257
+    rotation:
+      x: 40.58529
+      y: 147.331528
+      z: 179.999847
+  - objectName: Book_6af2ca87
+    position:
+      x: -2.440569
+      y: 0.6184952
+      z: -1.262106
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: CreditCard_d3dde43e
+    position:
+      x: -2.57515144
+      y: 0.680996
+      z: -2.91789579
+    rotation:
+      x: 0.0
+      y: 90.00049
+      z: 0.0
+  - objectName: Pen_007dc71b
+    position:
+      x: 1.69493556
+      y: 0.902412653
+      z: -3.18232059
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pencil_60b0ad3a
+    position:
+      x: 2.38422823
+      y: 0.9010136
+      z: -3.18232059
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: TeddyBear_fee2aeab
+    position:
+      x: -0.6678181
+      y: 0.612493753
+      z: -1.36408424
+    rotation:
+      x: 0.0
+      y: 81.4677048
+      z: 0.0
+  - objectName: Laptop_47496765
+    position:
+      x: -1.59145939
+      y: 0.617493868
+      z: -2.46113729
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: AlarmClock_ead726ec
+    position:
+      x: 2.211905
+      y: 0.90056
+      z: -3.113354
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: CellPhone_bdf4a642
+    position:
+      x: 2.03980064
+      y: 0.351005226
+      z: -0.07300043
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: KeyChain_235e1525
+    position:
+      x: -2.43982887
+      y: 0.6811471
+      z: -2.99526453
+    rotation:
+      x: 0.0
+      y: 90.00049
+      z: 0.0
+  - objectName: Pillow_0b6c1a13
+    position:
+      x: -2.124
+      y: 0.658
+      z: -1.522
+    rotation:
+      x: 0.0
+      y: 28.29679
+      z: 0.0
+  - objectName: Pillow_91b27506
+    position:
+      x: -0.7423493
+      y: 0.680686533
+      z: -1.86162221
+    rotation:
+      x: 0.0
+      y: 2.3905659e-05
+      z: 0.0
+  - objectName: CD_4eeddff6
+    position:
+      x: -2.57515216
+      y: 0.6806067
+      z: -0.35926342
+    rotation:
+      x: 0.0
+      y: 90.0004654
+      z: 0.0
+  - objectName: Mug_291e6e8a
+    position:
+      x: 2.211905
+      y: 0.8947598
+      z: -2.97542048
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bowl_fd13eed7
+    position:
+      x: 1.84045374
+      y: 0.8897598
+      z: -3.239212
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Laptop
+    isOn: false
+  - objectType: CellPhone
+    isOn: false
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: DeskLamp
+    isOn: true
+  - objectType: LightSwitch
+    isOn: true
+  init_action:
+    action: TeleportFull
+    x: 0.25
+    y: 0.9009992
+    z: 0.0
+    rotation: 0.0
+    horizon: 0.0
+    standing: true
+  dirty_and_empty: false
+pddl_params:
+  object_target: AlarmClock
+  parent_target: Dresser
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: AlarmClock
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+  - task_type: pick_and_place_simple
+    pddl_params:
+      object_target: CellPhone
+      parent_target: Dresser
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: false
+completion:
+  mode: all

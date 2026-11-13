@@ -1,0 +1,64 @@
+{
+  "path_points": [
+    {
+      "x": -0.25,
+      "y": 0.9009995,
+      "z": 0.0,
+      "rotation": 0.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SE_cabinet"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009999,
+      "z": 1.5,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "W_sinkbasin"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009995,
+      "z": 1.5,
+      "rotation": 90.0,
+      "horizon": 15.0000038,
+      "loc_desc": "E_stoveknob_#1"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9009999,
+      "z": 2.0,
+      "rotation": 180.0,
+      "horizon": 15.0000019,
+      "loc_desc": "SW_drawer"
+    },
+    {
+      "x": 1.0,
+      "y": 0.900999665,
+      "z": 0.0,
+      "rotation": 270.0,
+      "horizon": 15.0000038,
+      "loc_desc": "S_cabinet"
+    },
+    {
+      "x": -0.25,
+      "y": 0.9009999,
+      "z": 1.75,
+      "rotation": 0.0,
+      "horizon": 75.0,
+      "loc_desc": "E_stoveknob_#2"
+    },
+    {
+      "x": 1.0,
+      "y": 0.9010001,
+      "z": 3.0,
+      "rotation": 102.93158,
+      "horizon": 63.0000076,
+      "loc_desc": "NW_drawer"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan12",
+    "total_path_points": 7
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "path_points": [
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": 2.5,
+      "rotation": 225,
+      "horizon": 0,
+      "loc_desc": "S_dresser_SW"
+    },
+    {
+      "x": -1.25,
+      "y": 0.9,
+      "z": 0.5,
+      "rotation": 45,
+      "horizon": 0,
+      "loc_desc": "W_sidetable_NE"
+    },
+    {
+      "x": -1.25,
+      "y": 0.90962,
+      "z": 0.5,
+      "rotation": 89.04571,
+      "horizon": 52.9999962,
+      "loc_desc": "W_sidetable"
+    },
+    {
+      "x": -0.5,
+      "y": 0.90962,
+      "z": 2.5,
+      "rotation": 11.9536781,
+      "horizon": 49.0000038,
+      "loc_desc": "S_dresser"
+    },
+    {
+      "x": -0.5,
+      "y": 0.9,
+      "z": 2.5,
+      "rotation": 315,
+      "horizon": 0,
+      "loc_desc": "S_dresser_NW"
+    },
+    {
+      "x": -5.0,
+      "y": 0.90962,
+      "z": 3.0,
+      "rotation": 263.326721,
+      "horizon": 13.000001,
+      "loc_desc": "E_lightswitch"
+    }
+  ],
+  "metadata": {
+    "scene": "FloorPlan220",
+    "total_path_points": 6
+  }
+}

@@ -1,0 +1,292 @@
+schema_version: 2
+task_id: Kitchen25-53-slice-tomato-plate
+task_type: composite
+eval_set: short_hard
+instructions:
+  macro: Putting together a little plate of snacks — would you slice the tomato
+    right onto the plate so it's ready to serve? It keeps things tidy and
+    presentable.
+  micro: Slice the tomato and put it on the plate.
+scene:
+  floor_plan: FloorPlan25
+  scene_num: 25
+  room_type: Kitchen
+  object_poses:
+  - objectName: ButterKnife_d1baac51(Clone)_random_copy_0
+    position:
+      x: -0.817084
+      y: 0.8131976
+      z: 0.204796344
+    rotation:
+      x: 357.509857
+      y: 359.909851
+      z: 359.54
+  - objectName: Spatula_77ce7117(Clone)_random_copy_0
+    position:
+      x: -0.09213793
+      y: 0.8385998
+      z: 1.32607329
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Apple_0dd786e0
+    position:
+      x: -1.538
+      y: 0.7484
+      z: 0.186
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Fork_2c8fe53a
+    position:
+      x: -2.724535
+      y: 0.824148536
+      z: 0.278
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Ladle_3943cbe8
+    position:
+      x: -0.3711
+      y: 0.7386
+      z: 0.8791
+    rotation:
+      x: 0.0
+      y: 44.9999161
+      z: 0.0
+  - objectName: Pan_e0764688
+    position:
+      x: -0.391666919
+      y: 0.812210858
+      z: 1.1083349
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SoapBottle_3a4a4d0d
+    position:
+      x: -2.84096551
+      y: 0.8213809
+      z: 0.0556365252
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Pot_ccf3345d
+    position:
+      x: -0.5182
+      y: 0.8297
+      z: 2.0755
+    rotation:
+      x: 0.0
+      y: 180.000336
+      z: 0.0
+  - objectName: Tomato_2ee69558
+    position:
+      x: -2.66940522
+      y: 1.18147969
+      z: 2.37310648
+    rotation:
+      x: 359.939667
+      y: 0.007349649
+      z: 0.377569556
+  - objectName: Potato_a3c14b3a
+    position:
+      x: -0.238357425
+      y: 0.861
+      z: 1.33212233
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: SaltShaker_69e12ad1
+    position:
+      x: -0.8170933
+      y: 0.8185999
+      z: 0.0556362867
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Plate_29dab58d
+    position:
+      x: -2.5815177
+      y: 0.8282944
+      z: 0.871343434
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Spatula_77ce7117
+    position:
+      x: -0.341
+      y: 0.696
+      z: 1.194
+    rotation:
+      x: 0.0
+      y: 45.0000267
+      z: 0.0
+  - objectName: Knife_298dd93a
+    position:
+      x: -2.957396
+      y: 0.8492183
+      z: 0.352121145
+    rotation:
+      x: 0.0
+      y: 270.0
+      z: 0.0
+  - objectName: Egg_68224885
+    position:
+      x: -2.813009
+      y: 0.8478782
+      z: 0.7895261
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Cup_61785f6c
+    position:
+      x: -0.1476208
+      y: 0.823938131
+      z: 0.426242471
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: ButterKnife_d1baac51
+    position:
+      x: -2.4939487
+      y: 0.812210739
+      z: 0.476511866
+    rotation:
+      x: 0.0
+      y: 50.7348976
+      z: 0.0
+  - objectName: Lettuce_b2f1312c
+    position:
+      x: -1.8365
+      y: 0.7415
+      z: 0.238453716
+    rotation:
+      x: 0.0
+      y: 55.91092
+      z: 0.0
+  - objectName: PepperShaker_407d7c3b
+    position:
+      x: -2.84096551
+      y: 0.818599939
+      z: 0.4262423
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: DishSponge_eb848da8
+    position:
+      x: -2.23406839
+      y: 0.8366
+      z: 0.341846079
+    rotation:
+      x: 3.47690548e-05
+      y: 284.9998
+      z: 179.999924
+  - objectName: Bread_db4f73f8
+    position:
+      x: -0.984610558
+      y: 0.855532765
+      z: 0.2504787
+    rotation:
+      x: 0.0109732635
+      y: 30.228693
+      z: 0.008656592
+  - objectName: Spoon_df0734fa
+    position:
+      x: -1.22
+      y: 0.812210739
+      z: 0.309
+    rotation:
+      x: 0.0
+      y: 67.5161362
+      z: 0.0
+  - objectName: Mug_57da2f86
+    position:
+      x: -0.646999955
+      y: 0.8882107
+      z: 0.3674
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - objectName: Bowl_4c742e05
+    position:
+      x: -2.60810471
+      y: 0.820206
+      z: 0.278
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  object_toggles:
+  - objectType: Microwave
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: StoveKnob
+    isOn: false
+  - objectType: Toaster
+    isOn: false
+  - objectType: CoffeeMachine
+    isOn: false
+  - objectType: LightSwitch
+    isOn: true
+  - objectType: Faucet
+    isOn: false
+  init_action:
+    action: TeleportFull
+    x: -2.0
+    y: 0.9009992
+    z: 1.0
+    rotation: 270.0
+    horizon: 0.0
+    standing: true
+  random_spawn:
+    seed: 36
+    object_counts:
+      Cup: 1
+      Potato: 1
+      Mug: 1
+      Tomato: 1
+      Plate: 1
+    distractors:
+      Pot: 1
+      ButterKnife: 2
+      Spatula: 2
+      DishSponge: 1
+      Apple: 1
+      SaltShaker: 1
+    min_free:
+      CounterTop: 3
+      Plate: 1
+  dirty_and_empty: false
+pddl_params:
+  object_target: ''
+  parent_target: ''
+  mrecep_target: ''
+  toggle_target: ''
+  object_sliced: false
+  subtasks:
+  - task_type: pick_slice_then_place_in_recep
+    pddl_params:
+      object_target: Tomato
+      parent_target: Plate
+      mrecep_target: ''
+      toggle_target: ''
+      object_sliced: true
+completion:
+  mode: all
